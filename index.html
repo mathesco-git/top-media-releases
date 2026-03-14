@@ -1,63 +1,20 @@
 <!DOCTYPE html>
-
-<!-- ...existing HTML and CSS... -->
-
-<!-- ...existing HTML and CSS... -->
-    display: inline-block;
-    margin-top: 16px;
-    padding: 5px 16px;
-    background: rgba(229,160,13,0.1);
-    border: 1px solid rgba(229,160,13,0.3);
-    border-radius: 20px;
-    color: var(--accent);
-    font-size: 0.8rem;
-    font-weight: 600;
-    position: relative;
-  }
-
-  /* FILTERS */
-  .filters {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 0 40px 36px;
-  }
-  .filters button {
-    padding: 7px 18px;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    background: transparent;
-    color: var(--text-muted);
-    font-family: inherit;
-    font-size: 0.82rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .filters button:hover, .filters button.active {
-    background: var(--accent);
-    color: #000;
-    border-color: var(--accent);
-  }
-
-  /* CONTAINER */
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 32px 80px;
-  }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
-  }
-
-  /* CARD */
-  .card {
-    background: var(--card-bg);
-    border-radius: 14px;
-    overflow: hidden;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Media Releases</title>
+  <style>
+    :root {
+      --accent: #e5a00d;
+      --border: #333;
+      --card-bg: #181818;
+      --text-muted: #aaa;
+    }
+    /* ...existing CSS (move all CSS here, as already present in the file)... */
+  </style>
+</head>
+<body>
     border: 1px solid var(--border);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
     display: flex;
