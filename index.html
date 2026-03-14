@@ -342,23 +342,21 @@
   <h1>Top Rated Media Releases <span></span></h1>
   <p>The highest-scoring new releases &mdash; curated for you</p>
   <div class="pill">Updated March 2026</div>
-  <div style="margin: 32px auto 0 auto; display: flex; justify-content: center;">
-    <span style="background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%); color: #fff; font-weight: 900; font-size: 2rem; letter-spacing: 2px; border-radius: 12px; padding: 10px 36px; box-shadow: 0 2px 16px rgba(33,150,243,0.18); font-family: 'Playfair Display', serif;">TMDB</span>
-  </div>
+
 </div>
 
-<div class="filters">
+<div class="filters" style="justify-content: center;">
   <button class="active" onclick="setType('movie', this)">Movies</button>
   <button onclick="setType('series', this)">Series</button>
   <span style="margin: 0 12px; color: var(--text-muted);">|</span>
-    <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
-    <button onclick="setProvider('AppleTV', this)">AppleTV</button>
-    <button onclick="setProvider('HBO Max', this)">HBO Max</button>
-    <button onclick="setProvider('Netflix', this)">Netflix</button>
-    <button onclick="setProvider('Paramount', this)">Paramount</button>
-    <button onclick="setProvider('Hulu', this)">Hulu</button>
-    <button onclick="setProvider('Prime', this)">Prime</button>
-    <button onclick="setProvider('Disney', this)">Disney</button>
+  <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
+  <button onclick="setProvider('AppleTV', this)">AppleTV</button>
+  <button onclick="setProvider('HBO Max', this)">HBO Max</button>
+  <button onclick="setProvider('Netflix', this)">Netflix</button>
+  <button onclick="setProvider('Paramount', this)">Paramount</button>
+  <button onclick="setProvider('Hulu', this)">Hulu</button>
+  <button onclick="setProvider('Prime', this)">Prime</button>
+  <button onclick="setProvider('Disney', this)">Disney</button>
 </div>
 
 <div class="container">
@@ -370,268 +368,25 @@
 <script>
 const providers = ['AppleTV', 'HBO Max', 'Netflix', 'Paramount', 'Hulu', 'Prime', 'Disney'];
 
-const movies = [
-  {
-    title: "Project Hail Mary",
-    year: 2025,
-    rating: 8.6,
-    genres: ["sci-fi"],
-    director: "Phil Lord & Chris Miller",
-    cast: "Ryan Gosling, Zach Galifianakis",
-    synopsis: "A lone astronaut wakes up with no memory aboard a ship far from Earth and must figure out why he's there — and save the planet.",
-    poster: "posters/project-hail-mary.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Project+Hail+Mary+trailer",
-    imdb: "https://www.imdb.com/title/tt5611926/",
-    provider: "AppleTV"
-  },
-  {
-    title: "Hamnet",
-    year: 2025,
-    rating: 8.1,
-    genres: ["drama"],
-    director: "Chloé Zhao",
-    cast: "Paul Mescal, Jessie Buckley",
-    synopsis: "The story of the young son of William Shakespeare and the grief that follows his untimely death.",
-    poster: "posters/hamnet.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Hamnet+film+trailer",
-    imdb: "https://www.imdb.com/title/tt14836884/",
-    provider: "Netflix"
-  },
-  {
-    title: "Marty Supreme",
-    year: 2025,
-    rating: 7.9,
-    genres: ["drama", "comedy"],
-    director: "Josh Safdie",
-    cast: "Timothée Chalamet, Gwyneth Paltrow",
-    synopsis: "A driven ping-pong prodigy claws his way to the top in a world obsessed with winning.",
-    poster: "posters/marty-supreme.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Marty+Supreme+trailer",
-    imdb: "https://www.imdb.com/title/tt13320662/",
-    provider: "Netflix"
-  },
-  {
-    title: "One Battle After Another",
-    year: 2025,
-    rating: 8.4,
-    genres: ["drama"],
-    director: "Paul Thomas Anderson",
-    cast: "Leonardo DiCaprio, Sean Penn",
-    synopsis: "A sweeping portrait of a Vietnam War veteran's journey through America in the aftermath of conflict.",
-    poster: "posters/one-battle-after-another.jpg",
-    trailer: "https://www.youtube.com/results?search_query=One+Battle+After+Another+trailer",
-    imdb: "https://www.imdb.com/title/tt14164068/",
-    provider: "Netflix"
-  },
-  {
-    title: "Superman",
-    year: 2025,
-    rating: 7.7,
-    genres: ["action", "sci-fi"],
-    director: "James Gunn",
-    cast: "David Corenswet, Rachel Brosnahan",
-    synopsis: "A fresh take on the Man of Steel as Clark Kent balances his life as a reporter with his destiny as humanity's greatest hero.",
-    poster: "posters/superman.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Superman+2025+trailer",
-    imdb: "https://www.imdb.com/title/tt21228008/",
-    provider: "HBO Max"
-  },
-  {
-    title: "How to Train Your Dragon",
-    year: 2025,
-    rating: 7.5,
-    genres: ["action", "comedy"],
-    director: "Dean DeBlois",
-    cast: "Mason Thames, Nico Parker",
-    synopsis: "A live-action reimagining of the beloved animated tale of a young Viking who befriends a rare dragon.",
-    poster: "posters/how-to-train-your-dragon.jpg",
-    trailer: "https://www.youtube.com/results?search_query=How+To+Train+Your+Dragon+2025+trailer",
-    imdb: "https://www.imdb.com/title/tt13046928/",
-    provider: "Paramount"
-  },
-  {
-    title: "F1",
-    year: 2025,
-    rating: 7.8,
-    genres: ["action", "drama"],
-    director: "Joseph Kosinski",
-    cast: "Brad Pitt, Damson Idris",
-    synopsis: "A retired driver returns to Formula 1 to mentor a rookie and take one last shot at glory.",
-    poster: "posters/f1.jpg",
-    trailer: "https://www.youtube.com/results?search_query=F1+movie+2025+trailer",
-    imdb: "https://www.imdb.com/title/tt7131870/",
-    provider: "AppleTV"
-  },
-  {
-    title: "Companion",
-    year: 2025,
-    rating: 7.6,
-    genres: ["sci-fi", "drama"],
-    director: "Drew Hancock",
-    cast: "Sophie Thatcher, Jack Quaid",
-    synopsis: "A woman on a romantic getaway begins to suspect that she is not entirely human.",
-    poster: "posters/companion.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Companion+2025+movie+trailer",
-    imdb: "https://www.imdb.com/title/tt14948450/",
-    provider: "HBO Max"
-  },
-  {
-    title: "Train Dreams",
-    year: 2025,
-    rating: 7.9,
-    genres: ["drama"],
-    director: "Clint Bentley",
-    cast: "Joel Edgerton, Felicity Jones",
-    synopsis: "The quiet, solitary life of a laborer in the American Northwest unfolds across decades of loss and beauty.",
-    poster: "posters/train-dreams.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Train+Dreams+2025+trailer",
-    imdb: "https://www.imdb.com/title/tt15383376/",
-    provider: "AppleTV"
-  },
-  {
-    title: "Good Luck Have Fun",
-    year: 2025,
-    rating: 7.4,
-    genres: ["comedy", "drama"],
-    director: "Celine Song",
-    cast: "Charles Melton, Riley Keough",
-    synopsis: "Two rival gamers fall for each other in the high-stakes world of professional esports.",
-    poster: "posters/good-luck-have-fun.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Good+Luck+Have+Fun+film+trailer",
-    imdb: "https://www.imdb.com/",
-    provider: "Hulu"
-  },
-  {
-    title: "Wake Up Dead Man",
-    year: 2025,
-    rating: 8.0,
-    genres: ["drama"],
-    director: "Rian Johnson",
-    cast: "Daniel Craig, Josh O'Connor",
-    synopsis: "Benoit Blanc investigates a baffling mystery that leads him deep into a shadowy religious conspiracy.",
-    poster: "posters/wake-up-dead-man.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Wake+Up+Dead+Man+trailer",
-    imdb: "https://www.imdb.com/title/tt11303174/",
-    provider: "Netflix"
-  },
-  {
-    title: "Mission: Impossible 8",
-    year: 2025,
-    rating: 8.2,
-    genres: ["action"],
-    director: "Christopher McQuarrie",
-    cast: "Tom Cruise, Hayley Atwell",
-    synopsis: "Ethan Hunt faces his most dangerous mission yet as the Entity's grip on global intelligence tightens.",
-    poster: "posters/mission-impossible.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Mission+Impossible+8+trailer",
-    imdb: "https://www.imdb.com/title/tt9603208/",
-    provider: "Paramount"
-  },
-  {
-    title: "Thunderbolts*",
-    year: 2025,
-    rating: 7.3,
-    genres: ["action", "sci-fi"],
-    director: "Jake Schreier",
-    cast: "Florence Pugh, Sebastian Stan",
-    synopsis: "A ragtag team of Marvel antiheroes is assembled for a covert mission none of them signed up for.",
-    poster: "posters/thunderbolts.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Thunderbolts+Marvel+trailer",
-    imdb: "https://www.imdb.com/title/tt13289196/",
-    provider: "Netflix"
-  },
-  {
-    title: "Caught Stealing",
-    year: 2025,
-    rating: 7.6,
-    genres: ["action", "drama"],
-    director: "Darren Aronofsky",
-    cast: "Austin Butler, Liev Schreiber",
-    synopsis: "An ex-baseball player finds himself hunted by criminals after agreeing to look after a neighbor's cat.",
-    poster: "posters/caught-stealing.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Caught+Stealing+2025+trailer",
-    imdb: "https://www.imdb.com/title/tt12584538/",
-    provider: "Hulu"
-  },
-  {
-    title: "Bugonia",
-    year: 2025,
-    rating: 6.9,
-    genres: ["comedy", "sci-fi"],
-    director: "Jonah Hill",
-    cast: "O'Shea Jackson Jr., Glen Powell",
-    synopsis: "Two conspiracy theorists become convinced that the CEO of a powerful company is actually an alien.",
-    poster: "posters/bugonia.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Bugonia+movie+trailer",
-    imdb: "https://www.imdb.com/title/tt15412478/",
-    provider: "Hulu"
-  },
-  {
-    title: "Ballerina",
-    year: 2025,
-    rating: 7.2,
-    genres: ["action"],
-    director: "Len Wiseman",
-    cast: "Ana de Armas, Keanu Reeves",
-    synopsis: "A trained assassin seeks revenge against the cabal that killed her family, set in the John Wick universe.",
-    poster: "posters/ballerina.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Ballerina+John+Wick+trailer",
-    imdb: "https://www.imdb.com/title/tt10925080/",
-    provider: "Netflix"
-  },
-  {
-    title: "Mickey 17",
-    year: 2025,
-    rating: 7.8,
-    genres: ["sci-fi", "comedy"],
-    director: "Bong Joon-ho",
-    cast: "Robert Pattinson, Naomi Ackie",
-    synopsis: "An expendable employee on a mission to colonize an ice planet keeps dying — and being reprinted.",
-    poster: "posters/mickey-17.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Mickey+17+trailer",
-    imdb: "https://www.imdb.com/title/tt13560574/",
-    provider: "HBO Max"
-  },
-  {
-    title: "Wicked: For Good",
-    year: 2025,
-    rating: 8.3,
-    genres: ["drama"],
-    director: "Jon M. Chu",
-    cast: "Cynthia Erivo, Ariana Grande",
-    synopsis: "The second chapter of the beloved musical epic concludes Elphaba and Glinda's extraordinary journey.",
-    poster: "posters/wicked-for-good.jpg",
-    trailer: "https://www.youtube.com/results?search_query=Wicked+For+Good+trailer",
-    imdb: "https://www.imdb.com/title/tt14155280/",
-    provider: "Paramount"
-  },
-  {
-    title: "A Private Life",
-    year: 2025,
-    rating: 7.5,
-    genres: ["drama", "biography"],
-    director: "Todd Field",
-    cast: "Cate Blanchett, Andrew Scott",
-    synopsis: "A celebrated artist navigates fame, identity and personal secrets in a quiet European city.",
-    poster: "posters/a-private-life.jpg",
-    trailer: "https://www.youtube.com/results?search_query=A+Private+Life+2025+film+trailer",
-    imdb: "https://www.imdb.com/",
-    provider: "AppleTV"
-  },
-  {
-    title: "The Odyssey",
-    year: 2026,
-    rating: 8.5,
-    genres: ["action", "drama"],
-    director: "Christopher Nolan",
-    cast: "Matt Damon, Anne Hathaway, Zendaya",
-    synopsis: "An epic retelling of Homer's ancient poem — a warrior's perilous journey home across a mythic sea.",
-    poster: "posters/the-odyssey.jpg",
-    trailer: "https://www.youtube.com/results?search_query=The+Odyssey+Nolan+trailer",
-    imdb: "https://www.imdb.com/title/tt13241490/",
-    provider: "HBO Max"
+// Generate 20 movies for each provider (140 total)
+const movies = [];
+for (let p of providers) {
+  for (let i = 1; i <= 20; i++) {
+    movies.push({
+      title: `${p} Movie ${i}`,
+      year: 2026 - (i % 2),
+      rating: (7 + Math.random()).toFixed(1),
+      genres: ["drama", (i % 2 === 0 ? "comedy" : "sci-fi")],
+      director: `Director ${i}`,
+      cast: `Star ${i}, Star ${i+1}`,
+      synopsis: `A gripping new movie from ${p}, part ${i}.`,
+      poster: "posters/placeholder-movie.jpg",
+      trailer: "https://www.youtube.com/",
+      imdb: "https://www.imdb.com/",
+      provider: p
+    });
   }
-];
+}
 
 // Generate 20 series for each provider (100 total)
 const series = [];
