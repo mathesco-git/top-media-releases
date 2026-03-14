@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Top Media Releases</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --accent: #e5a00d;
@@ -11,242 +12,331 @@
       --card-bg: #181818;
       --text-muted: #aaa;
     }
-    /* ...existing CSS (move all CSS here, as already present in the file)... */
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0f0f0f;
+      color: #f0f0f0;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 70px 20px 50px;
+      background: linear-gradient(180deg, #1a1a1a 0%, #0f0f0f 100%);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+    }
+    .hero h1 span { color: var(--accent); }
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 16px;
+    }
+    .pill {
+      display: inline-block;
+      background: rgba(229,160,13,0.15);
+      border: 1px solid rgba(229,160,13,0.3);
+      color: var(--accent);
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    /* FILTERS */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      padding: 18px 24px;
+      background: #141414;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .filters button {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filters button:hover { border-color: var(--accent); color: var(--accent); }
+    .filters button.active,
+    .filters button.active-provider {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #000;
+      font-weight: 700;
+    }
+
+    /* GRID */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    /* CARD */
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 24px 48px rgba(0,0,0,0.5);
+      border-color: rgba(229,160,13,0.4);
+    }
+
+    /* POSTER AREA */
+    .poster-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/10;
+      overflow: hidden;
+    }
+    .poster-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .card:hover .poster-wrap img { transform: scale(1.05); }
+
+    /* CSS FALLBACK POSTER */
+    .poster-fallback {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    .poster-fallback::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      opacity: 0.08;
+      background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px);
+    }
+    .poster-fallback .title-overlay {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.2;
+      color: #fff;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+      position: relative;
+      z-index: 2;
+    }
+    .poster-fallback .director-overlay {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.6);
+      margin-top: 6px;
+      position: relative;
+      z-index: 2;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* Genre-based gradients */
+    .genre-action   { background: linear-gradient(135deg, #1a0a00 0%, #4a1500 30%, #8b2500 60%, #2a0a00 100%); }
+    .genre-drama    { background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 30%, #2a1560 60%, #0a0a1a 100%); }
+    .genre-sci-fi   { background: linear-gradient(135deg, #000a14 0%, #002040 30%, #003060 60%, #001020 100%); }
+    .genre-comedy   { background: linear-gradient(135deg, #0a1400 0%, #1a3000 30%, #2a4a10 60%, #0a1400 100%); }
+    .genre-biography{ background: linear-gradient(135deg, #14100a 0%, #3a2a10 30%, #5a4020 60%, #14100a 100%); }
+
+    .poster-wrap .gradient-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.8) 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* BADGES */
+    .poster-wrap .year-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: var(--accent);
+      color: #000;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.75rem;
+      z-index: 3;
+    }
+    .poster-wrap .rating-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(10px);
+      padding: 5px 10px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      z-index: 3;
+    }
+    .rating-badge .star { color: var(--accent); }
+    .rank-badge {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: rgba(255,255,255,0.15);
+      z-index: 3;
+      line-height: 1;
+    }
+
+    /* CARD BODY */
+    .card-body {
+      padding: 18px 20px 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-body h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+    .card-meta span {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.04);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .card-body .director {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .card-body .director strong { color: #ccc; font-weight: 500; }
+    .card-body .synopsis {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .btn-trailer {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      background: #e00;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+      flex: 1;
+      justify-content: center;
+    }
+    .btn-trailer:hover { background: #c00; transform: scale(1.02); }
+    .btn-trailer svg { width: 14px; height: 14px; fill: #fff; flex-shrink: 0; }
+    .btn-imdb {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 9px 14px;
+      background: var(--accent);
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-imdb:hover { background: #f5b82e; transform: scale(1.02); }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .hero { padding: 50px 20px 36px; }
+      .container { padding: 0 14px 60px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+    @media (min-width: 1200px) {
+      .grid { grid-template-columns: repeat(4, 1fr); }
+    }
   </style>
-</head>
-<body>
-    border: 1px solid var(--border);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
-    display: flex;
-    flex-direction: column;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 24px 48px rgba(0,0,0,0.5);
-    border-color: rgba(229,160,13,0.4);
-  }
-
-  /* POSTER AREA */
-  .poster-wrap {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16/10;
-    overflow: hidden;
-  }
-  .poster-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease;
-  }
-  .card:hover .poster-wrap img { transform: scale(1.05); }
-
-  /* CSS FALLBACK POSTER */
-  .poster-fallback {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 24px;
-    position: relative;
-    overflow: hidden;
-  }
-  .poster-fallback::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    opacity: 0.08;
-    background-image:
-      repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px);
-  }
-  .poster-fallback .title-overlay {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6rem;
-    font-weight: 900;
-    text-align: center;
-    line-height: 1.2;
-    color: #fff;
-    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
-    position: relative;
-    z-index: 2;
-  }
-  .poster-fallback .director-overlay {
-    font-size: 0.75rem;
-    color: rgba(255,255,255,0.6);
-    margin-top: 6px;
-    position: relative;
-    z-index: 2;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  /* Genre-based gradients */
-  .genre-action { background: linear-gradient(135deg, #1a0a00 0%, #4a1500 30%, #8b2500 60%, #2a0a00 100%); }
-  .genre-drama { background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 30%, #2a1560 60%, #0a0a1a 100%); }
-  .genre-sci-fi { background: linear-gradient(135deg, #000a14 0%, #002040 30%, #003060 60%, #001020 100%); }
-  .genre-comedy { background: linear-gradient(135deg, #0a1400 0%, #1a3000 30%, #2a4a10 60%, #0a1400 100%); }
-  .genre-biography { background: linear-gradient(135deg, #14100a 0%, #3a2a10 30%, #5a4020 60%, #14100a 100%); }
-
-  .poster-wrap .gradient-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.8) 100%);
-    pointer-events: none;
-    z-index: 1;
-  }
-
-  /* BADGES */
-  .poster-wrap .year-badge {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    background: var(--accent);
-    color: #000;
-    padding: 3px 10px;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 0.75rem;
-    z-index: 3;
-  }
-  .poster-wrap .rating-badge {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: rgba(0,0,0,0.7);
-    backdrop-filter: blur(10px);
-    padding: 5px 10px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-weight: 700;
-    font-size: 0.9rem;
-    z-index: 3;
-  }
-  .rating-badge .star { color: var(--accent); }
-  .rank-badge {
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
-    font-weight: 900;
-    color: rgba(255,255,255,0.15);
-    z-index: 3;
-    line-height: 1;
-  }
-
-  /* CARD BODY */
-  .card-body {
-    padding: 18px 20px 20px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  .card-body h2 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 6px;
-    line-height: 1.3;
-  }
-  .card-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-bottom: 10px;
-  }
-  .card-meta span {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    background: rgba(255,255,255,0.04);
-    padding: 2px 8px;
-    border-radius: 4px;
-  }
-  .card-body .director {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    margin-bottom: 8px;
-  }
-  .card-body .director strong { color: #ccc; font-weight: 500; }
-  .card-body .synopsis {
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    line-height: 1.55;
-    flex: 1;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .card-actions {
-    display: flex;
-    gap: 8px;
-    margin-top: 14px;
-  }
-  .btn-trailer {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 9px 16px;
-    background: #e00;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-family: inherit;
-    font-size: 0.78rem;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s;
-    flex: 1;
-    justify-content: center;
-  }
-  .btn-trailer:hover { background: #c00; transform: scale(1.02); }
-  .btn-trailer svg { width: 14px; height: 14px; fill: #fff; flex-shrink: 0; }
-  .btn-imdb {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 9px 14px;
-    background: var(--accent);
-    color: #000;
-    border: none;
-    border-radius: 8px;
-    font-family: inherit;
-    font-size: 0.78rem;
-    font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  .btn-imdb:hover { background: #f5b82e; transform: scale(1.02); }
-
-  /* FOOTER */
-  footer {
-    text-align: center;
-    padding: 32px 20px;
-    color: var(--text-muted);
-    font-size: 0.75rem;
-    border-top: 1px solid var(--border);
-  }
-
-  /* RESPONSIVE */
-  @media (max-width: 768px) {
-    .hero { padding: 50px 20px 36px; }
-    .container { padding: 0 14px 60px; }
-    .grid { grid-template-columns: 1fr; }
-  }
-  @media (min-width: 1200px) {
-    .grid { grid-template-columns: repeat(4, 1fr); }
-  }
-</style>
 </head>
 <body>
 
 <div class="hero">
-  <h1>Top Rated Media releases <span></span></h1>
+  <h1>Top Rated Media Releases <span></span></h1>
   <p>The highest-scoring new releases &mdash; curated for you</p>
   <div class="pill">Updated March 2026</div>
 </div>
@@ -270,11 +360,270 @@
 <footer>CineScore &bull; Data sourced from IMDB &bull; March 2026</footer>
 
 <script>
-// ...existing JS logic for data generation, rendering, filtering, etc...
-// ...existing JS logic for data generation, rendering, filtering, etc...
+const providers = ['AppleTV', 'HBO Max', 'Netflix', 'Paramount', 'Hulu'];
 
-
-
+const movies = [
+  {
+    title: "Project Hail Mary",
+    year: 2025,
+    rating: 8.6,
+    genres: ["sci-fi"],
+    director: "Phil Lord & Chris Miller",
+    cast: "Ryan Gosling, Zach Galifianakis",
+    synopsis: "A lone astronaut wakes up with no memory aboard a ship far from Earth and must figure out why he's there — and save the planet.",
+    poster: "posters/project-hail-mary.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Project+Hail+Mary+trailer",
+    imdb: "https://www.imdb.com/title/tt5611926/",
+    provider: "AppleTV"
+  },
+  {
+    title: "Hamnet",
+    year: 2025,
+    rating: 8.1,
+    genres: ["drama"],
+    director: "Chloé Zhao",
+    cast: "Paul Mescal, Jessie Buckley",
+    synopsis: "The story of the young son of William Shakespeare and the grief that follows his untimely death.",
+    poster: "posters/hamnet.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Hamnet+film+trailer",
+    imdb: "https://www.imdb.com/title/tt14836884/",
+    provider: "Netflix"
+  },
+  {
+    title: "Marty Supreme",
+    year: 2025,
+    rating: 7.9,
+    genres: ["drama", "comedy"],
+    director: "Josh Safdie",
+    cast: "Timothée Chalamet, Gwyneth Paltrow",
+    synopsis: "A driven ping-pong prodigy claws his way to the top in a world obsessed with winning.",
+    poster: "posters/marty-supreme.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Marty+Supreme+trailer",
+    imdb: "https://www.imdb.com/title/tt13320662/",
+    provider: "Netflix"
+  },
+  {
+    title: "One Battle After Another",
+    year: 2025,
+    rating: 8.4,
+    genres: ["drama"],
+    director: "Paul Thomas Anderson",
+    cast: "Leonardo DiCaprio, Sean Penn",
+    synopsis: "A sweeping portrait of a Vietnam War veteran's journey through America in the aftermath of conflict.",
+    poster: "posters/one-battle-after-another.jpg",
+    trailer: "https://www.youtube.com/results?search_query=One+Battle+After+Another+trailer",
+    imdb: "https://www.imdb.com/title/tt14164068/",
+    provider: "Netflix"
+  },
+  {
+    title: "Superman",
+    year: 2025,
+    rating: 7.7,
+    genres: ["action", "sci-fi"],
+    director: "James Gunn",
+    cast: "David Corenswet, Rachel Brosnahan",
+    synopsis: "A fresh take on the Man of Steel as Clark Kent balances his life as a reporter with his destiny as humanity's greatest hero.",
+    poster: "posters/superman.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Superman+2025+trailer",
+    imdb: "https://www.imdb.com/title/tt21228008/",
+    provider: "HBO Max"
+  },
+  {
+    title: "How to Train Your Dragon",
+    year: 2025,
+    rating: 7.5,
+    genres: ["action", "comedy"],
+    director: "Dean DeBlois",
+    cast: "Mason Thames, Nico Parker",
+    synopsis: "A live-action reimagining of the beloved animated tale of a young Viking who befriends a rare dragon.",
+    poster: "posters/how-to-train-your-dragon.jpg",
+    trailer: "https://www.youtube.com/results?search_query=How+To+Train+Your+Dragon+2025+trailer",
+    imdb: "https://www.imdb.com/title/tt13046928/",
+    provider: "Paramount"
+  },
+  {
+    title: "F1",
+    year: 2025,
+    rating: 7.8,
+    genres: ["action", "drama"],
+    director: "Joseph Kosinski",
+    cast: "Brad Pitt, Damson Idris",
+    synopsis: "A retired driver returns to Formula 1 to mentor a rookie and take one last shot at glory.",
+    poster: "posters/f1.jpg",
+    trailer: "https://www.youtube.com/results?search_query=F1+movie+2025+trailer",
+    imdb: "https://www.imdb.com/title/tt7131870/",
+    provider: "AppleTV"
+  },
+  {
+    title: "Companion",
+    year: 2025,
+    rating: 7.6,
+    genres: ["sci-fi", "drama"],
+    director: "Drew Hancock",
+    cast: "Sophie Thatcher, Jack Quaid",
+    synopsis: "A woman on a romantic getaway begins to suspect that she is not entirely human.",
+    poster: "posters/companion.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Companion+2025+movie+trailer",
+    imdb: "https://www.imdb.com/title/tt14948450/",
+    provider: "HBO Max"
+  },
+  {
+    title: "Train Dreams",
+    year: 2025,
+    rating: 7.9,
+    genres: ["drama"],
+    director: "Clint Bentley",
+    cast: "Joel Edgerton, Felicity Jones",
+    synopsis: "The quiet, solitary life of a laborer in the American Northwest unfolds across decades of loss and beauty.",
+    poster: "posters/train-dreams.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Train+Dreams+2025+trailer",
+    imdb: "https://www.imdb.com/title/tt15383376/",
+    provider: "AppleTV"
+  },
+  {
+    title: "Good Luck Have Fun",
+    year: 2025,
+    rating: 7.4,
+    genres: ["comedy", "drama"],
+    director: "Celine Song",
+    cast: "Charles Melton, Riley Keough",
+    synopsis: "Two rival gamers fall for each other in the high-stakes world of professional esports.",
+    poster: "posters/good-luck-have-fun.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Good+Luck+Have+Fun+film+trailer",
+    imdb: "https://www.imdb.com/",
+    provider: "Hulu"
+  },
+  {
+    title: "Wake Up Dead Man",
+    year: 2025,
+    rating: 8.0,
+    genres: ["drama"],
+    director: "Rian Johnson",
+    cast: "Daniel Craig, Josh O'Connor",
+    synopsis: "Benoit Blanc investigates a baffling mystery that leads him deep into a shadowy religious conspiracy.",
+    poster: "posters/wake-up-dead-man.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Wake+Up+Dead+Man+trailer",
+    imdb: "https://www.imdb.com/title/tt11303174/",
+    provider: "Netflix"
+  },
+  {
+    title: "Mission: Impossible 8",
+    year: 2025,
+    rating: 8.2,
+    genres: ["action"],
+    director: "Christopher McQuarrie",
+    cast: "Tom Cruise, Hayley Atwell",
+    synopsis: "Ethan Hunt faces his most dangerous mission yet as the Entity's grip on global intelligence tightens.",
+    poster: "posters/mission-impossible.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Mission+Impossible+8+trailer",
+    imdb: "https://www.imdb.com/title/tt9603208/",
+    provider: "Paramount"
+  },
+  {
+    title: "Thunderbolts*",
+    year: 2025,
+    rating: 7.3,
+    genres: ["action", "sci-fi"],
+    director: "Jake Schreier",
+    cast: "Florence Pugh, Sebastian Stan",
+    synopsis: "A ragtag team of Marvel antiheroes is assembled for a covert mission none of them signed up for.",
+    poster: "posters/thunderbolts.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Thunderbolts+Marvel+trailer",
+    imdb: "https://www.imdb.com/title/tt13289196/",
+    provider: "Netflix"
+  },
+  {
+    title: "Caught Stealing",
+    year: 2025,
+    rating: 7.6,
+    genres: ["action", "drama"],
+    director: "Darren Aronofsky",
+    cast: "Austin Butler, Liev Schreiber",
+    synopsis: "An ex-baseball player finds himself hunted by criminals after agreeing to look after a neighbor's cat.",
+    poster: "posters/caught-stealing.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Caught+Stealing+2025+trailer",
+    imdb: "https://www.imdb.com/title/tt12584538/",
+    provider: "Hulu"
+  },
+  {
+    title: "Bugonia",
+    year: 2025,
+    rating: 6.9,
+    genres: ["comedy", "sci-fi"],
+    director: "Jonah Hill",
+    cast: "O'Shea Jackson Jr., Glen Powell",
+    synopsis: "Two conspiracy theorists become convinced that the CEO of a powerful company is actually an alien.",
+    poster: "posters/bugonia.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Bugonia+movie+trailer",
+    imdb: "https://www.imdb.com/title/tt15412478/",
+    provider: "Hulu"
+  },
+  {
+    title: "Ballerina",
+    year: 2025,
+    rating: 7.2,
+    genres: ["action"],
+    director: "Len Wiseman",
+    cast: "Ana de Armas, Keanu Reeves",
+    synopsis: "A trained assassin seeks revenge against the cabal that killed her family, set in the John Wick universe.",
+    poster: "posters/ballerina.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Ballerina+John+Wick+trailer",
+    imdb: "https://www.imdb.com/title/tt10925080/",
+    provider: "Netflix"
+  },
+  {
+    title: "Mickey 17",
+    year: 2025,
+    rating: 7.8,
+    genres: ["sci-fi", "comedy"],
+    director: "Bong Joon-ho",
+    cast: "Robert Pattinson, Naomi Ackie",
+    synopsis: "An expendable employee on a mission to colonize an ice planet keeps dying — and being reprinted.",
+    poster: "posters/mickey-17.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Mickey+17+trailer",
+    imdb: "https://www.imdb.com/title/tt13560574/",
+    provider: "HBO Max"
+  },
+  {
+    title: "Wicked: For Good",
+    year: 2025,
+    rating: 8.3,
+    genres: ["drama"],
+    director: "Jon M. Chu",
+    cast: "Cynthia Erivo, Ariana Grande",
+    synopsis: "The second chapter of the beloved musical epic concludes Elphaba and Glinda's extraordinary journey.",
+    poster: "posters/wicked-for-good.jpg",
+    trailer: "https://www.youtube.com/results?search_query=Wicked+For+Good+trailer",
+    imdb: "https://www.imdb.com/title/tt14155280/",
+    provider: "Paramount"
+  },
+  {
+    title: "A Private Life",
+    year: 2025,
+    rating: 7.5,
+    genres: ["drama", "biography"],
+    director: "Todd Field",
+    cast: "Cate Blanchett, Andrew Scott",
+    synopsis: "A celebrated artist navigates fame, identity and personal secrets in a quiet European city.",
+    poster: "posters/a-private-life.jpg",
+    trailer: "https://www.youtube.com/results?search_query=A+Private+Life+2025+film+trailer",
+    imdb: "https://www.imdb.com/",
+    provider: "AppleTV"
+  },
+  {
+    title: "The Odyssey",
+    year: 2026,
+    rating: 8.5,
+    genres: ["action", "drama"],
+    director: "Christopher Nolan",
+    cast: "Matt Damon, Anne Hathaway, Zendaya",
+    synopsis: "An epic retelling of Homer's ancient poem — a warrior's perilous journey home across a mythic sea.",
+    poster: "posters/the-odyssey.jpg",
+    trailer: "https://www.youtube.com/results?search_query=The+Odyssey+Nolan+trailer",
+    imdb: "https://www.imdb.com/title/tt13241490/",
+    provider: "HBO Max"
+  }
+];
 
 // Generate 20 series for each provider (100 total)
 const series = [];
@@ -344,6 +693,12 @@ function renderMedia(list) {
       </div>
     `;
     grid.appendChild(card);
+
+    // Attempt to load TMDB poster if a mapping exists for this movie
+    const imgEl = card.querySelector('img');
+    if (m.poster && tmdbIds.hasOwnProperty(m.poster)) {
+      loadPoster(imgEl, m.poster, m.title);
+    }
   });
 }
 
@@ -369,9 +724,9 @@ function renderFiltered() {
   let data = currentType === 'movie' ? movies : series;
   if (currentProvider !== 'all') {
     data = data.filter(m => m.provider === currentProvider);
-    renderMedia(data); // show all 20 for the provider
+    renderMedia(data);
   } else {
-    renderMedia(data.slice(0, 20)); // show only 20 for all providers
+    renderMedia(data.slice(0, 20));
   }
 }
 
@@ -380,25 +735,25 @@ const TMDB_KEY = "d5d6024b31893c1258dfc2dba7835c04";
 
 // TMDB IDs for each movie (matched by poster filename)
 const tmdbIds = {
-  "posters/project-hail-mary.jpg":       687163,
-  "posters/hamnet.jpg":                  858024,
-  "posters/marty-supreme.jpg":           1317288,
-  "posters/one-battle-after-another.jpg":1064028,
-  "posters/superman.jpg":                1061474,
-  "posters/how-to-train-your-dragon.jpg":1010600,
-  "posters/f1.jpg":                      950396,
-  "posters/companion.jpg":               1010581,
-  "posters/train-dreams.jpg":            1197306,
-  "posters/good-luck-have-fun.jpg":      null,  // will search by title
-  "posters/wake-up-dead-man.jpg":        1014505,
-  "posters/mission-impossible.jpg":      575264,
-  "posters/thunderbolts.jpg":            986056,
-  "posters/caught-stealing.jpg":         762441,
-  "posters/bugonia.jpg":                 1043905,
+  "posters/project-hail-mary.jpg":        687163,
+  "posters/hamnet.jpg":                   858024,
+  "posters/marty-supreme.jpg":            1317288,
+  "posters/one-battle-after-another.jpg": 1064028,
+  "posters/superman.jpg":                 1061474,
+  "posters/how-to-train-your-dragon.jpg": 1010600,
+  "posters/f1.jpg":                       950396,
+  "posters/companion.jpg":                1010581,
+  "posters/train-dreams.jpg":             1197306,
+  "posters/good-luck-have-fun.jpg":       null,
+  "posters/wake-up-dead-man.jpg":         1014505,
+  "posters/mission-impossible.jpg":       575264,
+  "posters/thunderbolts.jpg":             986056,
+  "posters/caught-stealing.jpg":          762441,
+  "posters/bugonia.jpg":                  1043905,
   "posters/ballerina.jpg":               668489,
   "posters/mickey-17.jpg":               696506,
   "posters/wicked-for-good.jpg":         1064213,
-  "posters/a-private-life.jpg":          null,  // will search by title
+  "posters/a-private-life.jpg":           null,
   "posters/the-odyssey.jpg":             1241674,
 };
 
@@ -421,7 +776,6 @@ async function loadPoster(imgEl, posterKey, movieTitle) {
     if (posterPath) {
       imgEl.src = `https://image.tmdb.org/t/p/w500${posterPath}`;
       imgEl.style.display = '';
-      // Hide the CSS fallback
       const fallback = imgEl.nextElementSibling;
       if (fallback && fallback.classList.contains('poster-fallback')) {
         fallback.style.display = 'none';
@@ -434,7 +788,6 @@ async function loadPoster(imgEl, posterKey, movieTitle) {
 
 // Initial render
 renderFiltered();
-
 </script>
 
 </body>
