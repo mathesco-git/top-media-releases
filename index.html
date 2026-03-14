@@ -354,22 +354,28 @@
 </div>
 
 <div class="filters">
-  <button class="active" onclick="filterMovies('all', this)">All</button>
-  <button onclick="filterMovies('2025', this)">2025</button>
-  <button onclick="filterMovies('2026', this)">2026</button>
-  <button onclick="filterMovies('action', this)">Action</button>
-  <button onclick="filterMovies('drama', this)">Drama</button>
-  <button onclick="filterMovies('sci-fi', this)">Sci-Fi</button>
-  <button onclick="filterMovies('comedy', this)">Comedy</button>
+  <button class="active" onclick="setType('movie', this)">Movies</button>
+  <button onclick="setType('series', this)">Series</button>
+  <span style="margin: 0 12px; color: var(--text-muted);">|</span>
+  <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
+  <button onclick="setProvider('AppleTV', this)">AppleTV</button>
+  <button onclick="setProvider('HBO Max', this)">HBO Max</button>
+  <button onclick="setProvider('Netflix', this)">Netflix</button>
+  <button onclick="setProvider('Paramount', this)">Paramount</button>
+  <button onclick="setProvider('Hulu', this)">Hulu</button>
 </div>
 
 <div class="container">
-  <div class="grid" id="movieGrid"></div>
+  <div class="grid" id="mediaGrid"></div>
 </div>
 
 <footer>CineScore &bull; Data sourced from IMDB &bull; March 2026</footer>
 
 <script>
+// Mockup data for top 20 movies and top 20 series per provider
+const providers = ["AppleTV", "HBO Max", "Netflix", "Paramount", "Hulu"];
+
+// Add provider field to each movie (mockup: distribute evenly)
 const movies = [
   {
     title: "Project Hail Mary",
@@ -380,7 +386,8 @@ const movies = [
     synopsis: "A man awakens on an interstellar spacecraft with no memory. He discovers he's the sole survivor of a crew sent to save Earth from an extinction-level event and that he is not alone. 95% on Rotten Tomatoes.",
     poster: "posters/project-hail-mary.jpg",
     trailer: "https://www.youtube.com/results?search_query=Project+Hail+Mary+2026+official+trailer",
-    imdb: "https://www.imdb.com/title/tt12042730/"
+    imdb: "https://www.imdb.com/title/tt12042730/",
+    provider: "AppleTV"
   },
   {
     title: "Hamnet",
@@ -391,7 +398,8 @@ const movies = [
     synopsis: "After losing their son Hamnet to plague, Agnes and William Shakespeare grapple with grief in 16th-century England. Winner of Best Motion Picture - Drama at the 2026 Golden Globes.",
     poster: "posters/hamnet.jpg",
     trailer: "https://www.youtube.com/results?search_query=Hamnet+2025+official+trailer",
-    imdb: "https://www.imdb.com/title/tt14905854/"
+    imdb: "https://www.imdb.com/title/tt14905854/",
+    provider: "HBO Max"
   },
   {
     title: "Marty Supreme",
@@ -402,7 +410,8 @@ const movies = [
     synopsis: "Set in the 1950s, Marty Mauser is a young man with a dream no one respects who goes to hell and back in pursuit of ping pong greatness. A24's highest-grossing film ever with 9 Oscar nominations.",
     poster: "posters/marty-supreme.jpg",
     trailer: "https://www.youtube.com/results?search_query=Marty+Supreme+2025+official+trailer",
-    imdb: "https://www.imdb.com/title/tt32916440/"
+    imdb: "https://www.imdb.com/title/tt32916440/",
+    provider: "Netflix"
   },
   {
     title: "One Battle After Another",
@@ -413,7 +422,8 @@ const movies = [
     synopsis: "An ex-revolutionary is forced back into his former combative lifestyle upon being pursued by a corrupt military officer. Winner of Best Picture and Best Director at the Critics' Choice Awards.",
     poster: "posters/one-battle-after-another.jpg",
     trailer: "https://www.youtube.com/results?search_query=One+Battle+After+Another+2025+PTA+official+trailer",
-    imdb: "https://www.imdb.com/title/tt30144839/"
+    imdb: "https://www.imdb.com/title/tt30144839/",
+    provider: "Paramount"
   },
   {
     title: "Superman",
@@ -424,7 +434,8 @@ const movies = [
     synopsis: "The first film in the new DC Universe. Superman balances his Kryptonian heritage with his human upbringing as Clark Kent in Metropolis. Grossed over $600M worldwide.",
     poster: "posters/superman.jpg",
     trailer: "https://www.youtube.com/results?search_query=Superman+2025+James+Gunn+official+trailer",
-    imdb: "https://www.imdb.com/title/tt5950044/"
+    imdb: "https://www.imdb.com/title/tt5950044/",
+    provider: "Hulu"
   },
   {
     title: "How to Train Your Dragon",
@@ -592,6 +603,30 @@ const movies = [
     imdb: "https://www.imdb.com/title/tt33764258/"
   }
 ];
+// Repeat/distribute providers for all movies
+for (let i = 0; i < movies.length; i++) {
+  movies[i].provider = providers[i % providers.length];
+}
+
+// Mockup top 20 series per provider
+const series = [];
+for (let p of providers) {
+  for (let i = 1; i <= 4; i++) { // 4 per provider, for 20 total
+    series.push({
+      title: `${p} Series ${i}`,
+      year: 2026 - (i % 2),
+      rating: (7 + Math.random()).toFixed(1),
+      genres: ["drama", (i % 2 === 0 ? "comedy" : "sci-fi")],
+      creator: `Creator ${i}`,
+      cast: `Star ${i}, Star ${i+1}`,
+      synopsis: `A gripping new series from ${p}, season ${i}.`,
+      poster: "posters/placeholder-series.jpg",
+      trailer: "https://www.youtube.com/",
+      imdb: "https://www.imdb.com/",
+      provider: p
+    });
+  }
+}
 
 // Genre-to-CSS class mapping
 function genreClass(genres) {
@@ -604,21 +639,20 @@ function genreClass(genres) {
 
 const ytSvg = `<svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/><path d="M9.545 15.568V8.432L15.818 12z" fill="#fff"/></svg>`;
 
-function renderMovies(list) {
-  const grid = document.getElementById('movieGrid');
+function renderMedia(list) {
+  const grid = document.getElementById('mediaGrid');
   grid.innerHTML = '';
   list.forEach((m, i) => {
-    const ratingDisplay = m.rating ? m.rating.toFixed(1) : 'TBD';
+    const ratingDisplay = m.rating ? (typeof m.rating === 'number' ? m.rating.toFixed(1) : m.rating) : 'TBD';
     const card = document.createElement('div');
     card.className = 'card';
-
     card.innerHTML = `
       <div class="poster-wrap" data-title="${m.title}">
         <img src="${m.poster}" alt="${m.title}" loading="lazy"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div class="poster-fallback ${genreClass(m.genres)}" style="display:none;">
           <div class="title-overlay">${m.title}</div>
-          <div class="director-overlay">${m.director}</div>
+          <div class="director-overlay">${m.director || m.creator || ''}</div>
         </div>
         <div class="gradient-overlay"></div>
         <div class="year-badge">${m.year}</div>
@@ -629,8 +663,9 @@ function renderMovies(list) {
         <h2>${m.title}</h2>
         <div class="card-meta">
           ${m.genres.map(g => `<span>${g.charAt(0).toUpperCase() + g.slice(1)}</span>`).join('')}
+          <span>${m.provider}</span>
         </div>
-        <div class="director">Dir: <strong>${m.director}</strong> &bull; ${m.cast}</div>
+        <div class="director">${m.director ? `Dir: <strong>${m.director}</strong>` : `Creator: <strong>${m.creator}</strong>`} &bull; ${m.cast}</div>
         <p class="synopsis">${m.synopsis}</p>
         <div class="card-actions">
           <a href="${m.trailer}" target="_blank" rel="noopener" class="btn-trailer">
@@ -642,31 +677,32 @@ function renderMovies(list) {
     `;
     grid.appendChild(card);
   });
-
-  // Load TMDB posters for every rendered card
-  if (typeof TMDB_KEY !== 'undefined') {
-    grid.querySelectorAll('.poster-wrap img').forEach(img => {
-      img.style.display = 'none';
-      const fallback = img.nextElementSibling;
-      if (fallback) fallback.style.display = 'flex';
-      loadPoster(img, img.getAttribute('src'), img.getAttribute('alt'));
-    });
-  }
 }
 
-function filterMovies(filter, btn) {
+// State
+let currentType = 'movie';
+let currentProvider = 'all';
+
+function setType(type, btn) {
   document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  currentType = type;
+  renderFiltered();
+}
 
-  let filtered;
-  if (filter === 'all') {
-    filtered = movies;
-  } else if (filter === '2025' || filter === '2026') {
-    filtered = movies.filter(m => m.year === parseInt(filter));
-  } else {
-    filtered = movies.filter(m => m.genres.includes(filter));
+function setProvider(provider, btn) {
+  document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active-provider'));
+  btn.classList.add('active-provider');
+  currentProvider = provider;
+  renderFiltered();
+}
+
+function renderFiltered() {
+  let data = currentType === 'movie' ? movies : series;
+  if (currentProvider !== 'all') {
+    data = data.filter(m => m.provider === currentProvider);
   }
-  renderMovies(filtered);
+  renderMedia(data.slice(0, 20));
 }
 
 // TMDB API key — used to load poster images in the browser
@@ -726,8 +762,8 @@ async function loadPoster(imgEl, posterKey, movieTitle) {
   }
 }
 
-// Initial render (already sorted by rating in the array)
-renderMovies(movies);
+// Initial render
+renderFiltered();
 
 </script>
 
