@@ -808,8 +808,793 @@
     ]
   },
   "HBO Max": {
-    "movies": [],
-    "series": []
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": "/kRlYXEFORGxWlqfNPOrGvUqeDLw.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1632879,
+        "original_language": "en",
+        "original_title": "Chris Fleming: Live at The Palace",
+        "overview": "From the Cadillac Palace Theatre in Chicago, comedian Chris Fleming bursts onto the screen with a fun and lighthearted blend of skillful storytelling and wild physicality in his first HBO stand-up special. A high-energy performer who seamlessly pivots from one everyday topic to another – from Trader Joe’s to Oreos, NPR, and dog breeds – Fleming bounds across the stage as he shares his unique takes on masculinity, conga lines, and more.",
+        "popularity": 0.7981,
+        "poster_path": "/uFLfgsKrdGJGny3i2nZ5ECBn4ZS.jpg",
+        "release_date": "2026-02-27",
+        "title": "Chris Fleming: Live at The Palace",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/olz73f1yVWu5JlLDi8lI98Yekvl.jpg",
+        "genre_ids": [
+          99,
+          18,
+          36
+        ],
+        "id": 1439660,
+        "original_language": "en",
+        "original_title": "Fukushima: A Nuclear Nightmare",
+        "overview": "The definitive account of Japan’s struggle as it faced a nuclear catastrophe while still reeling from the devastation of an earthquake and tsunami.",
+        "popularity": 12.7658,
+        "poster_path": "/nL2f1g1cMPUsPmFWB71qHqjyVFd.jpg",
+        "release_date": "2026-02-20",
+        "title": "Fukushima: A Nuclear Nightmare",
+        "video": false,
+        "vote_average": 6.4,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1624054,
+        "original_language": "en",
+        "original_title": "DC Air Disaster: Final Minutes Revealed",
+        "overview": "Discovery Channel's DC Air Disaster: Final Minutes Revealed (airing Jan. 29, 2026) investigates the Jan. 29, 2025, midair collision between a PSA Airlines jet and an Army Black Hawk over the Potomac, revealing fatal, un-alerted, last-second failures. The special highlights critical, previously undisclosed NTSB, cockpit audio, and ATC insights",
+        "popularity": 0.0071,
+        "poster_path": "/1EQOnRLX0jyBfHdILll2IpFpX7V.jpg",
+        "release_date": "2026-01-29",
+        "title": "DC Air Disaster: Final Minutes Revealed",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/t2p67zRXn00bUrw94HReWdTp7Q0.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1601000,
+        "original_language": "en",
+        "original_title": "Critical Incident: Death at the Border",
+        "overview": "Revisits the 2010 death of Anastasio Hernández-Rojas, an undocumented Mexican immigrant who died while in custody at the border. When eye-witness video emerges, it sparks a far-reaching investigation from a border checkpoint to Washington D.C. CRITICAL INCIDENT chronicles journalists’, lawyers’, and family members’ efforts to explore the Border Patrol’s involvement in the incident, ultimately pointing to cover-ups, and uncovering the existence of a little-known unit inside the agency that had been involved in other border related incident.",
+        "popularity": 1.7952,
+        "poster_path": "/bLq4GRp4InjkipnWM5Bdzbkhg2P.jpg",
+        "release_date": "2025-12-29",
+        "title": "Critical Incident: Death at the Border",
+        "video": false,
+        "vote_average": 5.0,
+        "vote_count": 6
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rq6vqu9faBD8e1J3LZz2emshdwS.jpg",
+        "genre_ids": [
+          16,
+          878,
+          18
+        ],
+        "id": 1497017,
+        "original_language": "en",
+        "original_title": "Adult Swim's The Elephant",
+        "overview": "Crafted in three parts by four animation superstars, Adult Swim's The Elephant brings to life a very human journey of self-discovery in varied styles.",
+        "popularity": 2.1534,
+        "poster_path": "/vq50QGdUSAiUNC2f0BDdgyhUQGg.jpg",
+        "release_date": "2025-12-19",
+        "title": "Adult Swim's The Elephant",
+        "video": false,
+        "vote_average": 8.423,
+        "vote_count": 13
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/eVAqRHbLnRD03xyVgG7wtNJY9RW.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1598778,
+        "original_language": "pt",
+        "original_title": "Especial Beleza Fatal",
+        "overview": "Reunited at the Argento Mansion, the cast and creators of Scars of Beauty come together to dish on all the behind-the-scenes details, most memorable moments, and viral social-media reactions generated by the hit telenovela.",
+        "popularity": 0.199,
+        "poster_path": "/nXlmi60bayyqqJY85Fx9nKkRogp.jpg",
+        "release_date": "2025-12-16",
+        "title": "Scars of Beauty Special",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/aKBbN8kZkbJPc6zFVfW359auVB6.jpg",
+        "genre_ids": [
+          14
+        ],
+        "id": 1636415,
+        "original_language": "en",
+        "original_title": "World of Westeros Ambient Video",
+        "overview": "A cozy ambient video from the Game of Thrones world.",
+        "popularity": 0.9709,
+        "poster_path": "/nGgACzb5EjTfZ2wOPNH9AKe2Jmv.jpg",
+        "release_date": "2025-12-12",
+        "title": "World of Westeros Ambient Video",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/37vus3DvFELdQOz7w5poPylDMFU.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1567893,
+        "original_language": "en",
+        "original_title": "Sarah Squirm: Live + in the Flesh",
+        "overview": "After four seasons (and counting) on Saturday Night Live, Sarah Sherman's unholy alter ego, Sarah Squirm, slithers onto your screen and rips off the straitjacket, unleashing a festering and hilarious hour of bodily fluids, open-wound confessionals, and jokes that will leave scars on your soul.",
+        "popularity": 0.5295,
+        "poster_path": "/73wbpsAR1OK0faQCNXYHA37rAld.jpg",
+        "release_date": "2025-12-12",
+        "title": "Sarah Squirm: Live + in the Flesh",
+        "video": false,
+        "vote_average": 4.7,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qmUOo4HY49Fd8YwEKAUE4xlFygP.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1583382,
+        "original_language": "pl",
+        "original_title": "Stolen Children",
+        "overview": "The film takes us to Georgia, where the shadows of the post-Soviet past still loom large. At its center is investigative reporter Tamuna Museridze, who sets out to unravel a profoundly personal mystery. As she follows the trail of a widespread 1990s scheme in which newborns were taken from Georgian maternity wards and trafficked across the world, she exposes networks, mechanisms, and long-buried secrets along with family tragedies that remain just as painful today. The scale of the practice is staggering: as many as 100,000 children were stolen from hospitals and sold. Among them were Amy and Ano, twin sisters separated at birth who finally found each other in 2024 through social media.",
+        "popularity": 0.319,
+        "poster_path": "/7KKBbZ3w2RcusDZtTYE87XKKjWP.jpg",
+        "release_date": "2025-12-05",
+        "title": "Stolen Children",
+        "video": false,
+        "vote_average": 7.3,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jlqan4iTqliIjIRivtqDDRJh2H5.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1175174,
+        "original_language": "en",
+        "original_title": "Fackham Hall",
+        "overview": "A new servant embarks on an unlikely relationship with the youngest daughter of a prominent English family. Simultaneously, rivalries are spilling over in the Davenport family, led by the Lord and Lady as they also weather the epic failure of the wedding of their eldest daughter to her caddish cousin.",
+        "popularity": 9.9797,
+        "poster_path": "/fwpdRe6WGmzqXFEJYJVepDQ6jrw.jpg",
+        "release_date": "2025-12-05",
+        "title": "Fackham Hall",
+        "video": false,
+        "vote_average": 6.799,
+        "vote_count": 98
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8kJdfHbaLvPcfWEqit6eJeVBdb5.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1584780,
+        "original_language": "en",
+        "original_title": "I'm Chevy Chase and You're Not",
+        "overview": "From his Saturday Night Live beginnings to a string of classic comedies, Chevy Chase has always had huge comedic range. He is also a complex and contradictory human being. Featuring revealing interviews with those closest to him, this documentary digs into the talent, flaws, and humanity that shaped an icon.",
+        "popularity": 1.0156,
+        "poster_path": "/gxPOVkbNQJX94M5wRznyxaV2Svy.jpg",
+        "release_date": "2025-12-04",
+        "title": "I'm Chevy Chase and You're Not",
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 13
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1592609,
+        "original_language": "es",
+        "original_title": "Preguntas frecuentes",
+        "overview": "S. writes to Juan, who is deeply asleep. She reflects on images and cinema, and a piece of advice from a director she admires challenges her and all her previous work. Determined to find an idea behind the images she has recorded so far, S. wanders among materials, her own archive of images and sounds, internet browser tabs, western films and Japanese short stories. S. compiles all these thoughts and findings into a letter, hoping to deliver it to Juan when he wakes up.",
+        "popularity": 0.0143,
+        "poster_path": "/gY6k1B2FGXBsMvTDr7ltZRSe7OF.jpg",
+        "release_date": "2025-12-03",
+        "title": "Frequently asked questions",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8XpdtLahoQ0dem3wQ4ksTUsXk51.jpg",
+        "genre_ids": [
+          99,
+          80
+        ],
+        "id": 1588671,
+        "original_language": "en",
+        "original_title": "Louvre Heist: Minute by Minute",
+        "overview": "Dive into a real-time investigation of the shocking daylight robbery at Paris' Louvre Museum. Former thieves, security staff, eyewitnesses and investigators piece together the crime and ongoing chase to recover France's crown jewels before it's too late.",
+        "popularity": 0.3955,
+        "poster_path": "/fRmX5LRt9OGH879DKnFThO9xUXj.jpg",
+        "release_date": "2025-11-27",
+        "title": "Louvre Heist: Minute by Minute",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 6
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1580651,
+        "original_language": "en",
+        "original_title": "The Shuffle",
+        "overview": "The story behind the making of the 1985 Chicago Bears' rap anthem and video that became a cultural phenomenon, redefined sports entertainment, and cemented the team's larger-than-life legacy.",
+        "popularity": 0.453,
+        "poster_path": "/jJzjKLeRBuKw8XzngFZFuqHeDq4.jpg",
+        "release_date": "2025-11-25",
+        "title": "The Shuffle",
+        "video": false,
+        "vote_average": 5.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mhnPx6DKiy4ZyCk0hMrZIzOHxFR.jpg",
+        "genre_ids": [
+          99,
+          10402
+        ],
+        "id": 1560229,
+        "original_language": "en",
+        "original_title": "Music Box: Happy and You Know It",
+        "overview": "A joyful and surprising journey into the fascinating world of toddler pop, exploring why kids' music is so catchy, can be deeply meaningful, and how AI is taking hold and shaping the industry. Featuring appearances by The Wiggles, Laurie Berkner, and other musicians.",
+        "popularity": 0.6145,
+        "poster_path": "/sbDSkzGiPOYtC0caGucEAT5GVPE.jpg",
+        "release_date": "2025-11-15",
+        "title": "Music Box: Happy and You Know It",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1559760,
+        "original_language": "en",
+        "original_title": "Thoughts & Prayers",
+        "overview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators, and entire communities.",
+        "popularity": 1.3443,
+        "poster_path": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
+        "release_date": "2025-11-12",
+        "title": "Thoughts & Prayers",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 11
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/f5xKhFFXIt3z2gkJtf5HoK71MU1.jpg",
+        "genre_ids": [
+          99,
+          80
+        ],
+        "id": 1570924,
+        "original_language": "en",
+        "original_title": "Hunted by My Husband: The Untold Story of the DC Sniper",
+        "overview": "The story of the DC Sniper and Mildred Muhammad; her testimony reveals it was part of a calculated plan rooted in manipulation, control, and domestic abuse driven by a single, dark obsession.",
+        "popularity": 0.0905,
+        "poster_path": "/zTF39OyciGX9bj7rssEn7xffQyR.jpg",
+        "release_date": "2025-10-28",
+        "title": "Hunted by My Husband: The Untold Story of the DC Sniper",
+        "video": false,
+        "vote_average": 7.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4drlbQd9LrHF2LSuCcXID4v0KcO.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1562656,
+        "original_language": "en",
+        "original_title": "I Am Curious Johnny",
+        "overview": "Johnny Pigozzi—photographer, heir, and legendary collector—pioneered the celebrity selfie in the 1970s, built an elite social network, and assembled the world's best contemporary African art collection.",
+        "popularity": 0.4278,
+        "poster_path": "/f6N9Do7dywL0DKvOHZD8QlvHkGh.jpg",
+        "release_date": "2025-10-17",
+        "title": "I Am Curious Johnny",
+        "video": false,
+        "vote_average": 7.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/z2gQCawVjLwilspPWF3WTNqdyJx.jpg",
+        "genre_ids": [
+          35,
+          10402
+        ],
+        "id": 1552027,
+        "original_language": "en",
+        "original_title": "An Intimate Evening with Adam Pally",
+        "overview": "Equal parts stand-up, documentary, and rock concert, Adam Pally plays with the truth and his guitar in a one-time-only performance.",
+        "popularity": 0.3239,
+        "poster_path": "/bv7Q2DRC2eiOcaWB0ffvFH3mXRV.jpg",
+        "release_date": "2025-10-17",
+        "title": "An Intimate Evening with Adam Pally",
+        "video": false,
+        "vote_average": 7.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ydizf7MP7vOYK7bnDcqAvhFVYxr.jpg",
+        "genre_ids": [
+          35,
+          18,
+          10751,
+          10749
+        ],
+        "id": 1548017,
+        "original_language": "en",
+        "original_title": "The Family McMullen",
+        "overview": "30 years after the events of The Brothers McMullen, romantic entanglements plague a now fiftysomething Barry McMullen and his twentysomething kids, as well as his brother Patrick and widowed sister-in-law Molly, who are also facing similar unexpected hurdles.",
+        "popularity": 2.2819,
+        "poster_path": "/foNIl77csO9GmsvCvTZ6ixt0fZf.jpg",
+        "release_date": "2025-10-15",
+        "title": "The Family McMullen",
+        "video": false,
+        "vote_average": 5.7,
+        "vote_count": 15
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": "/mhZAT8ktiNi7YwuL50kmumsau69.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 254953,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Rooster",
+        "overview": "On a college campus, an author navigates a complicated relationship with his daughter.",
+        "popularity": 59.2874,
+        "poster_path": "/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+        "first_air_date": "2026-03-08",
+        "name": "Rooster",
+        "vote_average": 7.2,
+        "vote_count": 15
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tRMGuCXsTF3j174Q8NwdmBwGiRZ.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 313756,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Flavortown Food Fight",
+        "overview": "Long referred to but never before seen, the mythical and delicious Flavortown will be the setting for this multi-round, culinary competition. In each episode, Fieri will welcome three chefs to Flavortown where skills and cooking chops can earn advantages and ultimately a win. Competitors will choose their own adventure as they compete in authentic food establishments ranging from street food carts to neighborhood spots to fast casual eateries and the finest fine dining restaurants in the world. The chefs must be quick on their feet as their culinary knowledge, technical skills, and overall cooking acumen are tested round after round. With restaurant names inspired by Guy's life, the series will deliver everything fans have ever dreamed Flavortown could be. The winner of each episode has a chance to score up to $20,000 in prize money and will return to defend their title against two new chefs the following week.",
+        "popularity": 0.3144,
+        "poster_path": "/2MZvgAD4ee85CjMLa8VOLMTsso0.jpg",
+        "first_air_date": "2026-03-04",
+        "name": "Flavortown Food Fight",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5D0jPXMEqb5X1s0JfynJPjdMCiP.jpg",
+        "genre_ids": [],
+        "id": 313575,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Bachelor Mansion Takeover",
+        "overview": "In a high-stakes design competition, 12 Bachelor Nation alums return to renovate the iconic mansion. They must design, build and strategize their way to the top. Only one winner will walk away with a cash prize and the ultimate bragging rights.",
+        "popularity": 0.3912,
+        "poster_path": "/kOMfOCfWvQ9xqcfZMPt4lkc3l4M.jpg",
+        "first_air_date": "2026-03-02",
+        "name": "Bachelor Mansion Takeover",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8mO4cYZI1X8sanR4u6f07FiQ8dC.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 206828,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "DTF St. Louis",
+        "overview": "A love triangle among three adults experiencing middle-age malaise leads to one of them ending up dead.",
+        "popularity": 22.8141,
+        "poster_path": "/juw3mCn7HIl3g4qSW8sh0yC4jDH.jpg",
+        "first_air_date": "2026-03-01",
+        "name": "DTF St. Louis",
+        "vote_average": 4.944,
+        "vote_count": 18
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4r2Gkuz7KiiGP6zoYqV10XCx5GG.jpg",
+        "genre_ids": [
+          80,
+          99
+        ],
+        "id": 313410,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Lost Women of Alaska",
+        "overview": "The brutal murders of two Alaska Native women and the shocking investigation that led authorities to their sadistic killer",
+        "popularity": 0.5684,
+        "poster_path": "/bvLVpfKKO8XYFZGcj6wuvGrNwP.jpg",
+        "first_air_date": "2026-02-25",
+        "name": "Lost Women of Alaska",
+        "vote_average": 7.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 314569,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "Sobrevivir al Paraíso: Más allá de los Testigos de Jehová",
+        "overview": "",
+        "popularity": 0.3704,
+        "poster_path": "/3uxDbJGrFNwH03O93oxw50kRkAe.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "Sobrevivir al Paraíso: Más allá de los Testigos de Jehová",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tPOLS7faEK482Pae1GycswkpHgx.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 314541,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "Sobrevivir al paraíso: Más allá de los Testigos de Jehová",
+        "overview": "​Former members of the Jehovah's Witnesses share their stories of lesser-known aspects of the faith that have remained hidden for decades.",
+        "popularity": 1.2067,
+        "poster_path": "/2PdNX6BDFt5nF0Qlzez8U1inaXu.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "Surviving the Jehovah's Witnesses",
+        "vote_average": 6.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/smbYqVcXjEJ22csrA7GVga4bMQ9.jpg",
+        "genre_ids": [
+          99,
+          80
+        ],
+        "id": 313228,
+        "origin_country": [
+          "PL"
+        ],
+        "original_language": "pl",
+        "original_name": "Morderca szyty na miarę",
+        "overview": "This chilling docuseries chronicles one of Poland's most notorious cold cases -- the brutal 1999 murder of female student Katarzyna Zowada.",
+        "popularity": 0.6953,
+        "poster_path": "/3pcmkcUSVbpgKvKLvM7kpDJivUU.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "Fit for a Killer",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3pyADtNpIbhfdAxPXNYtW7pTMuJ.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 312073,
+        "origin_country": [
+          "DE"
+        ],
+        "original_language": "de",
+        "original_name": "Banksters",
+        "overview": "Berlin, 2004. 20-year-old Yusuf is arrested during a football match, accused of multiple bank robberies. The question: Who were his accomplices? Staying silent means prison, talking means betrayal. His sister attempts to return the money and identify who betrayed him. Based on true events.",
+        "popularity": 7.2735,
+        "poster_path": "/ntiVdQ1UbEu8h5HLXVhlf7ri7D1.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "Banksters",
+        "vote_average": 4.8,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ebaW4MeaKlWYSABcPlA5zFHGtKb.jpg",
+        "genre_ids": [
+          18,
+          80
+        ],
+        "id": 218557,
+        "origin_country": [
+          "FR",
+          "IT"
+        ],
+        "original_language": "it",
+        "original_name": "Portobello",
+        "overview": "During the height of his success, Enzo Tortora is arrested by the Italian police in his hotel room in what is only the beginning of the tragic downfall of an innocent man, and an odyssey that will drag Tortora from the heights to the abyss.",
+        "popularity": 5.5801,
+        "poster_path": "/j8nr8fZW7H1VtHlN6mr5s1s6qKh.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "Portobello",
+        "vote_average": 7.214,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2Y1sfUem465aPHCnbq5w0wfd1qE.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312530,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Murder in Glitterball City",
+        "overview": "The city of Louisville, Kentucky, known for its historic Victorian architecture and birthplace of the mirrored glitterball, proves to be an unlikely backdrop for a dark tale of murder. This documentary explores the shifting landscape of a mysterious killing, a toxic relationship, a vulnerable victim and the unreliable accounts of two ex-lovers on trial for their lives.",
+        "popularity": 1.4603,
+        "poster_path": "/47vLjLQi3tIspWLs0vdgIxzXeE0.jpg",
+        "first_air_date": "2026-02-19",
+        "name": "Murder in Glitterball City",
+        "vote_average": 6.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/s2pIMVLujBjLBnNlofmr9kwUXNa.jpg",
+        "genre_ids": [
+          99,
+          10764
+        ],
+        "id": 312428,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Neighbors",
+        "overview": "Examines stories of absurd, outrageous, and dramatic real-life residential conflicts from a wide range of larger-than-life characters across the United States, opening a verité portal into the lives of contemporary American.",
+        "popularity": 2.2665,
+        "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
+        "first_air_date": "2026-02-13",
+        "name": "Neighbors",
+        "vote_average": 4.9,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lqjaaYhHobZcTyIORyq9zzVUtvB.jpg",
+        "genre_ids": [
+          18,
+          10766
+        ],
+        "id": 152401,
+        "origin_country": [
+          "BR"
+        ],
+        "original_language": "pt",
+        "original_name": "Dona Beja",
+        "overview": "In imperial Brazil, a young woman stripped of her reputation is forced into exile from polite society. Recasting herself as Madam Beja, she builds an elite pleasure house that becomes a hub of political intrigue, economic power, and forbidden desire, using charm, intelligence, and ruthless strategy to bend the same men and institutions that once destroyed her.",
+        "popularity": 13.4096,
+        "poster_path": "/fB8khOzVqpQWhVfIXUQgCokP9XR.jpg",
+        "first_air_date": "2026-02-02",
+        "name": "Madam Beja",
+        "vote_average": 6.4,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5ECEMrt5DbTcXQqGfVwhtOtdcJl.jpg",
+        "genre_ids": [
+          99,
+          35
+        ],
+        "id": 308112,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Mel Brooks: The 99 Year Old Man!",
+        "overview": "Directors Judd Apatow and Michael Bonfiglio explore the life and legacy of Mel Brooks, one of the most enduring comedic voices of our time.",
+        "popularity": 1.3839,
+        "poster_path": "/htSwFYOyepCbLUUuyCtvC0uCQ3b.jpg",
+        "first_air_date": "2026-01-22",
+        "name": "Mel Brooks: The 99 Year Old Man!",
+        "vote_average": 6.5,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ytPawSashRcfe4fhATSOKOadyrM.jpg",
+        "genre_ids": [
+          99,
+          10764
+        ],
+        "id": 311938,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "120 Hours Behind Bars",
+        "overview": "Over five intense days, 120 Hours Behind Bars delivers an unfiltered look inside America's toughest jails -- where officers are outnumbered, cellblocks are overcrowded, and violence erupts without warning.",
+        "popularity": 0.3199,
+        "poster_path": "/megsN596o4oxtJTIMKvHLB8HVty.jpg",
+        "first_air_date": "2026-01-19",
+        "name": "120 Hours Behind Bars",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+        "genre_ids": [
+          18,
+          10765,
+          10759
+        ],
+        "id": 224372,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "A Knight of the Seven Kingdoms",
+        "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros: a young, naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes, and dangerous exploits await these improbable and incomparable friends.",
+        "popularity": 93.9401,
+        "poster_path": "/k8yARbD9iYn2nRX2HvsopfKDN2r.jpg",
+        "first_air_date": "2026-01-18",
+        "name": "A Knight of the Seven Kingdoms",
+        "vote_average": 8.454,
+        "vote_count": 654
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/f3hGHscY81LcyTwKQEovMcbjdhQ.jpg",
+        "genre_ids": [
+          80,
+          99
+        ],
+        "id": 309732,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Killer Confessions: Case Files of a Texas Ranger",
+        "overview": "Texas Ranger James Holland doesn’t play by the rules. He’s known as a serial killer whisperer because of his unique brand of interrogation tactics in cases once considered unsolvable. Watch as killers reveal the disturbing truth behind their crimes.",
+        "popularity": 0.4334,
+        "poster_path": "/aurSOkkKxD7QXs2uGc6aO7N5qu1.jpg",
+        "first_air_date": "2026-01-13",
+        "name": "Killer Confessions: Case Files of a Texas Ranger",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/midERzvfQKdYs6fO4lMtTmPLGrx.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 308359,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Suddenly Amish",
+        "overview": "Six non-Amish individuals on a rare journey leave behind their modern \"English\" lifestyle and step into a deeply traditional Amish community in Lancaster, Pennsylvania.",
+        "popularity": 0.5445,
+        "poster_path": "/2oKurmdjblWDq7gIompMHVHqjHw.jpg",
+        "first_air_date": "2026-01-13",
+        "name": "Suddenly Amish",
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/AtO53WXUldJcIfBGvaziYLa39RA.jpg",
+        "genre_ids": [
+          99,
+          80
+        ],
+        "id": 309810,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Cult Behind the Killer: The Andrea Yates Story",
+        "overview": "Follows the Andrea Yates case, exploring how a rogue street preacher's fire-and-brimstone teachings allegedly brought the vulnerable Texas mother under his control, leading to the drowning of her five children in 2001.",
+        "popularity": 0.3725,
+        "poster_path": "/7gXu2sz5PA9jbF33Xb0n3jF1dXf.jpg",
+        "first_air_date": "2026-01-06",
+        "name": "The Cult Behind the Killer: The Andrea Yates Story",
+        "vote_average": 7.2,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/wbehhA8O3Ui71OV6LF18YbCvoBD.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 308098,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Cult of the Real Housewife",
+        "overview": "Ex-members and family speak out about The Real Housewives of Salt Lake City star Mary Cosby and the troubling inner workings of Faith Temple Pentecostal Church.",
+        "popularity": 0.2724,
+        "poster_path": "/xa3gp2ivjjXK31Y9Zj9tgXihalU.jpg",
+        "first_air_date": "2026-01-01",
+        "name": "The Cult of the Real Housewife",
+        "vote_average": 9.0,
+        "vote_count": 3
+      }
+    ]
   },
   "Netflix": {
     "movies": [
@@ -2823,8 +3608,802 @@
     ]
   },
   "Prime": {
-    "movies": [],
-    "series": []
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": "/g3bx3kTMC0GjaWD5qfkoyYp22Hg.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1609580,
+        "original_language": "ja",
+        "original_title": "STREET SMART",
+        "overview": "A feature-length drama film that explores family issues in contemporary society.  COMING IN 2026.",
+        "popularity": 0.048,
+        "poster_path": "/7V029fFThWiUjr335ic6rVUUian.jpg",
+        "release_date": "2026-12-31",
+        "title": "STREET SMART",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2q3oieEIadF90wOtm9WGX5vrqUR.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1241478,
+        "original_language": "en",
+        "original_title": "Jimmy",
+        "overview": "A look into the life of American actor James Stewart, whose inspiring tale of valor, purpose and faith will win over everyone.",
+        "popularity": 0.8829,
+        "poster_path": "/c3fWnsg5VEP5EhYZ4oY2NpFrrU1.jpg",
+        "release_date": "2026-11-20",
+        "title": "Jimmy",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          27
+        ],
+        "id": 1293266,
+        "original_language": "en",
+        "original_title": "Nightblade",
+        "overview": "The Nightblade Killer is on the loose during the night of a full moon.",
+        "popularity": 0.3782,
+        "poster_path": null,
+        "release_date": "2026-10-31",
+        "title": "Nightblade",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          27,
+          53
+        ],
+        "id": 1363286,
+        "original_language": "ta",
+        "original_title": "டிமான்டி காலனி 3",
+        "overview": "",
+        "popularity": 3.4291,
+        "poster_path": "/rtIXvC3ShBY6dyogJYTkoTxB48D.jpg",
+        "release_date": "2026-06-26",
+        "title": "Demonte Colony 3",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/33ugMs1FuZEJQv3x3ysbGI9RCBn.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1478930,
+        "original_language": "en",
+        "original_title": "Sculpture",
+        "overview": "After a local woman is murdered and martyrized for being queer, a lesbian couple discusses their own fears.",
+        "popularity": 0.0434,
+        "poster_path": "/u8z1VuQ1OIwco3HDikjzGmbkn90.jpg",
+        "release_date": "2026-05-01",
+        "title": "Sculpture",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1649720,
+        "original_language": "cn",
+        "original_title": "快要到達家了",
+        "overview": "The feature directorial debut of Jiang Wenjie, cinematographer and editor of Keep Rolling, explores the inner lives of three female Hong Kong writers: Hon Lai-chu, Lee Wai-yi, and Human Ip. Though their styles and thematic concerns differ considerably, the film shows that their literary works are all informed by their immediate surroundings, whether that be a childhood home, the streets of Sham Shui Po, or the cattle and woods near Lai Chi Wo village. Time may inevitably erode everything in this city, but these writers continue to tell their hometown's stories in their own unique ways.",
+        "popularity": 0.0527,
+        "poster_path": null,
+        "release_date": "2026-04-04",
+        "title": "Almost Home",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          35
+        ],
+        "id": 1508416,
+        "original_language": "en",
+        "original_title": "جوانی پھر نہیں آنی 3",
+        "overview": "Third Installment in The 'Jawani Phir Nahi Ani' Franchise",
+        "popularity": 0.1297,
+        "poster_path": null,
+        "release_date": "2026-03-19",
+        "title": "Jawani Phir Nahi Ani 3",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          27
+        ],
+        "id": 1436835,
+        "original_language": "en",
+        "original_title": "NFT: Cursed Images",
+        "overview": "A group of crypto savvy friends begin experiencing strange occurrences after buying into a cursed NFT collection.",
+        "popularity": 5.151,
+        "poster_path": "/7H7Aqun1GTiMAtlE6Z2DnwxUbo2.jpg",
+        "release_date": "2026-03-06",
+        "title": "NFT: Cursed Images",
+        "video": false,
+        "vote_average": 2.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/eZJ3z1aAcHzoYmPSxuJjaYRMgi3.jpg",
+        "genre_ids": [
+          28,
+          80,
+          18
+        ],
+        "id": 1262547,
+        "original_language": "hi",
+        "original_title": "सूबेदार",
+        "overview": "Haunted by loss and drifting away from his daughter, a retired Subedaar Arjun Maurya’s newly found civilian life is jolted by one reckless act. As old wounds reopen, he must summon the warrior within to face a new kind of war - one that hits too close to his heart.",
+        "popularity": 16.036,
+        "poster_path": "/gKn63ZWEVK66OaC1svlI7g6r9ah.jpg",
+        "release_date": "2026-03-05",
+        "title": "Subedaar",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          28,
+          53
+        ],
+        "id": 1645451,
+        "original_language": "en",
+        "original_title": "Self Custody",
+        "overview": "When a struggling father discovers he unknowingly received a Bitcoin bonus back in 2014--now worth millions--his desperate attempt to reclaim the lost fortune sends him spiraling into a high-stakes world of encrypted wallets, forgotten passwords, and dark web danger. With time running out and his family on the line, he must outsmart hackers, trace digital breadcrumbs, and confront secrets buried in his past.",
+        "popularity": 0.9269,
+        "poster_path": "/jpi76bDchxfsU2vD25HoEJfvQ0w.jpg",
+        "release_date": "2026-03-03",
+        "title": "Self Custody",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          18,
+          99
+        ],
+        "id": 1637046,
+        "original_language": "en",
+        "original_title": "Supercars - Road to Glory",
+        "overview": "Go inside the pressure cooker of Australia's Supercars Final. Chaos erupts, hearts broken and dreams are realised on the streets of Adelaide.",
+        "popularity": 0.0566,
+        "poster_path": "/n846J15sZ1CgwPrQzVnjnyNETs7.jpg",
+        "release_date": "2026-02-17",
+        "title": "Supercars - Road to Glory",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hYgUkH7TusddHRtelj53I6gFOWR.jpg",
+        "genre_ids": [
+          28,
+          53
+        ],
+        "id": 799882,
+        "original_language": "en",
+        "original_title": "The Bluff",
+        "overview": "When her tranquil life on a remote island is shattered by the return of her vengeful former captain, a skilled ex-pirate must confront her bloody past and unleash her deadly talents to save her family from a ruthless siege.",
+        "popularity": 202.2297,
+        "poster_path": "/w0jwjFmRu2or7LQqh1tSMFjq0At.jpg",
+        "release_date": "2026-02-17",
+        "title": "The Bluff",
+        "video": false,
+        "vote_average": 6.299,
+        "vote_count": 249
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/oGN1qwfWGP8wwUpZepO0shYEHr4.jpg",
+        "genre_ids": [
+          10749,
+          18
+        ],
+        "id": 1440735,
+        "original_language": "te",
+        "original_title": "Couple Friendly",
+        "overview": "After connecting on a rideshare app, a young couple struggling to achieve their respective dreams form a romantic connection.",
+        "popularity": 3.6394,
+        "poster_path": "/vyMF9P2iRXyMq49uKQUGMYXHsxi.jpg",
+        "release_date": "2026-02-13",
+        "title": "Couple Friendly",
+        "video": false,
+        "vote_average": 6.7,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ohUhHOqW8cM59Ay5UjqplLzJbH3.jpg",
+        "genre_ids": [
+          10749,
+          18
+        ],
+        "id": 1317672,
+        "original_language": "en",
+        "original_title": "Love Me Love Me",
+        "overview": "After her brother's death, June moves to Milan for a fresh start, finding comfort in Will, the perfect honor student at her new international school. But when his troubled best friend James—hiding a dangerous life in clandestine MMA fights—sparks a rivalry that quickly turns into irresistible attraction, June must choose between safety and a love that upends everything she thought she wanted.",
+        "popularity": 28.1253,
+        "poster_path": "/xmoO861IKm1ycJ52mLGc3nwINKV.jpg",
+        "release_date": "2026-02-12",
+        "title": "Love Me Love Me",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 165
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2YdoKO3LJq8qdPE4DRBhwhAAPwN.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1559456,
+        "original_language": "en",
+        "original_title": "Finding Harmony: A King's Vision",
+        "overview": "In an unprecedented portrait of King Charles III, Finding Harmony: A King's Vision provides intimate insight into His Majesty's passionate quest to reunite humanity with nature. Academy Award-winner Kate Winslet narrates this journey through The King's Foundation's vital work.",
+        "popularity": 0.5679,
+        "poster_path": "/75mMe7VSrwNWwSeOKXdWzI0fkXB.jpg",
+        "release_date": "2026-02-06",
+        "title": "Finding Harmony: A King's Vision",
+        "video": false,
+        "vote_average": 9.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yU85xdxN3rmt4RgGPb2na1SSjdM.jpg",
+        "genre_ids": [
+          35,
+          80,
+          9648
+        ],
+        "id": 1436061,
+        "original_language": "de",
+        "original_title": "Fabian und die mörderische Hochzeit",
+        "overview": "Hapless con artist Fabian crashes a quirky winter wedding, planning to steal a valuable gift meant for the bride. But when a murder disrupts his scheme, Fabian finds himself unexpectedly drawn into solving the mystery. A thrilling murder mystery comedy packed with dark secrets.",
+        "popularity": 1.3548,
+        "poster_path": "/2T4gc5njZ0JJVYLn6Q8VxS9RoM6.jpg",
+        "release_date": "2026-02-06",
+        "title": "Fabian and the Deadly Wedding",
+        "video": false,
+        "vote_average": 6.579,
+        "vote_count": 19
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dFdFQaffaBNBNM5hzinc6Q0oWDZ.jpg",
+        "genre_ids": [
+          10749,
+          35
+        ],
+        "id": 1433842,
+        "original_language": "en",
+        "original_title": "Relationship Goals",
+        "overview": "When TV producer Leah Caldwell aims to become the first woman running New York's top morning show, her ex competes for the same role. Leah stays focused on her career, until chemistry with her ex challenges her priorities.",
+        "popularity": 12.6074,
+        "poster_path": "/o7dVxvZIKnAB7k1eeeWp2k14Es7.jpg",
+        "release_date": "2026-02-04",
+        "title": "Relationship Goals",
+        "video": false,
+        "vote_average": 5.6,
+        "vote_count": 50
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 1629952,
+        "original_language": "fr",
+        "original_title": "Les forcenés",
+        "overview": "",
+        "popularity": 0.0729,
+        "poster_path": "/n9E5iGxlVATo1vLt3kQvs0kuhYF.jpg",
+        "release_date": "2026-01-31",
+        "title": "Les forcenés",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/xUwp42fEd3TQDxNVObFB8WVijTY.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1413097,
+        "original_language": "en",
+        "original_title": "Melania",
+        "overview": "Offering unprecedented access to the 20 days leading up to the 2025 Presidential Inauguration — through the eyes of the First Lady-elect herself — step inside Melania Trump's world as she orchestrates inauguration plans, navigates the complexities of the White House transition, and reenters public life with her family. With exclusive footage capturing critical meetings, private conversations, and never-before-seen environments, Mrs. Trump returns to one of the world's most powerful roles.",
+        "popularity": 21.1453,
+        "poster_path": "/ba6Silct0Y4pyvrSv0Tj0Urmx9f.jpg",
+        "release_date": "2026-01-30",
+        "title": "Melania",
+        "video": false,
+        "vote_average": 3.265,
+        "vote_count": 100
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+        "genre_ids": [
+          28,
+          35,
+          80,
+          9648
+        ],
+        "id": 1168190,
+        "original_language": "en",
+        "original_title": "The Wrecking Crew",
+        "overview": "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart.",
+        "popularity": 109.2376,
+        "poster_path": "/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg",
+        "release_date": "2026-01-28",
+        "title": "The Wrecking Crew",
+        "video": false,
+        "vote_average": 6.89,
+        "vote_count": 771
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": "/4uKDIoL3o3xtm9n3dCuZVOQjo1J.jpg",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "id": 285386,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "Day One",
+        "overview": "Barcelona, 2026. During Mobile World Congress week, Ulises Albet, a former tech prodigy turned anti-tech activist, becomes the prime suspect in a murder. As he escapes through a city under lockdown, he uncovers the imminent launch of a groundbreaking technology that could put humanity's ethical future at risk. To stop it, he must confront his past.",
+        "popularity": 20.588,
+        "poster_path": "/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg",
+        "first_air_date": "2026-03-13",
+        "name": "Day One",
+        "vote_average": 5.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/oHnlulBoE3XbI3HIYWY0dZfh5RH.jpg",
+        "genre_ids": [
+          18,
+          80,
+          9648
+        ],
+        "id": 240740,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Scarpetta",
+        "overview": "Renowned forensic pathologist Dr. Kay Scarpetta returns to her position as Virginia's Chief Medical Examiner, where she investigates a haunting murder with eerie reminders from her first big case decades ago. In 1998, Scarpetta works alongside Detective Pete Marino and FBI Agent Benton Wesley as they investigate a series of brutal stranglings. Based on the best-selling novels by Patricia Cornwell.",
+        "popularity": 125.6888,
+        "poster_path": "/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
+        "first_air_date": "2026-03-11",
+        "name": "Scarpetta",
+        "vote_average": 6.309,
+        "vote_count": 34
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/67dc0by8iEX6NoNxdk4iic3R4MH.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 313454,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "America's Culinary Cup",
+        "overview": "Top chefs compete in challenges testing creativity, endurance, presentation and leadership skills in America's Culinary Cup.",
+        "popularity": 0.7898,
+        "poster_path": "/37VPBlwDrkPSZ5UeUIgFbotIUTe.jpg",
+        "first_air_date": "2026-03-04",
+        "name": "America's Culinary Cup",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8mmDLb108DoFZlE8sfc64TRqLvm.jpg",
+        "genre_ids": [
+          10759,
+          9648
+        ],
+        "id": 255661,
+        "origin_country": [
+          "GB",
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Young Sherlock",
+        "overview": "Sherlock Holmes is a disgraced young man, raw and unfiltered, when he finds himself wrapped up in a murder case that threatens his liberty. His first ever case unravels a globe-trotting conspiracy that changes his life forever.",
+        "popularity": 93.6516,
+        "poster_path": "/BMBWTgvL41sOYtfkmXen6nm9mG.jpg",
+        "first_air_date": "2026-03-04",
+        "name": "Young Sherlock",
+        "vote_average": 8.108,
+        "vote_count": 97
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kgnukvQ1YKotz734ACQxDTvDCGe.jpg",
+        "genre_ids": [
+          18,
+          80,
+          9648
+        ],
+        "id": 310800,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "세이렌",
+        "overview": "Ace insurance investigator Cha Woo-seok hunts a fraud ring tied to mysterious deaths and becomes dangerously entangled with Han Seol-ah, a flawless art auctioneer whose lovers all seem to die. As attraction and suspicion blur, he must uncover whether she’s a killer or a victim, before the truth costs him his life.",
+        "popularity": 26.6757,
+        "poster_path": "/8r8YU97YfSf6QtMKfePmTqhFTeQ.jpg",
+        "first_air_date": "2026-03-02",
+        "name": "Siren's Kiss",
+        "vote_average": 5.8,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/WVMkbdvTBalA2uhYX1GdTaQH5Z.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 283228,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "American Classic",
+        "overview": "Exiled Broadway star Richard Bean returns to his family's small-town theater, igniting hope and chaos in his wake. As old loves resurface and buried secrets emerge Richard and the town are transformed by the power of making art.",
+        "popularity": 3.2586,
+        "poster_path": "/nQoTcFVB9xO6tLnoSARRViitPQF.jpg",
+        "first_air_date": "2026-03-01",
+        "name": "American Classic",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2MCozishlkeB0YEZbQtuRBSzT80.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 314824,
+        "origin_country": [
+          "AU"
+        ],
+        "original_language": "en",
+        "original_name": "Final Siren: Inside the AFL",
+        "overview": "In one of the tightest seasons in AFL history, Final Siren follows seven of the game's biggest names - Marcus Bontempelli, Nat Fyfe, Max Gawn, Toby Greene, Touk Miller, Cam Rayner and Dayne Zorko - as public doubt, online abuse, injuries, ageing, suspensions, and fierce rivalries threaten to derail what could be their shot at Premiership glory in 2025.",
+        "popularity": 0.9346,
+        "poster_path": "/uYbO4kXd2WK3OpdAUtjQ6bxgy2Z.jpg",
+        "first_air_date": "2026-02-27",
+        "name": "Final Siren: Inside the AFL",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/gFsJZHPrYiQf728rQATZDWLCozk.jpg",
+        "genre_ids": [
+          10759
+        ],
+        "id": 313754,
+        "origin_country": [
+          "DE"
+        ],
+        "original_language": "de",
+        "original_name": "BRABUS: One Second Wow",
+        "overview": "Luxury. Legacy. And Life in the Fast Lane. “BRABUS: One Second Wow”—both the title of the series and the mission of BRABUS—offers exclusive, never-before-seen insights into the German luxury brand's compelling journey between entrepreneurial success and global jet set. The focus is on CEO and owner Constantin Buschmann, who, together with his team and his partner Mili Umicevic, leads the family business into the future. Accompanying the power couple as they tackle the challenges of balancing entrepreneurial success, brand culture and private life. From Bottrop to Beverly Hills, from the workshop floor to international events and farther beyond the BRABUS showroom than ever before.",
+        "popularity": 0.249,
+        "poster_path": "/foOeXYAz7lOtX4LRCRdC2J40pGv.jpg",
+        "first_air_date": "2026-02-26",
+        "name": "BRABUS: One Second Wow",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/m8BuLCx997QVljT0wdss62QaRre.jpg",
+        "genre_ids": [
+          18,
+          10768,
+          10759
+        ],
+        "id": 211178,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Gray House",
+        "overview": "The untold true story of four brave women who served as key espionage agents and turned the tide of the American Civil War in favor of the North, risking life and liberty to help win the war and preserve democracy. A Richmond Socialite and her daughter, a formerly enslaved African-American, and a courtesan build the first successful female spy ring.",
+        "popularity": 6.5514,
+        "poster_path": "/wE5jZDeQuiulaAtjeaEq0y8tpey.jpg",
+        "first_air_date": "2026-02-26",
+        "name": "The Gray House",
+        "vote_average": 4.125,
+        "vote_count": 16
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/puF2PmTGGuYN81tfmilXFjDZKox.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 307980,
+        "origin_country": [
+          "CA",
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The CEO Club",
+        "overview": "Dive deep into the world of seven trailblazing female CEOs (Serena Williams, Thalia, Dee Ocleppo Hilfiger, Loren Ridinger, Winnie Harlow, Hannah Bronfman, and Isabela Rangel Grutman) as they navigate the triumphs and challenges of both their professional and personal lives. Redefining what it means to lead in today's world, these women enter the next phase of their careers with confidence and clarity forged by life experiences.",
+        "popularity": 1.5785,
+        "poster_path": "/3xNFwqqXJpMhq4od97nncOzJ1S1.jpg",
+        "first_air_date": "2026-02-23",
+        "name": "The CEO Club",
+        "vote_average": 1.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5lyGqz3YiqpKNgS78xiZ4ImpB8w.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 289560,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "CIA",
+        "overview": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+        "popularity": 38.5053,
+        "poster_path": "/8XbgWv137Umc8resTDeWh9ff7Y0.jpg",
+        "first_air_date": "2026-02-23",
+        "name": "CIA",
+        "vote_average": 8.8,
+        "vote_count": 25
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jAKwiwQuighT7gDSEUjozXenTEm.jpg",
+        "genre_ids": [
+          10764,
+          35
+        ],
+        "id": 313826,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "Esto no es un dating",
+        "overview": "A live comedy and improvisation show, every episode of This Is Not A Dating Show brings together 100 singles who have been seriously unlucky in love. A difficult task, but nothing Galder Varas can't handle. And if nobody hooks up, at least we'll have had a laugh.",
+        "popularity": 0.267,
+        "poster_path": "/scWOqGRLhFhsZA7r4WdYzNsShSj.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "This Is Not A Dating Show",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dnEljhBkw53ra7tEl2JNKGrI0wk.jpg",
+        "genre_ids": [
+          18,
+          80,
+          9648
+        ],
+        "id": 241372,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "56 Days",
+        "overview": "When an unidentified body is found in a luxury apartment linked to Oliver Kennedy and his girlfriend Ciara Wyse, Detectives Lee Reardon and Karl Connolly reconstruct the couple's deadly romance across the past 56 days. Starring Dove Cameron, Avan Jogia, Karla Souza and Dorian Missick.",
+        "popularity": 39.7664,
+        "poster_path": "/sdJLbucggwGj8NdX0UN2zt1Vwmn.jpg",
+        "first_air_date": "2026-02-18",
+        "name": "56 Days",
+        "vote_average": 6.599,
+        "vote_count": 91
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3uifB1Bj9jX1dvujyEfrxHhf2cx.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312421,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Jesy Nelson: Life After Little Mix",
+        "overview": "Exclusive and intimate documentary following Jesy Nelson as she becomes a mother for the first time, while reflecting on the years which made her famous in Little Mix. Raw, tender and empowering, it captures her emotional journey - from the joys and heartbreaks of a troubled pregnancy to redefining her identity beyond fame. For the first time, Jesy reveals the truth behind her split from the band.",
+        "popularity": 0.437,
+        "poster_path": "/r0WO1ak3FEXiwhXhZMtIAPTZEXD.jpg",
+        "first_air_date": "2026-02-13",
+        "name": "Jesy Nelson: Life After Little Mix",
+        "vote_average": 9.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/uz0OhuErhylmCBszXwYAxOU3oVo.jpg",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "id": 249760,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "hi",
+        "original_name": "बैंडवाले",
+        "overview": "Mariam, a young poetess, finds herself trapped in a sleepy town, where every young girl's future lies in wedlock. Mariam hopes to find her freedom against all odds, by uploading her poetry on the internet through an anonymous account.Along with her band of misfits - Robo and Psy, Mariam discovers the power of her poetry and her own voice.",
+        "popularity": 1.1405,
+        "poster_path": "/h1heLNN77Jmjin06ihQdMKTGGIt.jpg",
+        "first_air_date": "2026-02-13",
+        "name": "Bandwaale",
+        "vote_average": 3.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/d9F3JZQzBBxKeckKRosdjWvoNew.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312593,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Soul Power: The Legend of the American Basketball Association",
+        "overview": "Experience the ABA's nine-year rivalry with the NBA that changed basketball forever. From the 3-point shot to the Slam Dunk Contest, the ABA's innovations became game staples. Told by \"Dr. J\" Erving, Larry Brown, Bob Costas & other Hall of Famers.",
+        "popularity": 0.5398,
+        "poster_path": "/ivqq6n2yERPz1ys2ucRLwOyC79s.jpg",
+        "first_air_date": "2026-02-12",
+        "name": "Soul Power: The Legend of the American Basketball Association",
+        "vote_average": 6.7,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/eMvePnQ1KHbzQf0eHPCV8MheeOT.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 288595,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Rise of the 49ers",
+        "overview": "Using rare and never-before-seen footage, as well as one-on-one interviews, discover how the San Francisco 49ers rose from an also-ran into pro football's most glamorous franchise during the '80s and early '90s.",
+        "popularity": 1.1852,
+        "poster_path": "/vp1SsOSfcvVMjPX0dwu0eyfygz7.jpg",
+        "first_air_date": "2026-02-01",
+        "name": "Rise of the 49ers",
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/bd0usdz6dgmEE6HVhEhepR5r6MP.jpg",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "id": 249766,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "hi",
+        "original_name": "दलदल",
+        "overview": "Haunted by the guilt of her past and dealing with the demons of her present, a newly-appointed DCP, Rita Ferreira, must embark on an investigation of a series of murders that puts her on a collision course with a cold-blooded serial killer.",
+        "popularity": 1.8219,
+        "poster_path": "/wvAwkKeIs7bkb6EJAYRzpANhfxM.jpg",
+        "first_air_date": "2026-01-30",
+        "name": "Daldal",
+        "vote_average": 6.4,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/p4FMORY4VI9YfwaVvIckyrJSshH.jpg",
+        "genre_ids": [
+          35,
+          10764
+        ],
+        "id": 312414,
+        "origin_country": [
+          "FR"
+        ],
+        "original_language": "fr",
+        "original_name": "Tout simplement fan",
+        "overview": "Eric and Ramzy prank fans by inviting them on the set of what they believe is their new “Zorro” in Spain for a week, yet everyone but Boris is an actor.",
+        "popularity": 0.6331,
+        "poster_path": "/vtXswDZpXI7uSHvgugY4tigxbjE.jpg",
+        "first_air_date": "2026-01-27",
+        "name": "Tout simplement fan",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rAIkMvYTOi5CMj4OG5P6Usprk9T.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312243,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "Siendo Marta Diaz",
+        "overview": "A few days before her 25th birthday, Marta Díaz reveals who she was, is, and will be. With the support of family and friends, and many unpublished confessions, the content creator confronts the traumas, challenges, and decisions that will shape her new self. Marta will discover that growing older isn't the end of the world... but the beginning of her own life.",
+        "popularity": 0.1262,
+        "poster_path": "/8kThOtAqFO3zC9v00WDpm4jiMlg.jpg",
+        "first_air_date": "2026-01-24",
+        "name": "Siendo Marta Diaz",
+        "vote_average": 0.0,
+        "vote_count": 0
+      }
+    ]
   },
   "Disney": {
     "movies": [

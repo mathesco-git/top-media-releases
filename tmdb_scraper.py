@@ -9,11 +9,11 @@ BASE_URL = "https://api.themoviedb.org/3"
 # Provider mapping: {Display Name: TMDB Provider ID}
 PROVIDERS = {
     "AppleTV": 350,
-    "HBO Max": 384,
+    "HBO Max": 1899,
     "Netflix": 8,
     "Paramount": 531,
     "Hulu": 15,
-    "Prime": 119,
+    "Prime": 9,
     "Disney": 337
 }
 
