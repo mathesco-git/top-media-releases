@@ -342,7 +342,7 @@
   <h1>Top Rated Media Releases <span></span></h1>
   <p>The highest-scoring new releases &mdash; curated for you</p>
   <div class="pill">Updated March 2026</div>
-
+  <button id="refreshBtn" style="margin-top:24px;padding:10px 28px;font-size:1rem;font-weight:700;background:var(--accent);color:#000;border:none;border-radius:8px;cursor:pointer;">Refresh Data</button>
 </div>
 
 <div class="filters" style="justify-content: center;">
@@ -366,73 +366,47 @@
 <footer>CineScore &bull; Data sourced from IMDB &bull; March 2026</footer>
 
 <script>
-const providers = ['AppleTV', 'HBO Max', 'Netflix', 'Paramount', 'Hulu', 'Prime', 'Disney'];
+const GENRE_MAP = {
+  28: 'Action', 12: 'Adventure', 16: 'Animation', 35: 'Comedy',
+  80: 'Crime', 99: 'Documentary', 18: 'Drama', 10751: 'Family',
+  14: 'Fantasy', 36: 'History', 27: 'Horror', 10402: 'Music',
+  9648: 'Mystery', 10749: 'Romance', 878: 'Sci-Fi', 10770: 'TV Movie',
+  53: 'Thriller', 10752: 'War', 37: 'Western'
+};
 
-// Generate 20 movies for each provider (140 total)
-const movies = [];
-for (let p of providers) {
-  for (let i = 1; i <= 20; i++) {
-    movies.push({
-      title: `${p} Movie ${i}`,
-      year: 2026 - (i % 2),
-      rating: (7 + Math.random()).toFixed(1),
-      genres: ["drama", (i % 2 === 0 ? "comedy" : "sci-fi")],
-      director: `Director ${i}`,
-      cast: `Star ${i}, Star ${i+1}`,
-      synopsis: `A gripping new movie from ${p}, part ${i}.`,
-      poster: "posters/placeholder-movie.jpg",
-      trailer: "https://www.youtube.com/",
-      imdb: "https://www.imdb.com/",
-      provider: p
-    });
-  }
-}
-
-// Generate 20 series for each provider (100 total)
-const series = [];
-for (let p of providers) {
-  for (let i = 1; i <= 20; i++) {
-    series.push({
-      title: `${p} Series ${i}`,
-      year: 2026 - (i % 2),
-      rating: (7 + Math.random()).toFixed(1),
-      genres: ["drama", (i % 2 === 0 ? "comedy" : "sci-fi")],
-      creator: `Creator ${i}`,
-      cast: `Star ${i}, Star ${i+1}`,
-      synopsis: `A gripping new series from ${p}, season ${i}.`,
-      poster: "posters/placeholder-series.jpg",
-      trailer: "https://www.youtube.com/",
-      imdb: "https://www.imdb.com/",
-      provider: p
-    });
-  }
-}
-
-// Genre-to-CSS class mapping
 function genreClass(genres) {
-  if (genres.includes('action')) return 'genre-action';
-  if (genres.includes('sci-fi')) return 'genre-sci-fi';
-  if (genres.includes('comedy')) return 'genre-comedy';
-  if (genres.includes('biography')) return 'genre-biography';
+  const lower = genres.map(g => g.toLowerCase());
+  if (lower.some(g => g.includes('action'))) return 'genre-action';
+  if (lower.some(g => g.includes('sci'))) return 'genre-sci-fi';
+  if (lower.some(g => g.includes('comedy'))) return 'genre-comedy';
   return 'genre-drama';
 }
 
-const ytSvg = `<svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/><path d="M9.545 15.568V8.432L15.818 12z" fill="#fff"/></svg>`;
+let allMovies = [];
+let allSeries = [];
+let currentType = 'movie';
+let currentProvider = 'all';
 
 function renderMedia(list) {
   const grid = document.getElementById('mediaGrid');
   grid.innerHTML = '';
+  if (!list.length) {
+    grid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px 0;">No titles found.</p>';
+    return;
+  }
   list.forEach((m, i) => {
-    const ratingDisplay = m.rating ? (typeof m.rating === 'number' ? m.rating.toFixed(1) : m.rating) : 'TBD';
+    const ratingDisplay = m.rating ? parseFloat(m.rating).toFixed(1) : 'TBD';
+    const genres = m.genres.length ? m.genres : ['Other'];
+    const hasPoster = !!m.poster;
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-      <div class="poster-wrap" data-title="${m.title}">
-        <img src="${m.poster}" alt="${m.title}" loading="lazy"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-        <div class="poster-fallback ${genreClass(m.genres)}" style="display:none;">
+      <div class="poster-wrap">
+        <img src="${hasPoster ? m.poster : ''}" alt="${m.title}" loading="lazy"
+             style="${hasPoster ? '' : 'display:none'}"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="poster-fallback ${genreClass(genres)}" style="${hasPoster ? 'display:none' : 'display:flex'}">
           <div class="title-overlay">${m.title}</div>
-          <div class="director-overlay">${m.director || m.creator || ''}</div>
         </div>
         <div class="gradient-overlay"></div>
         <div class="year-badge">${m.year}</div>
@@ -442,32 +416,18 @@ function renderMedia(list) {
       <div class="card-body">
         <h2>${m.title}</h2>
         <div class="card-meta">
-          ${m.genres.map(g => `<span>${g.charAt(0).toUpperCase() + g.slice(1)}</span>`).join('')}
+          ${genres.map(g => `<span>${g}</span>`).join('')}
           <span>${m.provider}</span>
         </div>
-        <div class="director">${m.director ? `Dir: <strong>${m.director}</strong>` : `Creator: <strong>${m.creator}</strong>`} &bull; ${m.cast}</div>
-        <p class="synopsis">${m.synopsis}</p>
+        <p class="synopsis">${m.synopsis || 'No description available.'}</p>
         <div class="card-actions">
-          <a href="${m.trailer}" target="_blank" rel="noopener" class="btn-trailer">
-            ${ytSvg} Watch Trailer
-          </a>
-          <a href="${m.imdb}" target="_blank" rel="noopener" class="btn-imdb">IMDb</a>
+          <a href="${m.tmdb}" target="_blank" rel="noopener" class="btn-imdb">More Info</a>
         </div>
       </div>
     `;
     grid.appendChild(card);
-
-    // Attempt to load TMDB poster if a mapping exists for this movie
-    const imgEl = card.querySelector('img');
-    if (m.poster && tmdbIds.hasOwnProperty(m.poster)) {
-      loadPoster(imgEl, m.poster, m.title);
-    }
   });
 }
-
-// State
-let currentType = 'movie';
-let currentProvider = 'all';
 
 function setType(type, btn) {
   document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active'));
@@ -484,73 +444,62 @@ function setProvider(provider, btn) {
 }
 
 function renderFiltered() {
-  let data = currentType === 'movie' ? movies : series;
+  let data = currentType === 'movie' ? allMovies : allSeries;
   if (currentProvider !== 'all') {
     data = data.filter(m => m.provider === currentProvider);
-    renderMedia(data);
   } else {
-    renderMedia(data.slice(0, 20));
+    // Deduplicate by TMDB id, keep highest-rated occurrence
+    const seen = new Map();
+    for (const m of data) {
+      if (!seen.has(m.id) || m.rating > seen.get(m.id).rating) seen.set(m.id, m);
+    }
+    data = Array.from(seen.values());
   }
+  data = [...data].sort((a, b) => b.rating - a.rating);
+  renderMedia(data);
 }
 
-// TMDB API key — used to load poster images in the browser
-const TMDB_KEY = "d5d6024b31893c1258dfc2dba7835c04";
-
-// TMDB IDs for each movie (matched by poster filename)
-const tmdbIds = {
-  "posters/project-hail-mary.jpg":        687163,
-  "posters/hamnet.jpg":                   858024,
-  "posters/marty-supreme.jpg":            1317288,
-  "posters/one-battle-after-another.jpg": 1064028,
-  "posters/superman.jpg":                 1061474,
-  "posters/how-to-train-your-dragon.jpg": 1010600,
-  "posters/f1.jpg":                       950396,
-  "posters/companion.jpg":                1010581,
-  "posters/train-dreams.jpg":             1197306,
-  "posters/good-luck-have-fun.jpg":       null,
-  "posters/wake-up-dead-man.jpg":         1014505,
-  "posters/mission-impossible.jpg":       575264,
-  "posters/thunderbolts.jpg":             986056,
-  "posters/caught-stealing.jpg":          762441,
-  "posters/bugonia.jpg":                  1043905,
-  "posters/ballerina.jpg":               668489,
-  "posters/mickey-17.jpg":               696506,
-  "posters/wicked-for-good.jpg":         1064213,
-  "posters/a-private-life.jpg":           null,
-  "posters/the-odyssey.jpg":             1241674,
-};
-
-// Fetch a poster URL from TMDB and inject into the img element
-async function loadPoster(imgEl, posterKey, movieTitle) {
-  const tmdbId = tmdbIds[posterKey];
+async function loadData() {
+  const grid = document.getElementById('mediaGrid');
+  grid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px 0;">Loading...</p>';
   try {
-    let posterPath = null;
-    if (tmdbId) {
-      const res = await fetch(`https://api.themoviedb.org/3/movie/${tmdbId}?api_key=${TMDB_KEY}`);
-      const data = await res.json();
-      posterPath = data.poster_path;
-    }
-    if (!posterPath) {
-      const q = encodeURIComponent(movieTitle);
-      const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${q}`);
-      const data = await res.json();
-      posterPath = data.results?.[0]?.poster_path;
-    }
-    if (posterPath) {
-      imgEl.src = `https://image.tmdb.org/t/p/w500${posterPath}`;
-      imgEl.style.display = '';
-      const fallback = imgEl.nextElementSibling;
-      if (fallback && fallback.classList.contains('poster-fallback')) {
-        fallback.style.display = 'none';
+    const res = await fetch('tmdb_data.json');
+    const data = await res.json();
+    for (const [provider, content] of Object.entries(data)) {
+      for (const m of content.movies) {
+        allMovies.push({
+          id: m.id,
+          title: m.title,
+          year: m.release_date ? m.release_date.slice(0, 4) : '?',
+          rating: m.vote_average,
+          genres: (m.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 2),
+          synopsis: m.overview,
+          poster: m.poster_path ? `https://image.tmdb.org/t/p/w500${m.poster_path}` : null,
+          tmdb: `https://www.themoviedb.org/movie/${m.id}`,
+          provider
+        });
+      }
+      for (const s of content.series) {
+        allSeries.push({
+          id: s.id,
+          title: s.name,
+          year: s.first_air_date ? s.first_air_date.slice(0, 4) : '?',
+          rating: s.vote_average,
+          genres: (s.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 2),
+          synopsis: s.overview,
+          poster: s.poster_path ? `https://image.tmdb.org/t/p/w500${s.poster_path}` : null,
+          tmdb: `https://www.themoviedb.org/tv/${s.id}`,
+          provider
+        });
       }
     }
+    renderFiltered();
   } catch (e) {
-    // Keep CSS fallback visible
+    grid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px 0;">Failed to load data.</p>';
   }
 }
 
-// Initial render
-renderFiltered();
+loadData();
 </script>
 
 </body>

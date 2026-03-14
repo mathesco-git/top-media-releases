@@ -1,0 +1,3634 @@
+{
+  "AppleTV": {
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": "/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
+        "genre_ids": [
+          10751,
+          35,
+          10402
+        ],
+        "id": 1566269,
+        "original_language": "en",
+        "original_title": "The First Snow of Fraggle Rock",
+        "overview": "When the holidays are filled with unexpected adventures and challenges, the Fraggles learn to appreciate each day for being unique and special, like a snowflake.",
+        "popularity": 11.0566,
+        "poster_path": "/xyxAOTToALUkeFS9x5V6MOv8YWr.jpg",
+        "release_date": "2025-12-04",
+        "title": "The First Snow of Fraggle Rock",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 11
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+        "genre_ids": [
+          28,
+          35
+        ],
+        "id": 1363123,
+        "original_language": "en",
+        "original_title": "The Family Plan 2",
+        "overview": "Now that Dan's assassin days are behind him, all he wants for Christmas is quality time with his kids. But when he learns his daughter has her own plans, he books a family trip to London—putting them all in the crosshairs of an unexpected enemy.",
+        "popularity": 35.1488,
+        "poster_path": "/semFxuYx6HcrkZzslgAkBqfJvZk.jpg",
+        "release_date": "2025-11-11",
+        "title": "The Family Plan 2",
+        "video": false,
+        "vote_average": 6.54,
+        "vote_count": 518
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dvdZItPwnRukloJYOK9HQBPNYq9.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1517758,
+        "original_language": "en",
+        "original_title": "Stiller & Meara: Nothing Is Lost",
+        "overview": "Ben Stiller tells the story of his parents—comedy icons Jerry Stiller and Anne Meara—exploring their impact on popular culture and at home, where the lines between creativity, family, life, and art often blurred.",
+        "popularity": 5.8666,
+        "poster_path": "/zJuzuanxfc7D7Kqz4qYQqsDhRY3.jpg",
+        "release_date": "2025-10-17",
+        "title": "Stiller & Meara: Nothing Is Lost",
+        "video": false,
+        "vote_average": 6.475,
+        "vote_count": 20
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
+        "genre_ids": [
+          10749,
+          35,
+          18
+        ],
+        "id": 1259102,
+        "original_language": "en",
+        "original_title": "Eternity",
+        "overview": "In an afterlife where souls have one week to decide where to spend eternity, Joan is faced with the impossible choice between the man she spent her life with and her first love, who died young and has waited decades for her to arrive.",
+        "popularity": 14.3037,
+        "poster_path": "/o8pg20G67BGmQvRkXwstNre062J.jpg",
+        "release_date": "2025-11-26",
+        "title": "Eternity",
+        "video": false,
+        "vote_average": 6.949,
+        "vote_count": 521
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/wofTDrrNvySkjrv2v34jqpPZAP6.jpg",
+        "genre_ids": [
+          53,
+          36
+        ],
+        "id": 1236470,
+        "original_language": "en",
+        "original_title": "The Lost Bus",
+        "overview": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
+        "popularity": 7.0899,
+        "poster_path": "/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
+        "release_date": "2025-09-19",
+        "title": "The Lost Bus",
+        "video": false,
+        "vote_average": 7.066,
+        "vote_count": 650
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/1Bavnm3tr5zJMAhBKKmGHVjbPZN.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          10402,
+          35
+        ],
+        "id": 1484453,
+        "original_language": "en",
+        "original_title": "Snoopy Presents: A Summer Musical",
+        "overview": "Music and glee fill the air as Charlie Brown and the gang head off to summer camp. First-timer Sally doesn't get what all the hype is about. But when the camp may be forced to close, they team up to save it so more kids can make their own special memories.",
+        "popularity": 5.1474,
+        "poster_path": "/kK1ugxST3tCJZjZEO37sLb4Yot5.jpg",
+        "release_date": "2025-08-14",
+        "title": "Snoopy Presents: A Summer Musical",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 21
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rZWkXnIyTLzUJpHSUpOb7vgB0BL.jpg",
+        "genre_ids": [
+          28,
+          18
+        ],
+        "id": 911430,
+        "original_language": "en",
+        "original_title": "F1",
+        "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+        "popularity": 36.884,
+        "poster_path": "/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg",
+        "release_date": "2025-06-25",
+        "title": "F1",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 3537
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/aQ5nvQGT6mM6TliOM5iSgrKVF4C.jpg",
+        "genre_ids": [
+          53,
+          18
+        ],
+        "id": 1097311,
+        "original_language": "en",
+        "original_title": "Echo Valley",
+        "overview": "Kate lives a secluded life—until her troubled daughter shows up, frightened and covered in someone else's blood. As Kate unravels the shocking truth, she learns just how far a mother will go to try to save her child.",
+        "popularity": 3.8358,
+        "poster_path": "/AsqALJWqGRgnKEo3gt1TCOF4nCM.jpg",
+        "release_date": "2025-06-13",
+        "title": "Echo Valley",
+        "video": false,
+        "vote_average": 6.427,
+        "vote_count": 349
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ak7IHiAEJIuiEsklXNd05cCbAr3.jpg",
+        "genre_ids": [
+          16,
+          10751
+        ],
+        "id": 1465476,
+        "original_language": "en",
+        "original_title": "Lulu Is a Rhinoceros",
+        "overview": "On a quest to spread kindness, fun-loving Lulu embarks on the adventure of a lifetime, powered by new friends, courage, and catchy songs!",
+        "popularity": 1.7169,
+        "poster_path": "/h6cxDZb5JRzaMZP37AfGPlHfCnm.jpg",
+        "release_date": "2025-05-29",
+        "title": "Lulu Is a Rhinoceros",
+        "video": false,
+        "vote_average": 7.364,
+        "vote_count": 11
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/94KROr9xO9u5Tq5gTdCJlVRRfhm.jpg",
+        "genre_ids": [
+          53,
+          80,
+          18
+        ],
+        "id": 1242434,
+        "original_language": "en",
+        "original_title": "Highest 2 Lowest",
+        "overview": "When a titan music mogul, widely known as having the \"best ears in the business\", is targeted with a ransom plot, he is jammed up in a life-or-death moral dilemma.",
+        "popularity": 5.7906,
+        "poster_path": "/RFQtinuiHhOnbmJaCn3uzegCYF.jpg",
+        "release_date": "2025-08-14",
+        "title": "Highest 2 Lowest",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 438
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/arGs8D4RfUfsk7vMiMjDi6Mtabv.jpg",
+        "genre_ids": [
+          12,
+          14,
+          9648
+        ],
+        "id": 1098006,
+        "original_language": "en",
+        "original_title": "Fountain of Youth",
+        "overview": "A treasure-hunting mastermind assembles a team for a life-changing adventure. But to outwit and outrun threats at every turn, he'll need someone even smarter than he is: his estranged sister.",
+        "popularity": 5.7794,
+        "poster_path": "/4iWjGghUj2uyHo2Hyw8NFBvsNGm.jpg",
+        "release_date": "2025-05-19",
+        "title": "Fountain of Youth",
+        "video": false,
+        "vote_average": 6.265,
+        "vote_count": 863
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zDeysedOIBBJ5487HQRr0hf9aWP.jpg",
+        "genre_ids": [
+          99,
+          10402
+        ],
+        "id": 1440718,
+        "original_language": "en",
+        "original_title": "Bono: Stories of Surrender",
+        "overview": "Through words, music, and mischief, Bono pulls back the curtain on his deeply personal experiences that have shaped him as a son, father, husband, activist, and U2 frontman.",
+        "popularity": 1.4066,
+        "poster_path": "/9Xv9uRyeYO1xwZXOoOI2cdfofrM.jpg",
+        "release_date": "2025-05-16",
+        "title": "Bono: Stories of Surrender",
+        "video": false,
+        "vote_average": 6.621,
+        "vote_count": 29
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+        "genre_ids": [
+          10749,
+          878,
+          53
+        ],
+        "id": 950396,
+        "original_language": "en",
+        "original_title": "The Gorge",
+        "overview": "Two highly trained operatives grow close from a distance after being sent to guard opposite sides of a mysterious gorge. When an evil below emerges, they must work together to survive what lies within.",
+        "popularity": 21.4052,
+        "poster_path": "/7iMBZzVZtG0oBug4TfqDb9ZxAOa.jpg",
+        "release_date": "2025-02-13",
+        "title": "The Gorge",
+        "video": false,
+        "vote_average": 7.621,
+        "vote_count": 3495
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9Lu2qxOVGAoT4ptEQrBGpFxaP5O.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1400288,
+        "original_language": "en",
+        "original_title": "Deaf President Now!",
+        "overview": "Discover the story of the greatest civil rights movement most people have never heard about. During eight tumultuous days in 1988 at the world's only Deaf university, four students must find a way to lead a revolution—and change the course of history.",
+        "popularity": 2.7272,
+        "poster_path": "/hbTq1jfuGtLo1pdAY0gcbJcCWlF.jpg",
+        "release_date": "2025-01-28",
+        "title": "Deaf President Now!",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 18
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1400780,
+        "original_language": "en",
+        "original_title": "Come See Me in the Good Light",
+        "overview": "In an intimate and joyful story of love in the face of loss, celebrated poets Andrea Gibson and Megan Falley find strength—and unexpected hilarity—in what might be their final year together.",
+        "popularity": 3.4222,
+        "poster_path": "/5AFbcDGT78cLZTyHTSDBohczjuO.jpg",
+        "release_date": "2025-11-14",
+        "title": "Come See Me in the Good Light",
+        "video": false,
+        "vote_average": 7.276,
+        "vote_count": 29
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3qwyNSouBps6PRdSNxLo1aUH35y.jpg",
+        "genre_ids": [
+          10751,
+          35,
+          10770
+        ],
+        "id": 1423632,
+        "original_language": "en",
+        "original_title": "A Charlie Brown Christmas",
+        "overview": "Christmastime is here. Happiness and cheer.  And for Peanuts fans everywhere. It just wouldn't be Christmas without this classic holiday delight.  Christmas lights may be twinkling red and green, but Charlie Brown has the Yuletide blues. To get in the holiday spirit, he takes Lucy's advice and directs the Christmas play. And what's a Christmas play without a Christmas tree? But everyone makes fun of the short, spindly nevergreen Charlie Brown brings back - until the real meaning of Christmas works its magic once again in this Remastered Live-Action Edition with Improved Picture and Audio. Happy Holidays!",
+        "popularity": 0.0921,
+        "poster_path": "/wbxlTiuzz3akzjVKU3QfN7Y4kn9.jpg",
+        "release_date": "2025-01-24",
+        "title": "A Charlie Brown Christmas",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kxjCUTu2NixT3e7KW9mdvsQ9jRr.jpg",
+        "genre_ids": [
+          35,
+          10402
+        ],
+        "id": 1403003,
+        "original_language": "en",
+        "original_title": "A Carpool Karaoke Christmas",
+        "overview": "James Corden passes the keys to Zane Lowe for this international holiday road trip. It's a pop diva winter wonderland when Zane gets festive with Dua Lipa in Japan, Chappell Roan in her Missouri hometown, and Lady Gaga in Los Angeles.",
+        "popularity": 0.5916,
+        "poster_path": "/pYMGK3EHBHATmyfAQFevCYx5S7h.jpg",
+        "release_date": "2024-12-15",
+        "title": "A Carpool Karaoke Christmas",
+        "video": false,
+        "vote_average": 6.143,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qRSMoh9EMlQ9uywMpLulWBkIma9.jpg",
+        "genre_ids": [
+          10752,
+          18,
+          36
+        ],
+        "id": 896151,
+        "original_language": "en",
+        "original_title": "Blitz",
+        "overview": "In World War II London, nine-year-old George is evacuated to the countryside by his mother, Rita, to escape the bombings. Defiant and determined to return to his family, George embarks on an epic, perilous journey back home as Rita searches for him.",
+        "popularity": 5.1683,
+        "poster_path": "/e9tyjbF2rugENtBolTtEhHOXgzD.jpg",
+        "release_date": "2024-11-01",
+        "title": "Blitz",
+        "video": false,
+        "vote_average": 5.998,
+        "vote_count": 236
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/iZhgYcM1Df4KScSac9BryKtC9PN.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1036573,
+        "original_language": "en",
+        "original_title": "The Last of the Sea Women",
+        "overview": "On the shores of Jeju Island, a fierce group of South Korean divers fight to save their vanishing culture from looming threats.",
+        "popularity": 0.5201,
+        "poster_path": "/4a75Q8ebNNqAQ8Mm4n863Gl9dOS.jpg",
+        "release_date": "2024-09-08",
+        "title": "The Last of the Sea Women",
+        "video": false,
+        "vote_average": 7.37,
+        "vote_count": 23
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yGsEsHlc81Q1i9Z3yoVv394PrlG.jpg",
+        "genre_ids": [
+          10749,
+          18
+        ],
+        "id": 1319965,
+        "original_language": "en",
+        "original_title": "All of You",
+        "overview": "Laura and Simon have been best friends since college. Over the years, they've realized their bond is more than platonic. Can they—and should they—risk everything to explore a love that has existed all along?",
+        "popularity": 3.4128,
+        "poster_path": "/U2KFjtXN9NL9eCENB28w42Jakp.jpg",
+        "release_date": "2025-09-26",
+        "title": "All of You",
+        "video": false,
+        "vote_average": 6.267,
+        "vote_count": 133
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": "/nA6AyvaP8syIMRJHAELRZLoFaF4.jpg",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "id": 257992,
+        "origin_country": [
+          "FR"
+        ],
+        "original_language": "fr",
+        "original_name": "Traqués",
+        "overview": "When friends on a hunting trip get into a deadly clash with other hunters, they vow to keep it a secret. But as paranoia sets in—and a ruthless gang seeks revenge—the friends must confront their morality, families, and savage instincts.",
+        "popularity": 23.7405,
+        "poster_path": "/ipf1giXcXX50ylcmDBtDcXHMTaa.jpg",
+        "first_air_date": "2026-03-04",
+        "name": "The Hunt",
+        "vote_average": 7.2,
+        "vote_count": 6
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/89WJ9Nih8F3cuS9gY7TtPns9AUG.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 230936,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Born to Be Wild",
+        "overview": "From first steps to first hunts, follow six rare baby animals as they learn survival skills and bring hope for the future of their species in the wild.",
+        "popularity": 1.7192,
+        "poster_path": "/m1Ih0GIUIWez6H4vNOdiKSow4w.jpg",
+        "first_air_date": "2025-12-19",
+        "name": "Born to Be Wild",
+        "vote_average": 8.3,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ulm1ex4JFYJByyaPyqTr47MFyEQ.jpg",
+        "genre_ids": [
+          18,
+          10765
+        ],
+        "id": 225171,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Pluribus",
+        "overview": "The most miserable person on Earth must save the world from happiness.",
+        "popularity": 30.1454,
+        "poster_path": "/z7Nga7Q9IGFWs5OEduY2gGFxnX3.jpg",
+        "first_air_date": "2025-11-06",
+        "name": "Pluribus",
+        "vote_average": 7.926,
+        "vote_count": 748
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tyg0VQBKUT1DAWydrhk9Rtyvzs3.jpg",
+        "genre_ids": [
+          18,
+          9648,
+          80
+        ],
+        "id": 252000,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Down Cemetery Road",
+        "overview": "When a child goes missing in the aftermath of a house explosion, a concerned neighbor teams up with a private investigator to find them. As secrets unravel and a military conspiracy emerges, all hell is unleashed on South Oxford's sleepy suburbs.",
+        "popularity": 7.6358,
+        "poster_path": "/pjmQbrJ3FesJobbqCnUwBCtfcvH.jpg",
+        "first_air_date": "2025-10-29",
+        "name": "Down Cemetery Road",
+        "vote_average": 6.833,
+        "vote_count": 75
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 292130,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Mr. Scorsese",
+        "overview": "Explore the many lives of Martin Scorsese through intimate interviews with the man himself, access to his private archives, plus conversations with Robert De Niro, Leonardo DiCaprio, Margot Robbie, Daniel Day-Lewis, Steven Spielberg, and more.",
+        "popularity": 5.8735,
+        "poster_path": "/atok9lbfro3hZxGTlaJZWN0BWRM.jpg",
+        "first_air_date": "2025-10-16",
+        "name": "Mr. Scorsese",
+        "vote_average": 8.1,
+        "vote_count": 22
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pY5HhYqt71HCpEkuP7ucgvPjJNQ.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 291361,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Knife Edge: Chasing Michelin Stars",
+        "overview": "Experience thrilling highs and crushing lows as the world's best chefs pursue the ultimate accolade: a Michelin Star. These anonymous inspectors have never let anyone in on their mysterious ways, until now.",
+        "popularity": 2.1581,
+        "poster_path": "/sCdkFjh3o1wW2Wd82IHG6gXBA3D.jpg",
+        "first_air_date": "2025-10-10",
+        "name": "Knife Edge: Chasing Michelin Stars",
+        "vote_average": 6.5,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pzxIAuKHqQqCFOxh2ALmHUgXkOD.jpg",
+        "genre_ids": [
+          18,
+          80
+        ],
+        "id": 221079,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Last Frontier",
+        "overview": "When a prison transport plane crashes in the remote Alaskan wilderness—freeing dozens of violent inmates—the region's lone marshal must protect the town he's vowed to keep safe.",
+        "popularity": 15.7868,
+        "poster_path": "/4S2gS1mECZ5wDRBVAZE6KWmJHI3.jpg",
+        "first_air_date": "2025-10-09",
+        "name": "The Last Frontier",
+        "vote_average": 7.179,
+        "vote_count": 173
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mTb7picysLAZ15uv9H5iRD5llCg.jpg",
+        "genre_ids": [
+          10759,
+          10765,
+          16
+        ],
+        "id": 299236,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Sisters Grimm",
+        "overview": "One year after their parents' mysterious disappearance, sisters Sabrina and Daphne move to a magical town where fairytales are real and secrets lurk behind every corner.",
+        "popularity": 2.4765,
+        "poster_path": "/xLWppjhMb8ZgUE4WjlvAkYgvj16.jpg",
+        "first_air_date": "2025-10-02",
+        "name": "The Sisters Grimm",
+        "vote_average": 8.143,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/h2sZ6klVi4wj695IPhvJyo4Rhhv.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 296976,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "KPOPPED",
+        "overview": "Global music icons team up with world-renowned K-pop idols for spectacular song battles. Performing their biggest hits with a K-pop twist, these artists show up, show out, and shut it down in a friendly competition for the ultimate bragging rights.",
+        "popularity": 4.2739,
+        "poster_path": "/gIOJfyABw8QWjvRT1BfkPyoBISe.jpg",
+        "first_air_date": "2025-08-28",
+        "name": "KPOPPED",
+        "vote_average": 3.4,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2c3PCbxVgWen5HrYsaukUmfu4J9.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 196890,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Chief of War",
+        "overview": "With Hawaii's four kingdoms divided by war, the ferocious warrior Kaʻiana embarks on an epic mission to unite his people—as an existential threat approaches their shores.",
+        "popularity": 10.6139,
+        "poster_path": "/8Mckh3qJRTzXTQNZtpb133RHmO4.jpg",
+        "first_air_date": "2025-07-31",
+        "name": "Chief of War",
+        "vote_average": 7.311,
+        "vote_count": 217
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/glvt1nsJey4UKg76vRWshdNAMtw.jpg",
+        "genre_ids": [
+          99,
+          10759
+        ],
+        "id": 230935,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "The Wild Ones",
+        "overview": "Explore hidden corners of Earth with a trio of experts as they try to save six endangered species from extinction. With crafty camerawork and survival skills, the team race to find, record, and protect these elusive creatures before it's too late.",
+        "popularity": 2.2331,
+        "poster_path": "/ieU298y9GWvkETiLpcdPnlocuYu.jpg",
+        "first_air_date": "2025-07-11",
+        "name": "The Wild Ones",
+        "vote_average": 7.2,
+        "vote_count": 9
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4F7IE2OEcHsWZwIu1OvXDyiRD84.jpg",
+        "genre_ids": [
+          18,
+          80
+        ],
+        "id": 215995,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Smoke",
+        "overview": "When an arson investigator begrudgingly teams up with a police detective, their race to stop two arsonists ignites a twisted game of secrets and suspicions.",
+        "popularity": 11.0649,
+        "poster_path": "/c6xRvQCL07MVNamjfVU2an600q9.jpg",
+        "first_air_date": "2025-06-26",
+        "name": "Smoke",
+        "vote_average": 5.98,
+        "vote_count": 101
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hpzoQQbl4AVmsaUCzaszjjRmPPs.jpg",
+        "genre_ids": [
+          16,
+          10762
+        ],
+        "id": 291416,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Not a Box",
+        "overview": "Get creative with bright-eyed bunny Riley! With just one cardboard box, Riley imagines magical worlds full of new friends and fantastic adventures.",
+        "popularity": 1.4442,
+        "poster_path": "/AlY9yaupUXgkqzFkw11foUfjcn6.jpg",
+        "first_air_date": "2025-06-12",
+        "name": "Not a Box",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pr1vZU0cxyWEtrXSaozLZiLFfxr.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 248830,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Stick",
+        "overview": "Pryce Cahill was headed for golf greatness when an on-course meltdown derailed his career. Now struggling to stay afloat, he goes all in to mentor Santi—a teenage phenom with immense potential—and maybe save himself.",
+        "popularity": 11.8701,
+        "poster_path": "/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
+        "first_air_date": "2025-06-03",
+        "name": "Stick",
+        "vote_average": 7.227,
+        "vote_count": 99
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/if4r7bXrDH50GhNwCo3Bz8F2LOg.jpg",
+        "genre_ids": [
+          35,
+          18,
+          10765
+        ],
+        "id": 241554,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Murderbot",
+        "overview": "In a high-tech future, a rogue security robot secretly gains free will. To stay hidden, it reluctantly joins a new mission protecting scientists on a dangerous planet... even though it just wants to binge soap operas.",
+        "popularity": 14.0393,
+        "poster_path": "/mIKfKo2uDk3itzAPYIcSeYr4KtF.jpg",
+        "first_air_date": "2025-05-15",
+        "name": "Murderbot",
+        "vote_average": 7.257,
+        "vote_count": 404
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4h1hvQ5ejTBtsceNP4KfZ4sBmoC.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 262594,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Long Way Home",
+        "overview": "Best friends Ewan McGregor and Charley Boorman gear up for their fourth Long Way series—this time going from Ewan's home in Scotland to Charley's in England. They'll take the scenic route, of course, through 17 European countries on cranky old bikes.",
+        "popularity": 4.0093,
+        "poster_path": "/1RwUnfSIChKVfsrS69ZMN51RhRA.jpg",
+        "first_air_date": "2025-05-09",
+        "name": "Long Way Home",
+        "vote_average": 7.912,
+        "vote_count": 17
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7vUmiPhYSgduTvGfRMZ4SdyTWKl.jpg",
+        "genre_ids": [
+          18,
+          9648,
+          10768
+        ],
+        "id": 231001,
+        "origin_country": [
+          "FR"
+        ],
+        "original_language": "fr",
+        "original_name": "Carême",
+        "overview": "Witness the rise of the world's first celebrity chef, Antonin Carême, and his descent into espionage in Napoleon-era France—where manipulation is king. With his gifts for gastronomy and seduction, he becomes the perfect weapon in a fight for power.",
+        "popularity": 4.3604,
+        "poster_path": "/AoRaqmBGeJt1H23cbMatnWMMxTA.jpg",
+        "first_air_date": "2025-04-30",
+        "name": "Carême",
+        "vote_average": 7.1,
+        "vote_count": 35
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/j3DVAa1jTL5l0ANA8faP8rbuqc9.jpg",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "id": 241491,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Government Cheese",
+        "overview": "When Hampton is released from prison, his long-awaited family reunion doesn't quite go as he hoped. In his absence, Hampton's wife and sons formed an unconventional family unit, and his return spins their world into chaos.",
+        "popularity": 8.9505,
+        "poster_path": "/7K1HAVNCPig4zY7uuZ71OAMsSJT.jpg",
+        "first_air_date": "2025-04-15",
+        "name": "Government Cheese",
+        "vote_average": 3.857,
+        "vote_count": 21
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8NX2kBLHS6vSrl8Lg3Y2JAqzmy9.jpg",
+        "genre_ids": [
+          18,
+          80
+        ],
+        "id": 241609,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Your Friends & Neighbors",
+        "overview": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
+        "popularity": 13.0385,
+        "poster_path": "/yhqduKpikyUNQXlCQk9DrwMuBM8.jpg",
+        "first_air_date": "2025-04-10",
+        "name": "Your Friends & Neighbors",
+        "vote_average": 7.399,
+        "vote_count": 174
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/nGVtqTJ2EIIOowC9PpUzoudCz2U.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 286622,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Fight for Glory: 2024 World Series",
+        "overview": "Experience the battle of juggernauts like never before as the Yankees and Dodgers revive MLB's most iconic playoff rivalry. With intimate access to superstar players, managers, and their families, witness the sacrifices it takes to claim baseball's throne.",
+        "popularity": 1.895,
+        "poster_path": "/5coCluJbX8MCb8PKMuPoDY7OErg.jpg",
+        "first_air_date": "2025-03-27",
+        "name": "Fight for Glory: 2024 World Series",
+        "vote_average": 6.2,
+        "vote_count": 4
+      }
+    ]
+  },
+  "HBO Max": {
+    "movies": [],
+    "series": []
+  },
+  "Netflix": {
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          14,
+          12,
+          10751,
+          28
+        ],
+        "id": 1458319,
+        "original_language": "en",
+        "original_title": "How to Train Your Dragon 2",
+        "overview": "The second live-action adaptation of the animated trilogy. Plot TBA.",
+        "popularity": 1.9452,
+        "poster_path": "/6VlnDSuTmBPW6a45Qxp5qeDINBq.jpg",
+        "release_date": "2027-06-10",
+        "title": "How to Train Your Dragon 2",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1649887,
+        "original_language": "de",
+        "original_title": "Barbara – Becoming Shirin David",
+        "overview": "Shortly before her 30th birthday, Shirin David takes us on a personal journey through her career.",
+        "popularity": 5.1438,
+        "poster_path": "/pn9IFXqFcF58SfdOgq6FqMBs2oS.jpg",
+        "release_date": "2026-03-13",
+        "title": "Barbara – Becoming Shirin David",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/aOZlZ5ceIpUVjJaFBl0vQjGTieI.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1561687,
+        "original_language": "ta",
+        "original_title": "மேட் இன் கொரியா",
+        "overview": "A woman from a small town in Tamil Nadu moves to South Korea — a place she always dreamed of — but struggles to find her footing in a foreign land.",
+        "popularity": 23.725,
+        "poster_path": "/foEObhyAMM3dxYeBEr242EdQDB7.jpg",
+        "release_date": "2026-03-12",
+        "title": "Made in Korea",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1649932,
+        "original_language": "en",
+        "original_title": "Love Is Blind: The Reunion",
+        "overview": "After the weddings, the Pod Squad from 'Love Is Blind: Ohio' shares relationship statuses and receipts in this tell-all reunion special.",
+        "popularity": 1.8438,
+        "poster_path": "/7Cu4z6w50digziXpDn3FOdVW2AT.jpg",
+        "release_date": "2026-03-11",
+        "title": "Love Is Blind: The Reunion",
+        "video": false,
+        "vote_average": 2.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fjOlKObpHK3CzfIMNILmEgrtr6E.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1649249,
+        "original_language": "en",
+        "original_title": "Derrick Stroup: Nostalgic",
+        "overview": "Stroup dives into his experience being a '90s kid in rural Alabama and everything that came along with it.",
+        "popularity": 1.4109,
+        "poster_path": "/ALacCRAvVTYFnFrD2sptuNt1Ds.jpg",
+        "release_date": "2026-03-10",
+        "title": "Derrick Stroup: Nostalgic",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cmpiLnDIdxQNFZLZZFRj1rSo7fW.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1633264,
+        "original_language": "en",
+        "original_title": "Louis Theroux: Inside the Manosphere",
+        "overview": "With rare access and no holds barred, the acclaimed documentarian investigates a growing ultra-masculine network and its controversial influencers.",
+        "popularity": 17.7586,
+        "poster_path": "/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+        "release_date": "2026-03-10",
+        "title": "Louis Theroux: Inside the Manosphere",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/oGswMgChnBnAvo2JJxbp9fZDl8x.jpg",
+        "genre_ids": [
+          10402
+        ],
+        "id": 1644807,
+        "original_language": "en",
+        "original_title": "Harry Styles. One Night in Manchester.",
+        "overview": "In a special one off concert in Manchester, recorded on the evening of March 6, Harry Styles played his new album, ‘Kiss All The Time. Disco, Occasionally.' for the very first time.",
+        "popularity": 5.9525,
+        "poster_path": "/AigpusxLychNPHCdB8jRVTEQ1kS.jpg",
+        "release_date": "2026-03-08",
+        "title": "Harry Styles. One Night in Manchester.",
+        "video": false,
+        "vote_average": 7.75,
+        "vote_count": 8
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jhfJZ82qzcMV4Kr7G0uczdU4n2v.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1629382,
+        "original_language": "fr",
+        "original_title": "Banlieusards 3",
+        "overview": "Grieving and facing the consequences of their crimes, the Traoré brothers get one last chance to forge a new path.",
+        "popularity": 29.9274,
+        "poster_path": "/vl50ruzFWxrbK4zFz0ySjC3TdyK.jpg",
+        "release_date": "2026-03-04",
+        "title": "Street Flow 3",
+        "video": false,
+        "vote_average": 5.426,
+        "vote_count": 34
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hUbOz39SYPvvFCSMUzUCF1CnjbU.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1633410,
+        "original_language": "en",
+        "original_title": "Bruce Bruce: I Ain't Playin'",
+        "overview": "Bruce Bruce returns after 14 years with his Netflix debut \"I Ain't Playin'\" - observing generational chaos and life's craziness through personal stories.",
+        "popularity": 1.2844,
+        "poster_path": "/evZxpA5suqQpfO5Mh2MRakMkQyz.jpg",
+        "release_date": "2026-03-03",
+        "title": "Bruce Bruce: I Ain't Playin'",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8QRMlkCMFNKZM2ApnIaut5t4snf.jpg",
+        "genre_ids": [
+          53,
+          9648,
+          18
+        ],
+        "id": 1389149,
+        "original_language": "hi",
+        "original_title": "अक्यूज़्ड",
+        "overview": "When a celebrated queer doctor in London is accused of sexual misconduct, her life unravels. Now under a storm of suspicion and scrutiny, her marriage fractures and the truth blurs. Her wife must decide whether to walk away, or fight for the woman the world is turning against.",
+        "popularity": 29.5585,
+        "poster_path": "/eeP55mdqj4KpWtEPBvZJoxmnkXI.jpg",
+        "release_date": "2026-02-27",
+        "title": "Accused",
+        "video": false,
+        "vote_average": 5.066,
+        "vote_count": 53
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8imHEnB6kTNgK1TYPC3Rsnv7xke.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1617908,
+        "original_language": "en",
+        "original_title": "Taylor Tomlinson: Prodigal Daughter",
+        "overview": "Taylor Tomlinson takes her fans to church with hilarious confessions about dating in her 30s, her dream assistant and why she refuses to use AI.",
+        "popularity": 1.3776,
+        "poster_path": "/5n85A8bspgGBhIZ2HnNfbbr6GRe.jpg",
+        "release_date": "2026-02-24",
+        "title": "Taylor Tomlinson: Prodigal Daughter",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 11
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/oe9Ikj4Ug1ZIXcOaeoCQE8Xwi0y.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1639000,
+        "original_language": "en",
+        "original_title": "Famous Last Words: Eric Dane",
+        "overview": "In this emotional interview, the late actor and ALS advocate Eric Dane shared his final message for the world — knowing it would not air until his death.",
+        "popularity": 0.8293,
+        "poster_path": "/m9HIHyfCjphkHkwIVIztm32g5uv.jpg",
+        "release_date": "2026-02-19",
+        "title": "Famous Last Words: Eric Dane",
+        "video": false,
+        "vote_average": 9.0,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zFIdOkN4ULw6K6HBpMUMn6njMnK.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 1631485,
+        "original_language": "es",
+        "original_title": "Parque Lezama",
+        "overview": "A former communist militant and a \"live and let live\" man form an unlikely friendship on a park bench, sharing their life stories with humor and heart.",
+        "popularity": 28.0713,
+        "poster_path": "/s97TitarxPtIdIsU7u1BSnf0FW5.jpg",
+        "release_date": "2026-02-19",
+        "title": "Strangers in the Park",
+        "video": false,
+        "vote_average": 6.682,
+        "vote_count": 11
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/thgemkoLauZxcqe6KX8wxqEc70z.jpg",
+        "genre_ids": [
+          53,
+          18
+        ],
+        "id": 1428862,
+        "original_language": "es",
+        "original_title": "Cortafuego",
+        "overview": "Little Lide disappears in the forest while her family packs up their home. As a fire breaks out, her mother must race to reach her before the flames do.",
+        "popularity": 20.9649,
+        "poster_path": "/okbpjIlAspXYfkllAqjMRtWgoDj.jpg",
+        "release_date": "2026-02-19",
+        "title": "Firebreak",
+        "video": false,
+        "vote_average": 6.151,
+        "vote_count": 83
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/atWzbjlDkfbkh4mdY3uuiF9vr3r.jpg",
+        "genre_ids": [
+          10749,
+          18
+        ],
+        "id": 1268609,
+        "original_language": "ko",
+        "original_title": "파반느",
+        "overview": "Three lonely strangers meet at their department store jobs and find solace in each other's company while they explore connection and the nature of love.",
+        "popularity": 5.0376,
+        "poster_path": "/wOXc8stx1CLvM6GC0ABKfWOkbYw.jpg",
+        "release_date": "2026-02-19",
+        "title": "Pavane",
+        "video": false,
+        "vote_average": 6.86,
+        "vote_count": 25
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tN7DbJQbfHelNnbTvj6moq9DFsS.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1622032,
+        "original_language": "en",
+        "original_title": "Sommore: Chandelier Fly",
+        "overview": "Get ready for comedic royalty as the Undisputed Queen of Comedy, Sommore, returns to Detroit for her 7th special, performing up close and personal at the Garden Theatre, recorded on June 28th.",
+        "popularity": 0.2925,
+        "poster_path": "/tHPMQFFmAMdTwg9s2hDlsSIyW2a.jpg",
+        "release_date": "2026-02-17",
+        "title": "Sommore: Chandelier Fly",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
+        "genre_ids": [
+          28,
+          878,
+          53
+        ],
+        "id": 1265609,
+        "original_language": "en",
+        "original_title": "War Machine",
+        "overview": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
+        "popularity": 636.6263,
+        "poster_path": "/tlPgDzwIE7VYYIIAGCTUOnN4wI1.jpg",
+        "release_date": "2026-02-12",
+        "title": "War Machine",
+        "video": false,
+        "vote_average": 7.172,
+        "vote_count": 681
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dbr3eceKuGnKc9v5GaVTVtegZNK.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1243460,
+        "original_language": "en",
+        "original_title": "Joe's College Road Trip",
+        "overview": "To teach his sheltered grandson about the real world, Madea's foul-mouthed brother Joe takes the college-bound teen on a raucous cross-country road trip.",
+        "popularity": 19.3504,
+        "poster_path": "/jWGOCUlzF4aCVLwHoiuqWWfhcrA.jpg",
+        "release_date": "2026-02-12",
+        "title": "Joe's College Road Trip",
+        "video": false,
+        "vote_average": 5.827,
+        "vote_count": 52
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ioLTv6BTRT7ShLHcDx8Q5TOXwgk.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1628484,
+        "original_language": "en",
+        "original_title": "Katt Williams: The Last Report",
+        "overview": "Back for his fourth Netflix stand-up special, comedy icon Katt Williams delivers his famously bold takes on conspiracies, celebrities and the world at large in this electrifying set.",
+        "popularity": 0.4285,
+        "poster_path": "/4kTyAa30BITPjFqGwjqRzBC60Az.jpg",
+        "release_date": "2026-02-10",
+        "title": "Katt Williams: The Last Report",
+        "video": false,
+        "vote_average": 5.1,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4FP1VC8igFCrARf7bEpjScVjusy.jpg",
+        "genre_ids": [
+          18,
+          10402
+        ],
+        "id": 1570282,
+        "original_language": "ja",
+        "original_title": "This is I",
+        "overview": "Bullied for wanting to be an idol, Kenji finds belonging in a cabaret and help from a trailblazing doctor, emerging onstage as her true self, Ai Haruna.",
+        "popularity": 2.0644,
+        "poster_path": "/3aMYB238ZU2GPjP7YAvcIzPjQaN.jpg",
+        "release_date": "2026-02-10",
+        "title": "This Is I",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 14
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          10759,
+          80
+        ],
+        "id": 296206,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "김부장",
+        "overview": "Chief Kim, a regular dad who reveals his secret agent past to find his missing daughter, risking everything to save her.",
+        "popularity": 0.7653,
+        "poster_path": null,
+        "first_air_date": "2026-06-26",
+        "name": "김부장",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lreax2U5xDNekHdAlfLARPC4Oto.jpg",
+        "genre_ids": [
+          80,
+          18,
+          9648
+        ],
+        "id": 283673,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "Esa noche",
+        "overview": "When a young, naïve single mother gets embroiled in a murder during an island getaway, her sisters rush to help. But they only make things worse.",
+        "popularity": 33.8868,
+        "poster_path": "/xOB3odcE8pbTPK0FHzfwgRTneoS.jpg",
+        "first_air_date": "2026-03-13",
+        "name": "That Night",
+        "vote_average": 4.786,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/iGS4BmzLvhRhzDc6R1naVj2fpTp.jpg",
+        "genre_ids": [
+          10765,
+          9648,
+          18
+        ],
+        "id": 281010,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "신이랑 법률사무소",
+        "overview": "A timid lawyer who suddenly gains the ability to see ghosts teams up with a cold, elite attorney, and together they take on supernatural clients whose unfinished business reveals buried truths.",
+        "popularity": 12.9943,
+        "poster_path": "/j3w0uZi4THuRh1JB8gF452mRLq7.jpg",
+        "first_air_date": "2026-03-13",
+        "name": "Phantom Lawyer",
+        "vote_average": 5.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/sApMO6aAqkSUO93Gi2T49TLL2UO.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 287390,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Age of Attraction",
+        "overview": "Age is thrown out the window when singles search for their soulmates. Is love truly ageless, or will the years come between them?",
+        "popularity": 8.109,
+        "poster_path": "/86zlBZhuhuE2FlXn8lGxixCQ4aS.jpg",
+        "first_air_date": "2026-03-11",
+        "name": "Age of Attraction",
+        "vote_average": 9.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qTbaaF0zthCuFxFPowr7XdnJl5r.jpg",
+        "genre_ids": [
+          99,
+          80
+        ],
+        "id": 313338,
+        "origin_country": [
+          "ES"
+        ],
+        "original_language": "es",
+        "original_name": "El asesino de TikTok",
+        "overview": "When Esther vanishes without a trace, her family is able to piece together her last movements thanks to José Jurado Montilla, a traveler who journeys across Spain sharing heartfelt videos of his trips on his TikTok account. But “Dynamite” Montilla – the last person to have been with Esther – hides a dark past",
+        "popularity": 7.8868,
+        "poster_path": "/3sZfTsu02nhCoIEGdyQ2iYK09JN.jpg",
+        "first_air_date": "2026-03-06",
+        "name": "The TikTok Killer",
+        "vote_average": 6.0,
+        "vote_count": 12
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 313298,
+        "origin_country": [
+          "GB",
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Dinosaurs",
+        "overview": "From the first dinosaurs to the last, this epic documentary series examines their 165 million years on Earth and the forces that shaped their evolution.",
+        "popularity": 52.5425,
+        "poster_path": "/x37IK9WWhuzi7tgyMT4ff3kiT5X.jpg",
+        "first_air_date": "2026-03-06",
+        "name": "The Dinosaurs",
+        "vote_average": 7.779,
+        "vote_count": 52
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/akwxUU6YDiAixkx7t8AOSzxzkNG.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 313100,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "hi",
+        "original_name": "हैलो बच्चों",
+        "overview": "A physics teacher sets out to make quality education accessible to all students through online learning.",
+        "popularity": 15.2271,
+        "poster_path": "/sBprJ6cIkWWKl4ABWgxNDKxe9kL.jpg",
+        "first_air_date": "2026-03-06",
+        "name": "Hello Bachhon",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/sjOTFlGapgXFjwV3LmD9eHZEp3d.jpg",
+        "genre_ids": [
+          35,
+          10765,
+          18
+        ],
+        "id": 281016,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "월간남친",
+        "overview": "Seo Mi-rae is worn out by work. Love? It's the last thing on her mind. But a virtual dating service sparks feelings — and maybe a real shot at romance.",
+        "popularity": 88.5178,
+        "poster_path": "/8vBWQjdCnK7xSGuNbK1gBK1iIQL.jpg",
+        "first_air_date": "2026-03-06",
+        "name": "Boyfriend on Demand",
+        "vote_average": 8.615,
+        "vote_count": 39
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/gtxt1avGOgu3nhYGqWQWFPHSpKc.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 276472,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "샤이닝",
+        "overview": "A man and a woman whose lives are shaped by loss and time drift apart in youth and reunite a decade later, discovering that the bond they once shared remains a guiding light through love, grief, and growing up.",
+        "popularity": 17.7828,
+        "poster_path": "/tVOq3YkCTnbrycnXHmth9f6qYs7.jpg",
+        "first_air_date": "2026-03-06",
+        "name": "Still Shining",
+        "vote_average": 7.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ln16CvrAqvnFJOSDXIxlP3G6TBx.jpg",
+        "genre_ids": [
+          99,
+          80
+        ],
+        "id": 315755,
+        "origin_country": [
+          "DK"
+        ],
+        "original_language": "da",
+        "original_name": "En ven, en morder",
+        "overview": "A Danish town feared a serial criminal for eight years. When caught, Amanda, Nichlas and Kiri discovered the perpetrator was their close friend who'd committed assaults, kidnappings and murder while spending time with them.",
+        "popularity": 5.8114,
+        "poster_path": "/e1iNUL5IY6RDQwzMdkXPKW9e1g1.jpg",
+        "first_air_date": "2026-03-05",
+        "name": "A Friend, a Murderer",
+        "vote_average": 7.5,
+        "vote_count": 9
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fqWXGP79tEMAyLKW0wkJLbKSP61.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 285739,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Vladimir",
+        "overview": "When an English professor becomes obsessed with a handsome new colleague, her already complicated marriage and career are thrown into total chaos.",
+        "popularity": 60.7775,
+        "poster_path": "/j02VBIGVIk2OTwTUZ1YzyzcONAy.jpg",
+        "first_air_date": "2026-03-05",
+        "name": "Vladimir",
+        "vote_average": 7.22,
+        "vote_count": 41
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mY1XhTMKEbl8LhZrQpa3zoFiMcw.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 314297,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Blue Therapy",
+        "overview": "Seven couples move out of their comfort zones and onto the therapist's couch to try and work through their relationship issues in this reality series.",
+        "popularity": 3.8241,
+        "poster_path": "/H8K1osuUf7OsMbtSVPvXJlcnWS.jpg",
+        "first_air_date": "2026-03-04",
+        "name": "Blue Therapy",
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pJert4hRVNzagvtFr3vTYnpgBMH.jpg",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "id": 310935,
+        "origin_country": [
+          "TH"
+        ],
+        "original_language": "th",
+        "original_name": "เด็กใหม่ The Reset",
+        "overview": "In a new universe, the mysterious Nanno poses as a transfer student, exposing cruelty by turning power, guilt and desire against those who abuse them.",
+        "popularity": 29.4703,
+        "poster_path": "/bRMEjZHvES9XLKSFVCtveFGdOHC.jpg",
+        "first_air_date": "2026-03-04",
+        "name": "Girl from Nowhere: The Reset",
+        "vote_average": 9.5,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/h93KJeC6QRfqVnceEdCxokAqL1i.jpg",
+        "genre_ids": [
+          18,
+          10759
+        ],
+        "id": 276582,
+        "origin_country": [
+          "TH"
+        ],
+        "original_language": "th",
+        "original_name": "ปั่นไปให้ถึงรัก",
+        "overview": "Three brothers running a bike cafe embark on a cycling journey to heal past traumas and find love in the sun-drenched streets of Pattaya.",
+        "popularity": 2.9184,
+        "poster_path": "/j9rOVTr82lppG50UX5DzNuogO5m.jpg",
+        "first_air_date": "2026-03-02",
+        "name": "Love Like a Bike",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/1M8uW8o6fdDaa3zqmBD2UUKu0VZ.jpg",
+        "genre_ids": [
+          16,
+          10759
+        ],
+        "id": 300054,
+        "origin_country": [
+          "JP"
+        ],
+        "original_language": "ja",
+        "original_name": "刃牙道",
+        "overview": "Baki and the strongest Underground Arena fighters face a threat of historical proportions: the resurrected Musashi Miyamoto, Japan's greatest samurai.",
+        "popularity": 44.6339,
+        "poster_path": "/frtzbwANetYd0M4zdrZ5gx0E89q.jpg",
+        "first_air_date": "2026-02-26",
+        "name": "BAKI-DOU: The Invincible Samurai",
+        "vote_average": 9.1,
+        "vote_count": 22
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rTTEaQ54i6zUSDGnVyuNbvu86wf.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 276083,
+        "origin_country": [
+          "DE"
+        ],
+        "original_language": "de",
+        "original_name": "Kacken an der Havel",
+        "overview": "Rapper Toni returns to his hometown for his mother's funeral and suddenly finds himself juggling career dreams and surprise fatherhood to a teenage son.",
+        "popularity": 8.2942,
+        "poster_path": "/9AG5nhecHFpFShhhaHEUEnjNrgW.jpg",
+        "first_air_date": "2026-02-26",
+        "name": "Crap Happens",
+        "vote_average": 5.6,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg",
+        "genre_ids": [
+          16,
+          35,
+          18
+        ],
+        "id": 298343,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Strip Law",
+        "overview": "An uptight lawyer teams with a flashy Las Vegas magician to bring some pizzazz to the city's stupidest cases in this adult animated comedy.",
+        "popularity": 3.8529,
+        "poster_path": "/hs9kjF67nO5vc3kBgm3IF2MLnRe.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "Strip Law",
+        "vote_average": 6.818,
+        "vote_count": 11
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          16
+        ],
+        "id": 314324,
+        "origin_country": [
+          "SA"
+        ],
+        "original_language": "ar",
+        "original_name": "عساف",
+        "overview": "In the heart of the harsh Arabian desert, where there is no place for the weak, the courageous young man Assaf leads a volunteer team of elite trackers and rescuers. Their mission extends beyond saving those lost in the desert's thirst; it also includes confronting smuggling gangs, protecting forgotten antiquities, and rescuing innocent people in remote areas.",
+        "popularity": 0.1102,
+        "poster_path": "/8GXBs3QdwiubHmHsKiC04QKVY6X.jpg",
+        "first_air_date": "2026-02-18",
+        "name": "Assaf",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/guF2YM18TvKM3j2k2K1BQncew0y.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 262273,
+        "origin_country": [
+          "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Being Gordon Ramsay",
+        "overview": "Follow Gordon Ramsay over 9 months in the lead up to his biggest restaurant venture to date: the opening of 5 culinary experiences in London's 22 Bishopsgate, the City of London's tallest building.",
+        "popularity": 1.822,
+        "poster_path": "/2n4dI6F0vRZJHSMep9vv9CS7FoE.jpg",
+        "first_air_date": "2026-02-18",
+        "name": "Being Gordon Ramsay",
+        "vote_average": 7.2,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fRiAJB6VxyG0QcjSXW4BoHIGsnu.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312423,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Reality Check: Inside America's Next Top Model",
+        "overview": "What started as a glamorous launchpad for aspiring models became a pop-culture juggernaut defined by explosive drama, public meltdowns, and controversies that still fuel viral moments today.",
+        "popularity": 2.5838,
+        "poster_path": "/lxlsvsgvEYlf2wrSV9qUipHRAuk.jpg",
+        "first_air_date": "2026-02-16",
+        "name": "Reality Check: Inside America's Next Top Model",
+        "vote_average": 7.625,
+        "vote_count": 12
+      }
+    ]
+  },
+  "Paramount": {
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          27,
+          53,
+          18
+        ],
+        "id": 670977,
+        "original_language": "es",
+        "original_title": "La Sangre que nos Une",
+        "overview": "Four friends travel to a cabin in the woods during the weekend to reinforce the bond of friendship between them. A group of men begins to harass them gradually. The results become bloody and catastrophic.",
+        "popularity": 0.124,
+        "poster_path": "/3k3OZWLrAEqd0jCPV4A1tBfiMdV.jpg",
+        "release_date": "2026-04-20",
+        "title": "Bound by Blood",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zQCOimbHIq5BrLHThidw2bThZem.jpg",
+        "genre_ids": [
+          37
+        ],
+        "id": 1491364,
+        "original_language": "es",
+        "original_title": "Érase Una Vez en el Noroeste",
+        "overview": "Between arid hills and the echo of the wind, a cowboy strides forward with steady resolve across a desolate landscape. In the distance, a figure waits, motionless. There are no words, no witnesses, no law. Only two men, an unfinished story, and a fate decided the moment their hands reach for the revolver.",
+        "popularity": 0.0464,
+        "poster_path": "/3sEJ2j4ruZtEXVz31g99D9VVjZV.jpg",
+        "release_date": "2025-06-13",
+        "title": "Once Upon a Time in the West",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1419100,
+        "original_language": "pt",
+        "original_title": "Nem Tudo é o que Parece",
+        "overview": "",
+        "popularity": 0.0,
+        "poster_path": "/1btmF8ghn72MAOxp1IeVIuIhQzR.jpg",
+        "release_date": "2025-01-17",
+        "title": "Nem Tudo é o que Parece",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9nezl38M1Yq8S9dNGc27hWwIfWi.jpg",
+        "genre_ids": [
+          12,
+          35,
+          10751,
+          16
+        ],
+        "id": 1478288,
+        "original_language": "en",
+        "original_title": "Blaze and the Monster Machines: Super Wheels",
+        "overview": "When villains unleash chaos on Axle City, who can the monster machines turn to for help? Super Wheels Blaze! Blaze and friends transform into big-wheeled superheroes - with powers to keep the world safe from danger and stop evildoers in their tracks.",
+        "popularity": 0.2889,
+        "poster_path": "/blwYLLCFZDAo6V8VUCwsIotb8W0.jpg",
+        "release_date": "2025-01-01",
+        "title": "Blaze and the Monster Machines: Super Wheels",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/j3ZrpzsKSDnmg93tFe7KmmgAMwa.jpg",
+        "genre_ids": [
+          16
+        ],
+        "id": 1448970,
+        "original_language": "xx",
+        "original_title": "Disturbia",
+        "overview": "Before our very eyes a strange human-bird hybrid undergoes constant transformation to cope with the omnipresent tensions of economical, ideological, military, and climatic threats.",
+        "popularity": 0.0357,
+        "poster_path": "/fPIVDwmuUibo2rQcQGEhLI9gyBd.jpg",
+        "release_date": "2024-12-31",
+        "title": "Disturbia",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3TqAlnK1FHkdWSxzD9dpgcyrRWz.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1232931,
+        "original_language": "en",
+        "original_title": "76 Days Adrift",
+        "overview": "Steven Callahan gives a gripping first-hand account of his NYT bestselling novel \"Adrift: 76 Days Lost At Sea.\" On the eve of February 4, 1982, in the middle of the night there was a loud boom as a whale collided with Steven's boat. Within minutes, his small craft was flooded with a rush of water. He grabbed what he could, heaved his life raft into the ocean, and snatched his emergency kit. Without food or water, for an incredible 76 days the inflatable raft was his home as he drifted across the entire Atlantic Ocean. Forced to come to terms with his own shortcomings and limitations, Steven finds a strength he never knew he had. This official documentary, executive produced by Callahan, brings the story to life with found 8MM footage, original stills of the time of the voyage, and first-person recreation. Still possessing many of the original artifacts, he takes us step-by-step through his harrowing and life-altering adventure.",
+        "popularity": 0.3301,
+        "poster_path": "/xh7ysljRvXVs74sSm3Rhmji0Fw6.jpg",
+        "release_date": "2025-07-10",
+        "title": "76 Days Adrift",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1365962,
+        "original_language": "ar",
+        "original_title": "ابتسم",
+        "overview": "A banana seller invites people to smile.",
+        "popularity": 0.0,
+        "poster_path": "/l2DVwVYazHTBjF5l6LnXOkFR6r6.jpg",
+        "release_date": "2021-08-24",
+        "title": "Smile",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          16
+        ],
+        "id": 929532,
+        "original_language": "en",
+        "original_title": "PAW Patrol: Dino Rescue: Roar To The Rescue",
+        "overview": "The PAW Patrol returns to the Dino Wilds for a roaring rescue! Mayor Humdinger is stuck on a runaway Brachiosaurus and a T-Rex is chomping everything in sight! Then, a Turbot family sightseeing expedition turns into a wild ride and more!",
+        "popularity": 0.1176,
+        "poster_path": "/temgbeq29KCSWCUwehPvIyo1LY3.jpg",
+        "release_date": "2021-06-16",
+        "title": "PAW Patrol: Dino Rescue: Roar To The Rescue",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6b5LW1lG9P8rKoRVnGLk5IHeOci.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 390665,
+        "original_language": "en",
+        "original_title": "Our Queen at Ninety",
+        "overview": "Documentary following the Queen and members of the British Royal Family.",
+        "popularity": 0.5015,
+        "poster_path": "/ka3elZ6gfOYdSsB2rYMVs4pxKI9.jpg",
+        "release_date": "2016-03-27",
+        "title": "Our Queen at Ninety",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1455777,
+        "original_language": "en",
+        "original_title": "Blaze and the Monster Machines: Race to the Top of the World",
+        "overview": "Blaze and his friends compete in the most epic race in history. They meet pirates and the Sphinx on a whirlwind world-tour. But when Crusher throws them off course, Blaze and pals must persevere to make it to the finish line.",
+        "popularity": 0.0,
+        "poster_path": "/y9Cj7x2xo3hD0P9gBG8iNoCJSIO.jpg",
+        "release_date": "2015-11-23",
+        "title": "Blaze and the Monster Machines: Race to the Top of the World",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          10751,
+          14
+        ],
+        "id": 1464623,
+        "original_language": "el",
+        "original_title": "Για φαντάσου",
+        "overview": "A short film about fantasy. A child plays football in the yard, each kick blurring the line between youth and adulthood. His imagination unfolds, where dreams of the future take shape in the simplicity of the game.",
+        "popularity": 0.0306,
+        "poster_path": null,
+        "release_date": "2014-12-15",
+        "title": "Think",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 169858,
+        "original_language": "en",
+        "original_title": "Black Noise",
+        "overview": "An Alzheimer's patient is checked into a long-term care facility while he believes his wife to be missing.",
+        "popularity": 0.052,
+        "poster_path": null,
+        "release_date": "2013-02-22",
+        "title": "Black Noise",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          16
+        ],
+        "id": 1022526,
+        "original_language": "en",
+        "original_title": "PAW Patrol: Spooky Adventures",
+        "overview": "It's pups versus ghosts in these 7 haunted adventures, including a double episode aboard a ghostly pirate ship. Join the PAW Patrol in a spooky cabin, a bat cave, a corn maze, and even on a mission to find out who's haunting the Lookout!",
+        "popularity": 0.0143,
+        "poster_path": "/yHkGqUU1H1N1hZrNTOMwzglkMkx.jpg",
+        "release_date": "2013-02-08",
+        "title": "PAW Patrol: Spooky Adventures",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          18,
+          99,
+          35
+        ],
+        "id": 1305731,
+        "original_language": "en",
+        "original_title": "Super 8 ½",
+        "overview": "Amateur filmmaker Otto E. Mezzo discovers rolls of Super-8 film in his freezer, and decides to regroup his old film company to make a new film. The film brings Otto, Pace (his producer/brother), Tal (philosopher/contra-dance caller), Luisa (Otto's wife), Carla (Otto's girlfriend), and thier children together to make a documentary of their lives in 2004.",
+        "popularity": 0.0071,
+        "poster_path": "/biwGcDZ7644fzDnY4qVc2K6COqW.jpg",
+        "release_date": "2004-11-21",
+        "title": "Super 8 ½",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          99
+        ],
+        "id": 1103859,
+        "original_language": "en",
+        "original_title": "Seabiscuit",
+        "overview": "He was boxy, with stumpy legs that wouldn't completely straighten a short straggly tail and an ungainly gait; though he didn't look the part, Seabiscuit was one of the most remarkable thoroughbred racehorses in history. In the 1930s, when Americans longed to escape the grim realities of Depression-era life, four men turned Seabiscuit into a national hero. They were his fabulously wealthy owner Charles Howard, his famously silent and stubborn trainer Tom Smith and the two hard-bitten, gifted jockeys who rode him to glory. By following the paths that brought these four together and in telling the story of Seabiscuit's unlikely career, this film illuminates the precarious economic conditions that defined America in the 1930s and explores the fascinating behind-the-scenes world of thoroughbred racing. Scott Glenn narrates.",
+        "popularity": 0.6372,
+        "poster_path": "/mSPbTGa0vXwlHU4MU9ceJ1Aod17.jpg",
+        "release_date": "2003-04-21",
+        "title": "Seabiscuit",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": "/qLw5Ayds6AZRPs9ofbd9ze6vxJ9.jpg",
+        "genre_ids": [],
+        "id": 254302,
+        "origin_country": [
+          "IT"
+        ],
+        "original_language": "it",
+        "original_name": "Fuori le prove! - Indagini ai confini della realtà",
+        "overview": "",
+        "popularity": 0.0143,
+        "poster_path": "/qIgK2W3mWc4PW7Annmoe7d7ZMdZ.jpg",
+        "first_air_date": "2024-04-07",
+        "name": "Fuori le prove! - Indagini ai confini della realtà",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 275549,
+        "origin_country": [
+          "CN"
+        ],
+        "original_language": "zh",
+        "original_name": "乐高城市大冒险",
+        "overview": "",
+        "popularity": 0.0388,
+        "poster_path": null,
+        "first_air_date": "2022-11-01",
+        "name": "乐高城市大冒险",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cOfdf8n82Tqx1uWeUjXnl82FxQq.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 214911,
+        "origin_country": [
+          "RU"
+        ],
+        "original_language": "ru",
+        "original_name": "Беременна в 16",
+        "overview": "According to the Ministry of Health in Russia, there are 800 underage girls per 100,000 pregnant women. Most of them decide to keep the child, and this decision radically changes their lives: now they are not just teenage girls, they are young mothers.\n\nIn each episode, we will get acquainted with the story of one heroine: how it happened that she became pregnant, how her parents and future father will perceive the news about the child, how her life will change after childbirth and how she will solve adult problems at such a tender age.\n\nWill the girls find the strength to overcome the trials and find happiness?",
+        "popularity": 3.0853,
+        "poster_path": "/jTQxhplTOnExxN5wqmBtu8ByghZ.jpg",
+        "first_air_date": "2019-02-27",
+        "name": "Pregnant at 16",
+        "vote_average": 1.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 231393,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Hack Into Broad City",
+        "overview": "Hack Into Broad City is an exclusive web series that eavesdrops on the candid, often-outrageous video chat sessions between Abbi and Ilana, the two best friends at the heart of Broad City.",
+        "popularity": 0.0795,
+        "poster_path": null,
+        "first_air_date": "2014-09-16",
+        "name": "Hack Into Broad City",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6SlgW0xylNr2NikrZvMRd5tTwAo.jpg",
+        "genre_ids": [
+          18,
+          10759
+        ],
+        "id": 5829,
+        "origin_country": [
+          "CA"
+        ],
+        "original_language": "en",
+        "original_name": "Flashpoint",
+        "overview": "The Strategic Response Unit (SRU) is an elite team of cops who specialize in high-risk critical incidents. Trained in tactics and psychology, they deal with extreme situations, where split-second decisions could save a life...or cost one.",
+        "popularity": 57.5197,
+        "poster_path": "/3Bp3vJrPxnrN8iRDaclsVUPwgWa.jpg",
+        "first_air_date": "2008-07-11",
+        "name": "Flashpoint",
+        "vote_average": 7.327,
+        "vote_count": 147
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lXQpWlN24cxwBjNvqOUju2WouDg.jpg",
+        "genre_ids": [
+          10751,
+          16,
+          35,
+          10762
+        ],
+        "id": 1760,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "As Told by Ginger",
+        "overview": "As Told by Ginger focuses on middle schooler Ginger Foutley who, with her friends, tries to become more than a social geek.",
+        "popularity": 12.0682,
+        "poster_path": "/6Kd09yYpf2qEYusPB9rtsidMnJu.jpg",
+        "first_air_date": "2000-10-25",
+        "name": "As Told by Ginger",
+        "vote_average": 6.745,
+        "vote_count": 92
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 294969,
+        "origin_country": [
+          "DE"
+        ],
+        "original_language": "de",
+        "original_name": "The Twilight Zone",
+        "overview": "",
+        "popularity": 0.0214,
+        "poster_path": null,
+        "first_air_date": "1959-10-02",
+        "name": "The Twilight Zone",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 286277,
+        "origin_country": [
+          "CN"
+        ],
+        "original_language": "zh",
+        "original_name": "汪汪队",
+        "overview": "",
+        "popularity": 0.0451,
+        "poster_path": null,
+        "first_air_date": "",
+        "name": "汪汪队",
+        "vote_average": 0.0,
+        "vote_count": 0
+      }
+    ]
+  },
+  "Hulu": {
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": "/cg2ioY2B4LpnpaYfzSExvmGqy1c.jpg",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "id": 1324842,
+        "original_language": "ta",
+        "original_title": "லக்கி தி சூப்பர்ஸ்டார்",
+        "overview": "A stray puppy's adventure transforms lives: helping a child heal, bringing a family together, and causing political mayhem while finding her way home.",
+        "popularity": 1.7567,
+        "poster_path": "/fb5ao0wON2Dq3atOy3rikyL8IsP.jpg",
+        "release_date": "2026-02-20",
+        "title": "Lucky the Superstar",
+        "video": false,
+        "vote_average": 2.333,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          35
+        ],
+        "id": 1623569,
+        "original_language": "en",
+        "original_title": "Jackie Fabulous: You Can Leave",
+        "overview": "Jackie Fabulous brings big, unapologetic energy-spilling hilarious truths about ex-husbands, diet pills, menopause, and what people do that drive you nuts. Charisma, killer timing, and heart make this hour bold, joyous, and very, very fabulous.",
+        "popularity": 0.1111,
+        "poster_path": "/pn2IQxVNbTmEjEp12Ia3ErycRv6.jpg",
+        "release_date": "2026-02-04",
+        "title": "Jackie Fabulous: You Can Leave",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/41sxtsuEKD5aWwAicKfGoa6xkEi.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1623564,
+        "original_language": "en",
+        "original_title": "Chris Spencer: GOAT Adjacent",
+        "overview": "Chris Spencer breaks down marriage, family, aging, race, and his Jamaican roots with fearless honesty, precision, and the kind of experience you get from working alongside comedy’s all-time greats.",
+        "popularity": 0.2101,
+        "poster_path": "/y9JOnlKrjYhWLsHdKfqe7kCiQqF.jpg",
+        "release_date": "2026-02-04",
+        "title": "Chris Spencer: GOAT Adjacent",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2NFUBtbeBilaheUhVt2nV7Mzysm.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1623111,
+        "original_language": "en",
+        "original_title": "Mouth of the Wolf: Amanda Knox Returns to Italy",
+        "overview": "Amanda Knox returns to Italy to confront Giuliano Mignini, the prosecutor who locked her up for a murder she did not commit",
+        "popularity": 2.3673,
+        "poster_path": "/pSXcdS9hwBIO0YBqsdUCYrZYZKP.jpg",
+        "release_date": "2026-01-26",
+        "title": "Mouth of the Wolf: Amanda Knox Returns to Italy",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/uM5i623wwNfoGD97iwwQWQ7GlZL.jpg",
+        "genre_ids": [
+          18,
+          878
+        ],
+        "id": 1032892,
+        "original_language": "en",
+        "original_title": "In the Blink of an Eye",
+        "overview": "Three storylines, spanning thousands of years, intersect and reflect on hope, connection, and the circle of life.",
+        "popularity": 26.834,
+        "poster_path": "/4vWqIdoBavo1htxmxlScDniOS9C.jpg",
+        "release_date": "2026-01-26",
+        "title": "In the Blink of an Eye",
+        "video": false,
+        "vote_average": 4.97,
+        "vote_count": 67
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/snyThv9JMTLqyfNfnpGk6q356SB.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1601082,
+        "original_language": "en",
+        "original_title": "Cheetahs Up Close with Bertie Gregory",
+        "overview": "Bertie arrives in the Serengeti as the spectacular wildebeest migration kicks off. He’s here to film the fastest land animal on Earth: the cheetah. As he gets close to a mother caring for her tiny cubs and a young group of males executing phenomenal hunts as a team, he learns about the unexpected challenges the species endures.",
+        "popularity": 1.7376,
+        "poster_path": "/pSmSgFb1cnRQep0OzcuKWMYWeqR.jpg",
+        "release_date": "2026-01-01",
+        "title": "Cheetahs Up Close with Bertie Gregory",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 17
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/1wruGeuequY1PumBfEgCEifpGb5.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1529419,
+        "original_language": "en",
+        "original_title": "Kumail Nanjiani: Night Thoughts",
+        "overview": "After nearly a decade away, Kumail Nanjiani returns to Chicago, where he got his start in standup, in a new special that tackles anxiety, the perils of buying drugs pre-legalization, and most importantly, cat medication.",
+        "popularity": 0.5838,
+        "poster_path": "/qOvbKZHzBFQrmjmK9D0Lg7sz8co.jpg",
+        "release_date": "2025-12-19",
+        "title": "Kumail Nanjiani: Night Thoughts",
+        "video": false,
+        "vote_average": 7.133,
+        "vote_count": 15
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pwyBBLEofnkRSyQ60oxjXCw9uGW.jpg",
+        "genre_ids": [
+          35,
+          10749,
+          18
+        ],
+        "id": 1339952,
+        "original_language": "hi",
+        "original_title": "किस किस को प्यार करूँ 2",
+        "overview": "Mohan wants to marry the love of his life, Sania, but destiny has a madcap plan! He ends up marrying three women of different religions and chaos follows.",
+        "popularity": 1.1658,
+        "poster_path": "/sqCgEMxOKvb949xbxn35Wcfn50S.jpg",
+        "release_date": "2025-12-12",
+        "title": "Kis Kisko Pyaar Karoon 2",
+        "video": false,
+        "vote_average": 5.357,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9cd1zsxcOAcBW01WDOWz8EODTS0.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 1206008,
+        "original_language": "en",
+        "original_title": "Ella McCay",
+        "overview": "An idealistic young politician juggles familial issues and a challenging work life while preparing to take over the job of her mentor, the state’s longtime incumbent governor.",
+        "popularity": 9.5893,
+        "poster_path": "/iQCtK477yqp6xnHHrQG2P0lXoow.jpg",
+        "release_date": "2025-12-11",
+        "title": "Ella McCay",
+        "video": false,
+        "vote_average": 5.538,
+        "vote_count": 93
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          10402,
+          10770
+        ],
+        "id": 1587722,
+        "original_language": "en",
+        "original_title": "CMA Country Christmas 2025",
+        "overview": "Ring in “CMA Country Christmas” with hosts Lauren Daigle and Jordan Davis this holiday season with a night full of festive classics and one-of-a-kind musical performances. Now in it's 16th year, the 2025 special is filmed in Nashville, Tennessee and airs each holiday season on ABC Television Network.",
+        "popularity": 0.0789,
+        "poster_path": "/owWpFf6jkoyXe03Mqga0kwtFK17.jpg",
+        "release_date": "2025-12-02",
+        "title": "CMA Country Christmas 2025",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/meiOsPGrwzST44lSR3CJ2AlAh5k.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 1564232,
+        "original_language": "en",
+        "original_title": "Sebastian Maniscalco: It Ain't Right",
+        "overview": "Filmed live at the legendary United Center arena in Chicago, Sebastian Maniscalco goes all in on family chaos, aging, and the little things that drive us all nuts—with his one-of-a-kind comedic bite.",
+        "popularity": 0.2636,
+        "poster_path": "/AmbvVjDFXR9ATykIA4jXe9rtkL6.jpg",
+        "release_date": "2025-11-20",
+        "title": "Sebastian Maniscalco: It Ain't Right",
+        "video": false,
+        "vote_average": 5.714,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          35
+        ],
+        "id": 1574447,
+        "original_language": "en",
+        "original_title": "Jay Jurden: Yes Ma'am",
+        "overview": "Jay Jurden has been called \"one of the most reliable killers working the New York comedy circuit\" (Jason Zinoman, NY Times), and his debut comedy special, \"Yes Ma'am\", proves just why that is the case. Jurden delivers a fast-paced, punchline-filled love letter on what it means to be Black, Southern, and Queer, all while navigating those identities with his signature wit. Filmed at the historic Joy Theater in downtown New Orleans, the Mississippi native and Tonight Show regular is ready to make a big splash with this premier hour presented by Comedy Dynamics.",
+        "popularity": 0.3017,
+        "poster_path": "/13Y4XglXH2X11YWeVXEjBpOuU2A.jpg",
+        "release_date": "2025-11-07",
+        "title": "Jay Jurden: Yes Ma'am",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/Ae594YpOxvHfhzhUFDjQtmQi4d3.jpg",
+        "genre_ids": [
+          10749,
+          35
+        ],
+        "id": 1570554,
+        "original_language": "en",
+        "original_title": "Joy to the World",
+        "overview": "Lifestyle guru Joy Edwards - whose cookbooks feature her perfect home life and family - is horrified when a TV network decides to film Christmas dinner at her fabled, but fabricated, country home. Now, she must recruit her best friend Max to pose as her fake husband for the cameras - but they both discover something real along the way.",
+        "popularity": 0.5776,
+        "poster_path": "/bCtkAgxvInB3AKbENB56OHt90yN.jpg",
+        "release_date": "2025-10-31",
+        "title": "Joy to the World",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 15
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/d3HvCcvR1JbLrloXYGb0QhRiOma.jpg",
+        "genre_ids": [
+          35,
+          10749,
+          18
+        ],
+        "id": 1435139,
+        "original_language": "ta",
+        "original_title": "ஆண் பாவம் பொல்லாதது",
+        "overview": "A year into their marriage, unable to distinguish between toxicity and mere misunderstandings, Sakthi decides to part ways with Siva. The couple navigate their separation, and whether they ultimately proceed with divorce forms the emotional climax.",
+        "popularity": 0.5138,
+        "poster_path": "/5eZzBvETRK8uDz3mUK0Feio2T5C.jpg",
+        "release_date": "2025-10-31",
+        "title": "Aan Paavam Pollathathu",
+        "video": false,
+        "vote_average": 5.4,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ptHXfOc0gEIG8CrieQ3t8MUBuiP.jpg",
+        "genre_ids": [
+          28,
+          53
+        ],
+        "id": 1522923,
+        "original_language": "en",
+        "original_title": "Safe House",
+        "overview": "Trapped in a high-security safe house after a terrorist attack in downtown Los Angeles, six government agents realize they must survive not just the enemy outside, but the potential traitor among them.",
+        "popularity": 3.6481,
+        "poster_path": "/jlQW7qPp9j6yGqiIEcB3uNYbjys.jpg",
+        "release_date": "2025-10-30",
+        "title": "Safe House",
+        "video": false,
+        "vote_average": 6.664,
+        "vote_count": 55
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8Fl8B1TRkcjkU9VMp9ex9mV6949.jpg",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "id": 1396869,
+        "original_language": "ml",
+        "original_title": "ഡീയസ് ഈറെ",
+        "overview": "Rohan's affluent lifestyle spirals out of control as he becomes convinced there is a supernatural entity in his home. As he starts to uncover the mystery, he is drawn into unexpected worlds and alliances, along with the horrors that lie ahead.",
+        "popularity": 2.6273,
+        "poster_path": "/123DlTiiezgLaJruVe7RiSi0RFf.jpg",
+        "release_date": "2025-10-30",
+        "title": "Diés Iraé",
+        "video": false,
+        "vote_average": 6.55,
+        "vote_count": 20
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/gaKFXcB5J1gz0QqYj8bWIfrPc04.jpg",
+        "genre_ids": [
+          28,
+          878,
+          12
+        ],
+        "id": 1242898,
+        "original_language": "en",
+        "original_title": "Predator: Badlands",
+        "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+        "popularity": 72.0533,
+        "poster_path": "/erTRAi241eYF4K8KoGGOI8kFPox.jpg",
+        "release_date": "2025-11-05",
+        "title": "Predator: Badlands",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 2361
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lnwRiQVEvfHZZhHV1zG5RsuyrpU.jpg",
+        "genre_ids": [
+          16
+        ],
+        "id": 1255369,
+        "original_language": "ru",
+        "original_title": "Финник 2",
+        "overview": "Finnick accidentally loses invisibility, and now the world of brownies is under threat. Together with his man Kristina, he goes in search of a magical magician who will help him regain invisibility.",
+        "popularity": 1.3808,
+        "poster_path": "/7zMfBZ9IaO6LWNRQZqddpdh0pnn.jpg",
+        "release_date": "2025-10-23",
+        "title": "Finnick 2",
+        "video": false,
+        "vote_average": 4.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2avs7Bj9f94vtlQjO4YcXip8ZU4.jpg",
+        "genre_ids": [
+          99,
+          10402
+        ],
+        "id": 1553666,
+        "original_language": "en",
+        "original_title": "Bruce Springsteen: Nebraska Live",
+        "overview": "Bruce Springsteen performs the songs from his 1982 album “Nebraska” for the first time ever in its entirety in an intimate soundstage setting. Shot in moody black-and-white, the film is directed by Springsteen’s longtime filmic collaborator Thom Zimny.",
+        "popularity": 0.5591,
+        "poster_path": "/uCKxBd8hdoZn88LKophzVZk9cXz.jpg",
+        "release_date": "2025-10-22",
+        "title": "Bruce Springsteen: Nebraska Live",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lK1zWi7EpBIFaGJBf0Y7jjemZe2.jpg",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "id": 1362315,
+        "original_language": "en",
+        "original_title": "The Hand That Rocks the Cradle",
+        "overview": "Suburban couple Caitlin and Miguel hire the seemingly sweet Polly to take care of their newborn baby. But Polly's true motives have little to do with singing lullabies.",
+        "popularity": 6.4297,
+        "poster_path": "/qnLwCl7HPprx3OQCPXHIRZXOfPw.jpg",
+        "release_date": "2025-10-16",
+        "title": "The Hand That Rocks the Cradle",
+        "video": false,
+        "vote_average": 5.709,
+        "vote_count": 179
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": "/1bGWVysGyy7iTd0cwSZH7OVKaeb.jpg",
+        "genre_ids": [
+          18,
+          35,
+          80
+        ],
+        "id": 302074,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "R.J. Decker",
+        "overview": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
+        "popularity": 12.2201,
+        "poster_path": "/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+        "first_air_date": "2026-03-03",
+        "name": "R.J. Decker",
+        "vote_average": 8.833,
+        "vote_count": 12
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dDzNxwFbTvgKRz6nMKxzEzjmIUa.jpg",
+        "genre_ids": [],
+        "id": 305317,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Greatest Average American",
+        "overview": "\"The Greatest Average American\" is a hilarious new game show that celebrates the power of being perfectly average. Each round is packed with laugh-out-loud challenges and trivia as contestants try to guess how everyday Americans think and live. In the end, one lucky player will be crowned the Greatest Average American and get the chance to win the ultimate grand prize: the average American salary of $67,920.",
+        "popularity": 0.6667,
+        "poster_path": "/7AOlqR1dI73EH8SeJalHUCAZo7B.jpg",
+        "first_air_date": "2026-02-25",
+        "name": "The Greatest Average American",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/em2Jzx5QyBTVI7gKipCoE0kG4ot.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 295778,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Scrubs",
+        "overview": "J.D. & Turk scrub in together for the first time in a long time–medicine has changed, interns have changed, but their bromance has stood the test of time. Characters new and old navigate the waters of Sacred Heart with laughter, heart and some surprises along the way.",
+        "popularity": 17.6149,
+        "poster_path": "/nNNM50G7p9C3n4vgidCiybsIdHA.jpg",
+        "first_air_date": "2026-02-25",
+        "name": "Scrubs",
+        "vote_average": 7.9,
+        "vote_count": 25
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pHhGVPOi9qI6CVYIrgZ2VWflg0u.jpg",
+        "genre_ids": [
+          9648,
+          18,
+          10751
+        ],
+        "id": 233833,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "찬란한 너의 계절에",
+        "overview": "Chan lives every day like it is summer vacation. Haran is trapped in a lonely winter. When their forgotten past reunites them, Chan is determined to gift her another spring. Through laughter and tears, they face winter together and reach their spring in this heartwarming romance.",
+        "popularity": 16.5187,
+        "poster_path": "/35UAIEtQQsjVl38GVPvbqc00pcJ.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "In Your Radiant Season",
+        "vote_average": 7.8,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/36AOCcIXeKChEBPxgQL2hvESTeW.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312508,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Girl on the Run: The Hunt for America's Most Wanted Woman",
+        "overview": "When convicted double murderer Sarah Pender escapes from a maximum-security prison in Indiana, a nationwide manhunt is immediately launched. Charged alongside her former boyfriend, who pled guilty, for the murder of a young couple, Pender has vanished, igniting fear, fascination, and a relentless pursuit that stretches across state lines.",
+        "popularity": 0.4968,
+        "poster_path": "/oY6Bb0wsgvGbVQuNYyRSsIRIhKb.jpg",
+        "first_air_date": "2026-02-19",
+        "name": "Girl on the Run: The Hunt for America's Most Wanted Woman",
+        "vote_average": 8.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 131142,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Love Story",
+        "overview": "An anthology of sweeping true love stories that captured the world’s attention.",
+        "popularity": 26.6256,
+        "poster_path": "/7WU3cXD0rip5ONc7owI2dBWAVjW.jpg",
+        "first_air_date": "2026-02-12",
+        "name": "Love Story",
+        "vote_average": 8.7,
+        "vote_count": 26
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hiuzn8JQ4Q0VjA8AaU1qhL5Rjx8.jpg",
+        "genre_ids": [
+          9648,
+          10764
+        ],
+        "id": 313289,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "운명전쟁49",
+        "overview": "Is our fate predetermined? And can anyone truly read it? A groundbreaking competition dares to find out. Korea's top 49 top Fate Readers—masters of shamanism, saju, tarot, and face reading—put their pride on the line. Only those who can genuinely read fate will survive. Who will be the winner?",
+        "popularity": 15.127,
+        "poster_path": "/o4DOGStruvyfrfKhazBO9UbxRhR.jpg",
+        "first_air_date": "2026-02-11",
+        "name": "Battle of Fates",
+        "vote_average": 7.8,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/vne1uNiDV92uggQ0Wc8XUoILe6N.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 312506,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Scream Murder: A True Teen Horror Story",
+        "overview": "When high school student Cassie Stoddart is found stabbed to death in a house on the outskirts of Pocatello, Idaho, the community is gripped by fear that a random killer is on the loose. Police retrace Cassie's final hours and focus on three classmates that were the last people to see her alive. As the investigation narrows, detectives uncover a shocking buried video tape that reframes the case, raising the unthinkable question of whether 16-year-olds could have committed such a brutal crime.",
+        "popularity": 0.8137,
+        "poster_path": "/pIC0ekeWk1KKVN7j5eEGC8AIV8n.jpg",
+        "first_air_date": "2026-02-11",
+        "name": "The Scream Murder: A True Teen Horror Story",
+        "vote_average": 6.5,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 198178,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Wonder Man",
+        "overview": "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles.",
+        "popularity": 15.869,
+        "poster_path": "/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
+        "first_air_date": "2026-01-27",
+        "name": "Wonder Man",
+        "vote_average": 7.125,
+        "vote_count": 232
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 291339,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Memory of a Killer",
+        "overview": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
+        "popularity": 27.9231,
+        "poster_path": "/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
+        "first_air_date": "2026-01-25",
+        "name": "Memory of a Killer",
+        "vote_average": 7.409,
+        "vote_count": 22
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+        "genre_ids": [
+          18,
+          10765
+        ],
+        "id": 273160,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Beauty",
+        "overview": "The world of high fashion turns dark when international supermodels begin dying in gruesome and mysterious ways. FBI Agents Cooper Madsen and Jordan Bennett are sent to Paris to uncover the truth. As they delve deeper into the case, they uncover a sexually transmitted virus that transforms ordinary people into visions of physical perfection, but with terrifying consequences.",
+        "popularity": 52.5944,
+        "poster_path": "/tZTG2PPAukzksPkiQV9c4suIQXk.jpg",
+        "first_air_date": "2026-01-21",
+        "name": "The Beauty",
+        "vote_average": 6.227,
+        "vote_count": 97
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/m0c2KKxNuyJtHMR8PZTwop514YU.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 311022,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Dirty Talk: When Daytime Talk Shows Ruled TV",
+        "overview": "A look back at the rise, fall and lasting impact of the most sensational era in TV talk show history. By exploring the psychological forces that shaped the talk TV genre, the series reveals how these shows transformed from trusted confessional spaces into lightning rods of controversy, leaving a lasting impact on culture, media and the people caught in the chaos.",
+        "popularity": 0.5404,
+        "poster_path": "/5qkOUvkWGqWTROzGTP4IOikGMA9.jpg",
+        "first_air_date": "2026-01-14",
+        "name": "Dirty Talk: When Daytime Talk Shows Ruled TV",
+        "vote_average": 6.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 157194,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Pole to Pole with Will Smith",
+        "overview": "Inspired by his late mentor, Will Smith spends 100 days facing extreme challenges, venturing from pole to pole with scientists, explorers and experts.",
+        "popularity": 5.6077,
+        "poster_path": "/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
+        "first_air_date": "2026-01-13",
+        "name": "Pole to Pole with Will Smith",
+        "vote_average": 6.125,
+        "vote_count": 24
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3rfOHUwNCzUv9cDgTayny0dwUhK.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 297024,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Fear Factor: House of Fear",
+        "overview": "Strangers must coexist in a harsh, isolated place while facing extreme challenges and playing a devious social game where trust is scarce and fear becomes a strategic tool.",
+        "popularity": 1.5624,
+        "poster_path": "/t9U95eNaip1vnmzfgj6kSiyVtAR.jpg",
+        "first_air_date": "2026-01-11",
+        "name": "Fear Factor: House of Fear",
+        "vote_average": 5.8,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 291084,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Best Medicine",
+        "overview": "Martin Best is a brilliant surgeon who abruptly leaves his illustrious career in Boston to become the general practitioner in a quaint East Coast fishing village where he spent summers as a child. Unfortunately, Martin's blunt and borderline rude bedside manner rubs the quirky, needy locals the wrong way, and he quickly alienates the town, even though he's all they’ve got.",
+        "popularity": 8.3903,
+        "poster_path": "/q7SCSZfDaNDRPL3Xt4TiGSZQQht.jpg",
+        "first_air_date": "2026-01-04",
+        "name": "Best Medicine",
+        "vote_average": 7.4,
+        "vote_count": 16
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/l6kJn2V8Xxnb1VIPa5gYzcmmEqn.jpg",
+        "genre_ids": [
+          35,
+          80,
+          18
+        ],
+        "id": 258918,
+        "origin_country": [
+          "AU"
+        ],
+        "original_language": "en",
+        "original_name": "Sunny Nights",
+        "overview": "A brother and sister venture from the US to Sydney, determined to grow their new spray tan business Tansform, but when they get caught up in the city's criminal underworld, they must figure out how to stay alive, out of prison, and in the black.",
+        "popularity": 3.9835,
+        "poster_path": "/7n91F2320KptcPUXXY3lMtx3k1I.jpg",
+        "first_air_date": "2025-12-26",
+        "name": "Sunny Nights",
+        "vote_average": 6.4,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/42RCEkRkfvafglUsXD6kN1S9nwP.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 246473,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "메이드 인 코리아",
+        "overview": "In 1970s South Korea, follow two men on opposite sides of power — one driven by ambition, the other by justice. As their worlds collide, greed, loyalty, and survival intertwine in a battle that will shape a nation.",
+        "popularity": 7.9151,
+        "poster_path": "/cyBg9FJ2AmTWEGktA43gMo4t0Vj.jpg",
+        "first_air_date": "2025-12-24",
+        "name": "Made in Korea",
+        "vote_average": 7.6,
+        "vote_count": 19
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fFW41slOvvQZp6okKSUUjGbUCJA.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 308975,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Incas: The Rise and Fall",
+        "overview": "The rise and fall of the Inca is a story of a civilization marked by gold, power and ingenuity. From monumental cities and vast empires stretching across the Andes to dazzling treasures that inspired legends, the Incas conquered millions and reshaped South America. But their golden age ended suddenly, leaving behind mysteries, monumental ruins, and a legacy that still captivates the world.",
+        "popularity": 0.1665,
+        "poster_path": "/cpfP6gjRnxvDhGkFPyeRFZSKHBh.jpg",
+        "first_air_date": "2025-12-22",
+        "name": "Incas: The Rise and Fall",
+        "vote_average": 7.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/u1yy7HqnEbZ62Cenbj17bM2871Z.jpg",
+        "genre_ids": [],
+        "id": 309369,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Inside the Enchanted Waterways",
+        "overview": "Dive inside the enigmatic world of water, which shapes all life on Earth.",
+        "popularity": 0.179,
+        "poster_path": "/hAKolHv6VVXuUhirvAaGUPQiLHY.jpg",
+        "first_air_date": "2025-12-19",
+        "name": "Inside the Enchanted Waterways",
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 308022,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The Rise and Fall of the Jesus Army",
+        "overview": "The Rise and Fall of the Jesus Army",
+        "popularity": 0.0071,
+        "poster_path": null,
+        "first_air_date": "2025-12-11",
+        "name": "The Rise and Fall of the Jesus Army",
+        "vote_average": 6.0,
+        "vote_count": 1
+      }
+    ]
+  },
+  "Prime": {
+    "movies": [],
+    "series": []
+  },
+  "Disney": {
+    "movies": [
+      {
+        "adult": false,
+        "backdrop_path": "/ajtUFPzuRFTpPYiuMsC5cdJzhNw.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1224541,
+        "original_language": "pt",
+        "original_title": "Vira-Lata",
+        "overview": "Odete and her daughters face financial difficulties after the death of her husband, Suelen, the middle daughter, cannot fit into the new routine, Sara, the youngest daughter, believes that the world is going to end.",
+        "popularity": 0.0357,
+        "poster_path": "/k3SppXueWOmSDWq6qxNqbxu1Ijt.jpg",
+        "release_date": "2026-09-30",
+        "title": "Vira-Lata",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fX19SnITb90RwMhbOWI1BWTxDzz.jpg",
+        "genre_ids": [
+          10402
+        ],
+        "id": 1531626,
+        "original_language": "en",
+        "original_title": "Descendants/ZOMBIES Worlds Collide - Concert Special",
+        "overview": "Celebrating the high-energy music from the iconic Descendants and ZOMBIES franchises, the Descendants/ZOMBIES Worlds Collide Tour thrilled sold-out crowds in over 40 arenas across North America last summer. Now, families and fans of all ages can relive the excitement - singing and dancing along with their favorite stars from the comfort of home.",
+        "popularity": 4.4389,
+        "poster_path": "/ogWhinTSMe8UhlIPhrztPVxpOsl.jpg",
+        "release_date": "2026-02-19",
+        "title": "Descendants/ZOMBIES Worlds Collide - Concert Special",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qz7B5uDspnkoz068wLbLnleotwV.jpg",
+        "genre_ids": [
+          35,
+          10751,
+          10402,
+          10770
+        ],
+        "id": 1548113,
+        "original_language": "en",
+        "original_title": "The Muppet Show",
+        "overview": "Music, comedy, and a whole lot of chaos is bound to ensue when The Muppets once again take the stage of the original Muppet Theatre with their very special guest, Sabrina Carpenter!",
+        "popularity": 7.1068,
+        "poster_path": "/tcwar1rL0neoLvnklL7DzYw7sN8.jpg",
+        "release_date": "2026-02-03",
+        "title": "The Muppet Show",
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 82
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lUUzdpdlQiYno9rFrQ4EJOACQy5.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1538718,
+        "original_language": "en",
+        "original_title": "Disneyland Handcrafted",
+        "overview": "Oscar and Emmy nominated filmmaker Leslie Iwerks returns with an all-new Disney documentary giving viewers an up-close look at the dedication, effort, and passion that was required to realize a dream that would go on to inspire millions around the world.",
+        "popularity": 3.1497,
+        "poster_path": "/81szv19zvs5fGqXtWau6tXzfC4T.jpg",
+        "release_date": "2026-01-22",
+        "title": "Disneyland Handcrafted",
+        "video": false,
+        "vote_average": 6.818,
+        "vote_count": 22
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/snyThv9JMTLqyfNfnpGk6q356SB.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1601082,
+        "original_language": "en",
+        "original_title": "Cheetahs Up Close with Bertie Gregory",
+        "overview": "Bertie arrives in the Serengeti as the spectacular wildebeest migration kicks off. He’s here to film the fastest land animal on Earth: the cheetah. As he gets close to a mother caring for her tiny cubs and a young group of males executing phenomenal hunts as a team, he learns about the unexpected challenges the species endures.",
+        "popularity": 1.7376,
+        "poster_path": "/pSmSgFb1cnRQep0OzcuKWMYWeqR.jpg",
+        "release_date": "2026-01-01",
+        "title": "Cheetahs Up Close with Bertie Gregory",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 17
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/w4aTYTHpm97iTN1UGIC9kFZIuc7.jpg",
+        "genre_ids": [
+          10402,
+          99
+        ],
+        "id": 1562010,
+        "original_language": "en",
+        "original_title": "Taylor Swift | The Eras Tour | The Final Show",
+        "overview": "Filmed at the end of the tour in Vancouver, B.C., with the entire Tortured Poets Department set.",
+        "popularity": 4.0037,
+        "poster_path": "/c11km7kLK2F30fTNHP5Si9m8foG.jpg",
+        "release_date": "2025-12-11",
+        "title": "Taylor Swift | The Eras Tour | The Final Show",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 31
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yAfkQJOc2W7G8P28Hs5QG5PyJ7C.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1595856,
+        "original_language": "en",
+        "original_title": "Boo-Yah: A Portrait of Stuart Scott",
+        "overview": "\"Boo-Yah\" traces Stuart's journey from local television in North Carolina to becoming one of ESPN's most influential voices. At a time when hip-hop and popular culture were often marginalized in mainstream media and few Black anchors held national prominence, Stuart brought both unapologetically to \"SportsCenter,\" blending sharp analysis, pop culture and swagger in a way that spoke to a new generation of fans.",
+        "popularity": 0.864,
+        "poster_path": "/w7V3lOur4lCYKZV8np53atCM2t.jpg",
+        "release_date": "2025-12-10",
+        "title": "Boo-Yah: A Portrait of Stuart Scott",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zfN93jpbjqh08IUYKwQfDwJl5pE.jpg",
+        "genre_ids": [
+          99,
+          18
+        ],
+        "id": 1585476,
+        "original_language": "en",
+        "original_title": "Kevin Costner Presents: The First Christmas",
+        "overview": "Kevin Costner hosts this special exploring the extraordinary journey of Mary and Joseph as they navigate the hardships, trials and triumphs surrounding Jesus Christ's birth, offering an inspiring way to experience the true meaning of Christmas.",
+        "popularity": 1.5556,
+        "poster_path": "/yXPmDhPj26JqEekHIruDtENSrsj.jpg",
+        "release_date": "2025-12-09",
+        "title": "Kevin Costner Presents: The First Christmas",
+        "video": false,
+        "vote_average": 6.6,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1604647,
+        "original_language": "en",
+        "original_title": "Steamboat Willie (( Pt ii ))",
+        "overview": "ive been thinking deeply about my work, trying to understand it a little more and i keep coming back to this idea or feeling that its all about transitions, changes... memories fade and life expands around this sense of sadness, or longing, or loss... sort of clinging to something we knew",
+        "popularity": 0.0143,
+        "poster_path": "/nKPubCHu3lsgo07Vuk4WfDP2IcM.jpg",
+        "release_date": "2025-12-04",
+        "title": "Steamboat Willie (( Pt ii ))",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/v8tpkxm7AhLu69eaZKJLsNaSL5.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          35
+        ],
+        "id": 1392796,
+        "original_language": "en",
+        "original_title": "Diary of a Wimpy Kid: The Last Straw",
+        "overview": "When laidback Greg finds himself at odds with his dad's outsized expectations, pressure builds to turn his act around. After a series of hilarious near disasters, Greg's dad presents him with an ultimatum that just might challenge his wimpy ways for good.",
+        "popularity": 10.5542,
+        "poster_path": "/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
+        "release_date": "2025-12-04",
+        "title": "Diary of a Wimpy Kid: The Last Straw",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 28
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/i7aXudlUyoWl4h5rc1k8XNSlzmw.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1587180,
+        "original_language": "en",
+        "original_title": "Truth and Lies: Who Killed JFK?",
+        "overview": "An exploration of the historical event and the culture of conspiracy surrounding the assassination of former President John F. Kennedy.",
+        "popularity": 0.2087,
+        "poster_path": "/93MYst2Ze6Ih7esraRn3lI6qZ3e.jpg",
+        "release_date": "2025-12-03",
+        "title": "Truth and Lies: Who Killed JFK?",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          10402,
+          10770
+        ],
+        "id": 1587722,
+        "original_language": "en",
+        "original_title": "CMA Country Christmas 2025",
+        "overview": "Ring in “CMA Country Christmas” with hosts Lauren Daigle and Jordan Davis this holiday season with a night full of festive classics and one-of-a-kind musical performances. Now in it's 16th year, the 2025 special is filmed in Nashville, Tennessee and airs each holiday season on ABC Television Network.",
+        "popularity": 0.0789,
+        "poster_path": "/owWpFf6jkoyXe03Mqga0kwtFK17.jpg",
+        "release_date": "2025-12-02",
+        "title": "CMA Country Christmas 2025",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tombkp3ir9tmm5v9QLnHaDZCWa7.jpg",
+        "genre_ids": [
+          16,
+          35,
+          14,
+          10751
+        ],
+        "id": 1550797,
+        "original_language": "en",
+        "original_title": "Prep & Landing: The Snowball Protocol",
+        "overview": "Christmas elves Lanny and Wayne panic when their holiday missions go awry, leaving Wayne thinking he's in BIG trouble with Santa and accidentally revealing other merry mishaps.",
+        "popularity": 7.6678,
+        "poster_path": "/olbxBEAGaYCgyi2EEecuwa5tuUl.jpg",
+        "release_date": "2025-11-27",
+        "title": "Prep & Landing: The Snowball Protocol",
+        "video": false,
+        "vote_average": 7.204,
+        "vote_count": 27
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/t2NdxB5kIscjsmK4ZKTWBf7XpY4.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1563925,
+        "original_language": "en",
+        "original_title": "Chris Hemsworth: A Road Trip to Remember",
+        "overview": "In his most personal documentary yet, Chris Hemsworth turns the camera on his own family after his dad’s recent Alzheimer’s diagnosis. They embark on a road trip into their past, exploring the science of social connection and how it can support memory function. They revisit meaningful places and faces, capturing it all as a home movie, and reviving treasured recollections.",
+        "popularity": 1.0152,
+        "poster_path": "/uRvBvxOmqaCMeZNJGducuh2WsgE.jpg",
+        "release_date": "2025-11-23",
+        "title": "Chris Hemsworth: A Road Trip to Remember",
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+        "genre_ids": [
+          16,
+          35,
+          12,
+          10751,
+          9648
+        ],
+        "id": 1084242,
+        "original_language": "en",
+        "original_title": "Zootopia 2",
+        "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+        "popularity": 153.8149,
+        "poster_path": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+        "release_date": "2025-11-26",
+        "title": "Zootopia 2",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 2090
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ajYw16ISz3qsdYTg4zy5rob1iAQ.jpg",
+        "genre_ids": [
+          35,
+          10402
+        ],
+        "id": 1425122,
+        "original_language": "en",
+        "original_title": "A Very Jonas Christmas Movie",
+        "overview": "Kevin, Nick, and Joe Jonas face a series of escalating obstacles as they struggle to make it from London to New York in time to spend Christmas with their families.",
+        "popularity": 3.231,
+        "poster_path": "/kGLgaDrYWmTAdRFzGP5pBquRnhO.jpg",
+        "release_date": "2025-11-10",
+        "title": "A Very Jonas Christmas Movie",
+        "video": false,
+        "vote_average": 6.313,
+        "vote_count": 107
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yqb851pYkvS4kk8AcKfrHGZk9z0.jpg",
+        "genre_ids": [
+          10402
+        ],
+        "id": 1574432,
+        "original_language": "en",
+        "original_title": "2025 Rock & Roll Hall of Fame Induction Ceremony",
+        "overview": "On Saturday, November 8, 2025, rock royalty once again gathered to celebrate the induction of another class of performers, influencers and excellent musicians into the Hallowed Hall of Rock. The 2025 Rock & Roll Hall of Fame inductees were Bad Company, Chubby Checker, Joe Cocker, Cyndi Lauper, Outkast, Soundgarden and The White Stripes in the Performer category.",
+        "popularity": 1.2254,
+        "poster_path": "/2qNWhH53JIbTGAeD02fgdouMFGr.jpg",
+        "release_date": "2025-11-08",
+        "title": "2025 Rock & Roll Hall of Fame Induction Ceremony",
+        "video": false,
+        "vote_average": 4.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3kps0wiGFMRVkSXxbebbAUeWrN3.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          28,
+          12,
+          14
+        ],
+        "id": 1147411,
+        "original_language": "fr",
+        "original_title": "Miraculous World : Tokyo, Stellar Force",
+        "overview": "Kagami drags Marinette to Tokyo to help the Stellars defeat a new supervillain, but Marinette soon realizes her friend has another, untold reason for this trip to Japan.",
+        "popularity": 12.8321,
+        "poster_path": "/vFaopnGXRXxRf4z2Z3IgA1QtOyV.jpg",
+        "release_date": "2025-12-07",
+        "title": "Miraculous World: Tokyo, Stellar Force",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 23
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/gbAcTyVtPfzCBs58xs6NYKHiPCp.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          14
+        ],
+        "id": 1549292,
+        "original_language": "en",
+        "original_title": "LEGO Frozen: Operation Puffins",
+        "overview": "After the events of Frozen, Anna and Elsa want to start fresh in Arendelle, and make the castle feel a bit more comfortable. While they struggle to break free of the bounds of tradition, the Duke of Weselton has other plans for their beloved home alongside a flock of menacing puffins.",
+        "popularity": 3.9109,
+        "poster_path": "/4gcpeI5drcUI81KbZjRLm4EAJII.jpg",
+        "release_date": "2025-10-23",
+        "title": "LEGO Frozen: Operation Puffins",
+        "video": false,
+        "vote_average": 6.026,
+        "vote_count": 19
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5MBqVVijMPVfimKacXRkCaX90w.jpg",
+        "genre_ids": [
+          12,
+          10751,
+          16
+        ],
+        "id": 1564058,
+        "original_language": "en",
+        "original_title": "Spidey and Iron Man: Avengers Team Up!",
+        "overview": "Spidey and Iron Man team up with the Avengers to stop Ultron and Green Goblin from controlling all of the city's devices.",
+        "popularity": 1.209,
+        "poster_path": "/aV8K3EevkFNwj41C2MwpjHfrCAi.jpg",
+        "release_date": "2025-10-16",
+        "title": "Spidey and Iron Man: Avengers Team Up!",
+        "video": false,
+        "vote_average": 3.7,
+        "vote_count": 3
+      }
+    ],
+    "series": [
+      {
+        "adult": false,
+        "backdrop_path": "/pHhGVPOi9qI6CVYIrgZ2VWflg0u.jpg",
+        "genre_ids": [
+          9648,
+          18,
+          10751
+        ],
+        "id": 233833,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "찬란한 너의 계절에",
+        "overview": "Chan lives every day like it is summer vacation. Haran is trapped in a lonely winter. When their forgotten past reunites them, Chan is determined to gift her another spring. Through laughter and tears, they face winter together and reach their spring in this heartwarming romance.",
+        "popularity": 16.5187,
+        "poster_path": "/35UAIEtQQsjVl38GVPvbqc00pcJ.jpg",
+        "first_air_date": "2026-02-20",
+        "name": "In Your Radiant Season",
+        "vote_average": 7.8,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mS3l4HMv6xCY7XLnoIsJtrHk6wn.jpg",
+        "genre_ids": [
+          10765,
+          10751,
+          10762
+        ],
+        "id": 313973,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Locker Diaries: ZOMBIES",
+        "overview": "Glimpse the drama happening in the school hallways of Shadyside & Sunnyside and discover the secret adventures that unfold.",
+        "popularity": 0.6167,
+        "poster_path": "/ysK8HjNiZkkopYyLuFMiqCtQyse.jpg",
+        "first_air_date": "2026-02-14",
+        "name": "Locker Diaries: ZOMBIES",
+        "vote_average": 3.0,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hiuzn8JQ4Q0VjA8AaU1qhL5Rjx8.jpg",
+        "genre_ids": [
+          9648,
+          10764
+        ],
+        "id": 313289,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "운명전쟁49",
+        "overview": "Is our fate predetermined? And can anyone truly read it? A groundbreaking competition dares to find out. Korea's top 49 top Fate Readers—masters of shamanism, saju, tarot, and face reading—put their pride on the line. Only those who can genuinely read fate will survive. Who will be the winner?",
+        "popularity": 15.127,
+        "poster_path": "/o4DOGStruvyfrfKhazBO9UbxRhR.jpg",
+        "first_air_date": "2026-02-11",
+        "name": "Battle of Fates",
+        "vote_average": 7.8,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 198178,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Wonder Man",
+        "overview": "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles.",
+        "popularity": 15.869,
+        "poster_path": "/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
+        "first_air_date": "2026-01-27",
+        "name": "Wonder Man",
+        "vote_average": 7.125,
+        "vote_count": 232
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/e7lAmzEjBlHQAotmsTeiOmSJLjz.jpg",
+        "genre_ids": [
+          10762,
+          16,
+          10751,
+          35
+        ],
+        "id": 257724,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Hey A.J.!",
+        "overview": "Hey A.J.! is a high-energy journey with a curious, driven and extremely imaginative young lady. Telling her tale will call for fast-paced escapades, memorable songs and “transplendent” storytelling! AJ includes her family and friends in all her fantastical adventures. In collaboration with a Super Bowl Champion/Children's author, the SGS team brings this adventurous children's book series to television.",
+        "popularity": 0.8705,
+        "poster_path": "/jCZPwgAWaXVtn9AB51r9X91B5Q7.jpg",
+        "first_air_date": "2026-01-13",
+        "name": "Hey A.J.!",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 157194,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Pole to Pole with Will Smith",
+        "overview": "Inspired by his late mentor, Will Smith spends 100 days facing extreme challenges, venturing from pole to pole with scientists, explorers and experts.",
+        "popularity": 5.6077,
+        "poster_path": "/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
+        "first_air_date": "2026-01-13",
+        "name": "Pole to Pole with Will Smith",
+        "vote_average": 6.125,
+        "vote_count": 24
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/42RCEkRkfvafglUsXD6kN1S9nwP.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 246473,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "메이드 인 코리아",
+        "overview": "In 1970s South Korea, follow two men on opposite sides of power — one driven by ambition, the other by justice. As their worlds collide, greed, loyalty, and survival intertwine in a battle that will shape a nation.",
+        "popularity": 7.9151,
+        "poster_path": "/cyBg9FJ2AmTWEGktA43gMo4t0Vj.jpg",
+        "first_air_date": "2025-12-24",
+        "name": "Made in Korea",
+        "vote_average": 7.6,
+        "vote_count": 19
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fFW41slOvvQZp6okKSUUjGbUCJA.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 308975,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Incas: The Rise and Fall",
+        "overview": "The rise and fall of the Inca is a story of a civilization marked by gold, power and ingenuity. From monumental cities and vast empires stretching across the Andes to dazzling treasures that inspired legends, the Incas conquered millions and reshaped South America. But their golden age ended suddenly, leaving behind mysteries, monumental ruins, and a legacy that still captivates the world.",
+        "popularity": 0.1665,
+        "poster_path": "/cpfP6gjRnxvDhGkFPyeRFZSKHBh.jpg",
+        "first_air_date": "2025-12-22",
+        "name": "Incas: The Rise and Fall",
+        "vote_average": 7.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/u1yy7HqnEbZ62Cenbj17bM2871Z.jpg",
+        "genre_ids": [],
+        "id": 309369,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Inside the Enchanted Waterways",
+        "overview": "Dive inside the enigmatic world of water, which shapes all life on Earth.",
+        "popularity": 0.179,
+        "poster_path": "/hAKolHv6VVXuUhirvAaGUPQiLHY.jpg",
+        "first_air_date": "2025-12-19",
+        "name": "Inside the Enchanted Waterways",
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qheCyer8rj7B8tJC1anXlCFNrlf.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 302919,
+        "origin_country": [
+          "GB",
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "The End of an Era",
+        "overview": "A behind-the-scenes docuseries event chronicling the development, impact, and inner workings that created the phenomenon that was Taylor Swift | The Eras Tour, as well as providing an intimate look at Taylor's life as her tour made headlines and thrilled fans around the world. The series also spotlights performers, family members, and friends — including Gracie Abrams, Sabrina Carpenter, Ed Sheeran, and Florence Welch — offering never-before-seen insight into what it took to create a phenomenon.",
+        "popularity": 3.7025,
+        "poster_path": "/8qEyRXQMC3L77fjY924qcoxaaVs.jpg",
+        "first_air_date": "2025-12-12",
+        "name": "The End of an Era",
+        "vote_average": 8.674,
+        "vote_count": 43
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          16,
+          10751
+        ],
+        "id": 308517,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Mickey and Minnie's Holiday Songs: Christmas",
+        "overview": "",
+        "popularity": 0.4314,
+        "poster_path": "/nd2CZepwi1sd2I3s4Wwwps5HveN.jpg",
+        "first_air_date": "2025-12-02",
+        "name": "Mickey and Minnie's Holiday Songs: Christmas",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yaDiMo4Bgq9ZBaHfhbygoPRLlb1.jpg",
+        "genre_ids": [],
+        "id": 309978,
+        "origin_country": [
+          "JP"
+        ],
+        "original_language": "ja",
+        "original_name": "アイアンマンとさいこうのなかまたち",
+        "overview": "",
+        "popularity": 0.0311,
+        "poster_path": "/rhC0mSs9gbaiJSImkP9puSIAGNF.jpg",
+        "first_air_date": "2025-12-01",
+        "name": "アイアンマンとさいこうのなかまたち",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/badS0rju6e9QG3n29aZJKZkIhbY.jpg",
+        "genre_ids": [
+          10759,
+          10764
+        ],
+        "id": 306252,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "아이 엠 복서",
+        "overview": "Don Lee's extreme boxing survival. Who will survive to be the champion standing in the ring?",
+        "popularity": 2.2333,
+        "poster_path": "/y1Sd91OsajskEOA5Msf72UvdRGi.jpg",
+        "first_air_date": "2025-11-21",
+        "name": "I AM BOXER",
+        "vote_average": 0.0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ch25hghTZkXFfcx7v2r7cGKKizl.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 304790,
+        "origin_country": [
+          "AR"
+        ],
+        "original_language": "es",
+        "original_name": "Hija del fuego: La venganza de la bastarda",
+        "overview": "A foreign woman returns to her hometown with another identity. Her presence raises suspicions, but no one imagines the truth: she is the key piece of a bloody revenge. Having everyone's trust, she puts her plan into action and commits the most brutal crimes in a town that hides more secrets than it seems.",
+        "popularity": 4.7331,
+        "poster_path": "/9LiLf7qwO6IrmZq8zgN3IdTURnO.jpg",
+        "first_air_date": "2025-11-19",
+        "name": "Daughter of Fire",
+        "vote_average": 7.9,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rMIcPgTdi3lB7J0iZEyHFDAZDCT.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 304774,
+        "origin_country": [
+          "TR"
+        ],
+        "original_language": "tr",
+        "original_name": "Sekizinci Aile",
+        "overview": "With their invention of bulletproof thermal underwear, the Basmacıgil Family earns the title of the Eighth Family, one of the ruling forces of the world. Yet, as six very different siblings attempt to run the family business, their well-meaning but ineffective efforts leave their father Erol convinced that “no outside enemy is necessary.\"",
+        "popularity": 6.1721,
+        "poster_path": "/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg",
+        "first_air_date": "2025-11-19",
+        "name": "The Eighth Family",
+        "vote_average": 8.333,
+        "vote_count": 6
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/dPVOvmaar7tLTLIMlEk0rc8uRIs.jpg",
+        "genre_ids": [
+          10751,
+          16,
+          10765,
+          10759
+        ],
+        "id": 305165,
+        "origin_country": [
+          "CA",
+          "DK",
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "LEGO Marvel Avengers: Strange Tails",
+        "overview": "Hawkeye and The Avengers have made saving the world look easy. But now they face their wildest threat yet: SOCIAL MEDIA. To save the world, a new team must be recruited to help our heroes contend with an influencer bent on cataclysmic destruction.",
+        "popularity": 3.8129,
+        "poster_path": "/6MhzH93izyEvVO15qgM8UJNvY4z.jpg",
+        "first_air_date": "2025-11-14",
+        "name": "LEGO Marvel Avengers: Strange Tails",
+        "vote_average": 6.1,
+        "vote_count": 10
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3jun6V4bkYQ6GzMNXzPCXVi2wBN.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 304354,
+        "origin_country": [
+          "AR",
+          "MX"
+        ],
+        "original_language": "es",
+        "original_name": "La peor vuelta al mundo",
+        "overview": "Having no clue about what traveling around the world entails, Juanpa Zurita convinces Disney+ that he can do it with just a small plane and legendary pilot Matt Guthmiller. Traveling to eight destinations across four continents, with eight celebrity guests to make sure he wouldn’t fail alone, and a small budget he managed to get from Disney, it was inevitable this would turn into a complete disaster.",
+        "popularity": 0.9679,
+        "poster_path": "/a2M1Lw4jIEyHmUfQusD7OTEYK9M.jpg",
+        "first_air_date": "2025-11-07",
+        "name": "The Worst Trip Around the World",
+        "vote_average": 9.0,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/nZKcaSSV7NaGfuPeE6N4Xt5St7E.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 303109,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Fire and Water: Making the Avatar Films",
+        "overview": "This two-part documentary provides a fascinating glimpse into the making of the Oscar-winning box office phenomenon \"Avatar: The Way of Water\" and features exclusive behind-the-scenes footage, concept art, and interviews with cast and filmmakers.",
+        "popularity": 2.4872,
+        "poster_path": "/1Jv4WlLRA659DdZIXOR2f6hZGz8.jpg",
+        "first_air_date": "2025-11-07",
+        "name": "Fire and Water: Making the Avatar Films",
+        "vote_average": 6.7,
+        "vote_count": 7
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/1rNwkMpKRou3XUvOQJqWNdpOApn.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 303077,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "SEVENTEEN: OUR CHAPTER",
+        "overview": "Answers discovered through endless questioning, never-ending challenges and performances, and the stories shared with CARATs. This 10th-anniversary documentary series captures SEVENTEEN's candid stories.",
+        "popularity": 1.7193,
+        "poster_path": "/qZq7MP7XihLElGzkVLdJu5JrD0B.jpg",
+        "first_air_date": "2025-11-07",
+        "name": "SEVENTEEN: OUR CHAPTER",
+        "vote_average": 10.0,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cqkmEHLE4LjPHSqKdLt4pJFJv0f.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 239385,
+        "origin_country": [
+          "KR"
+        ],
+        "original_language": "ko",
+        "original_name": "조각도시",
+        "overview": "Taejoong's life is torn apart when he's framed for a heinous crime and imprisoned. Discovering it was all orchestrated by someone on the outside, he embarks on a rage-fueled quest for revenge.",
+        "popularity": 17.4488,
+        "poster_path": "/nOj4nsomFyAVJgpp68L0xq3cREc.jpg",
+        "first_air_date": "2025-11-05",
+        "name": "The Manipulated",
+        "vote_average": 8.3,
+        "vote_count": 92
+      }
+    ]
+  }
+}
