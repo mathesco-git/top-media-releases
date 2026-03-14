@@ -7,16 +7,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --accent: #e5a00d;
-      --border: #333;
-      --card-bg: #181818;
-      --text-muted: #aaa;
+        --accent: #2196f3;
+        --accent-dark: #1769aa;
+        --accent-light: #e3f2fd;
+        --border: #1a237e;
+        --card-bg: #0d1b2a;
+        --text-muted: #b0bec5;
+        --background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: #0f0f0f;
+        background: var(--background);
       color: #f0f0f0;
       font-family: 'Inter', sans-serif;
       min-height: 100vh;
@@ -55,29 +58,29 @@
     }
 
     /* FILTERS */
-    .filters {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 8px;
-      padding: 18px 24px;
-      background: #141414;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
+      .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 0 40px 36px;
+        margin: 0 auto 24px auto;
+        max-width: 900px;
+      }
     .filters button {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-      padding: 6px 16px;
-      border-radius: 20px;
-      font-family: inherit;
-      font-size: 0.8rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.2s;
+        padding: 9px 22px;
+        border-radius: 22px;
+        border: 1.5px solid var(--accent);
+        background: var(--accent-light);
+        color: var(--accent-dark);
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s, box-shadow 0.2s;
+        box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+        outline: none;
     }
     .filters button:hover { border-color: var(--accent); color: var(--accent); }
     .filters button.active,
@@ -173,11 +176,11 @@
     }
 
     /* Genre-based gradients */
-    .genre-action   { background: linear-gradient(135deg, #1a0a00 0%, #4a1500 30%, #8b2500 60%, #2a0a00 100%); }
-    .genre-drama    { background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 30%, #2a1560 60%, #0a0a1a 100%); }
-    .genre-sci-fi   { background: linear-gradient(135deg, #000a14 0%, #002040 30%, #003060 60%, #001020 100%); }
-    .genre-comedy   { background: linear-gradient(135deg, #0a1400 0%, #1a3000 30%, #2a4a10 60%, #0a1400 100%); }
-    .genre-biography{ background: linear-gradient(135deg, #14100a 0%, #3a2a10 30%, #5a4020 60%, #14100a 100%); }
+      .genre-action { background: linear-gradient(135deg, #1565c0 0%, #42a5f5 100%); }
+      .genre-drama { background: linear-gradient(135deg, #283593 0%, #5c6bc0 100%); }
+      .genre-sci-fi { background: linear-gradient(135deg, #0d47a1 0%, #00bcd4 100%); }
+      .genre-comedy { background: linear-gradient(135deg, #1976d2 0%, #64b5f6 100%); }
+      .genre-biography { background: linear-gradient(135deg, #1e88e5 0%, #90caf9 100%); }
 
     .poster-wrap .gradient-overlay {
       position: absolute;
@@ -345,12 +348,14 @@
   <button class="active" onclick="setType('movie', this)">Movies</button>
   <button onclick="setType('series', this)">Series</button>
   <span style="margin: 0 12px; color: var(--text-muted);">|</span>
-  <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
-  <button onclick="setProvider('AppleTV', this)">AppleTV</button>
-  <button onclick="setProvider('HBO Max', this)">HBO Max</button>
-  <button onclick="setProvider('Netflix', this)">Netflix</button>
-  <button onclick="setProvider('Paramount', this)">Paramount</button>
-  <button onclick="setProvider('Hulu', this)">Hulu</button>
+    <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
+    <button onclick="setProvider('AppleTV', this)">AppleTV</button>
+    <button onclick="setProvider('HBO Max', this)">HBO Max</button>
+    <button onclick="setProvider('Netflix', this)">Netflix</button>
+    <button onclick="setProvider('Paramount', this)">Paramount</button>
+    <button onclick="setProvider('Hulu', this)">Hulu</button>
+    <button onclick="setProvider('Prime', this)">Prime</button>
+    <button onclick="setProvider('Disney', this)">Disney</button>
 </div>
 
 <div class="container">
@@ -360,7 +365,7 @@
 <footer>CineScore &bull; Data sourced from IMDB &bull; March 2026</footer>
 
 <script>
-const providers = ['AppleTV', 'HBO Max', 'Netflix', 'Paramount', 'Hulu'];
+const providers = ['AppleTV', 'HBO Max', 'Netflix', 'Paramount', 'Hulu', 'Prime', 'Disney'];
 
 const movies = [
   {
