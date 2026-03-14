@@ -109,6 +109,24 @@
       background: var(--border);
       margin: 0 4px;
     }
+    .provider-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+    .provider-select  { display: none; }
+    @media (max-width: 600px) {
+      .provider-buttons { display: none; }
+      .provider-select {
+        display: block;
+        padding: 6px 12px;
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        font-family: inherit;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--teal);
+        background: #fff;
+        cursor: pointer;
+        outline: none;
+      }
+    }
 
     /* ── GRID ── */
     .container {
@@ -304,14 +322,28 @@
     <button class="active" onclick="setType('movie', this)">Movies</button>
     <button onclick="setType('series', this)">Series</button>
     <div class="divider"></div>
-    <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
-    <button onclick="setProvider('AppleTV', this)">Apple TV+</button>
-    <button onclick="setProvider('HBO Max', this)">HBO Max</button>
-    <button onclick="setProvider('Netflix', this)">Netflix</button>
-    <button onclick="setProvider('Paramount', this)">Paramount+</button>
-    <button onclick="setProvider('Hulu', this)">Hulu</button>
-    <button onclick="setProvider('Prime', this)">Prime Video</button>
-    <button onclick="setProvider('Disney', this)">Disney+</button>
+    <!-- Desktop: pill buttons -->
+    <div class="provider-buttons">
+      <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
+      <button onclick="setProvider('AppleTV', this)">Apple TV+</button>
+      <button onclick="setProvider('HBO Max', this)">HBO Max</button>
+      <button onclick="setProvider('Netflix', this)">Netflix</button>
+      <button onclick="setProvider('Paramount', this)">Paramount+</button>
+      <button onclick="setProvider('Hulu', this)">Hulu</button>
+      <button onclick="setProvider('Prime', this)">Prime Video</button>
+      <button onclick="setProvider('Disney', this)">Disney+</button>
+    </div>
+    <!-- Mobile: dropdown -->
+    <select class="provider-select" onchange="setProviderFromSelect(this)">
+      <option value="all">All Providers</option>
+      <option value="AppleTV">Apple TV+</option>
+      <option value="HBO Max">HBO Max</option>
+      <option value="Netflix">Netflix</option>
+      <option value="Paramount">Paramount+</option>
+      <option value="Hulu">Hulu</option>
+      <option value="Prime">Prime Video</option>
+      <option value="Disney">Disney+</option>
+    </select>
   </div>
 </div>
 
@@ -409,6 +441,11 @@ function setProvider(provider, btn) {
   document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active-provider'));
   btn.classList.add('active-provider');
   currentProvider = provider;
+  renderFiltered();
+}
+
+function setProviderFromSelect(select) {
+  currentProvider = select.value;
   renderFiltered();
 }
 
