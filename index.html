@@ -656,8 +656,10 @@ function renderFiltered() {
   let data = currentType === 'movie' ? movies : series;
   if (currentProvider !== 'all') {
     data = data.filter(m => m.provider === currentProvider);
+    renderMedia(data); // show all 20 for the provider
+  } else {
+    renderMedia(data.slice(0, 20)); // show only 20 for all providers
   }
-  renderMedia(data.slice(0, 20));
 }
 
 // TMDB API key — used to load poster images in the browser
