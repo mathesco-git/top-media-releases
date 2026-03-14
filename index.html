@@ -463,7 +463,7 @@ async function loadData() {
   const grid = document.getElementById('mediaGrid');
   grid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px 0;">Loading...</p>';
   try {
-    const res = await fetch('tmdb_data.json');
+    const res = await fetch('tmdb_data.json?v=2', {cache: 'no-cache'});
     const data = await res.json();
     for (const [provider, content] of Object.entries(data)) {
       for (const m of content.movies) {
