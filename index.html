@@ -7,22 +7,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-        --accent: #2196f3;
-        --accent-dark: #1769aa;
-        --accent-light: #e3f2fd;
-        --border: #1a237e;
-        --card-bg: #0d1b2a;
-        --text-muted: #b0bec5;
-        --background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+      --accent: #e5a00d;
+      --accent-dark: #b97a00;
+      --accent-light: #fffbe6;
+      --border: #333;
+      --card-bg: #181818;
+      --text-muted: #aaa;
+      --background: #0f0f0f;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
         background: var(--background);
-      color: #f0f0f0;
-      font-family: 'Inter', sans-serif;
-      min-height: 100vh;
+        color: #f0f0f0;
+        font-family: 'Inter', sans-serif;
+        min-height: 100vh;
     }
 
     /* HERO */
@@ -58,29 +58,29 @@
     }
 
     /* FILTERS */
-      .filters {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 12px;
-        padding: 0 40px 36px;
-        margin: 0 auto 24px auto;
-        max-width: 900px;
-      }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      padding: 18px 24px;
+      background: #141414;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
     .filters button {
-        padding: 9px 22px;
-        border-radius: 22px;
-        border: 1.5px solid var(--accent);
-        background: var(--accent-light);
-        color: var(--accent-dark);
-        font-family: inherit;
-        font-size: 1rem;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.2s, box-shadow 0.2s;
-        box-shadow: 0 2px 8px rgba(33,150,243,0.08);
-        outline: none;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
     }
     .filters button:hover { border-color: var(--accent); color: var(--accent); }
     .filters button.active,
@@ -176,11 +176,11 @@
     }
 
     /* Genre-based gradients */
-      .genre-action { background: linear-gradient(135deg, #1565c0 0%, #42a5f5 100%); }
-      .genre-drama { background: linear-gradient(135deg, #283593 0%, #5c6bc0 100%); }
-      .genre-sci-fi { background: linear-gradient(135deg, #0d47a1 0%, #00bcd4 100%); }
-      .genre-comedy { background: linear-gradient(135deg, #1976d2 0%, #64b5f6 100%); }
-      .genre-biography { background: linear-gradient(135deg, #1e88e5 0%, #90caf9 100%); }
+      .genre-action   { background: linear-gradient(135deg, #1a0a00 0%, #4a1500 30%, #8b2500 60%, #2a0a00 100%); }
+      .genre-drama    { background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 30%, #2a1560 60%, #0a0a1a 100%); }
+      .genre-sci-fi   { background: linear-gradient(135deg, #000a14 0%, #002040 30%, #003060 60%, #001020 100%); }
+      .genre-comedy   { background: linear-gradient(135deg, #0a1400 0%, #1a3000 30%, #2a4a10 60%, #0a1400 100%); }
+      .genre-biography{ background: linear-gradient(135deg, #14100a 0%, #3a2a10 30%, #5a4020 60%, #14100a 100%); }
 
     .poster-wrap .gradient-overlay {
       position: absolute;
@@ -342,6 +342,9 @@
   <h1>Top Rated Media Releases <span></span></h1>
   <p>The highest-scoring new releases &mdash; curated for you</p>
   <div class="pill">Updated March 2026</div>
+  <div style="margin: 32px auto 0 auto; display: flex; justify-content: center;">
+    <span style="background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%); color: #fff; font-weight: 900; font-size: 2rem; letter-spacing: 2px; border-radius: 12px; padding: 10px 36px; box-shadow: 0 2px 16px rgba(33,150,243,0.18); font-family: 'Playfair Display', serif;">TMDB</span>
+  </div>
 </div>
 
 <div class="filters">
