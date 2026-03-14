@@ -1,67 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Top Media Releases</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  :root {
-    --bg: #08080d;
-    --card-bg: #111118;
-    --card-hover: #1a1a28;
-    --accent: #e5a00d;
-    --accent2: #ff6b35;
-    --text: #f0f0f0;
-    --text-muted: #7a7a8e;
-    --border: #222233;
+// Generate 20 movies for each provider (100 total)
+const movies = [];
+for (let p of providers) {
+  for (let i = 1; i <= 20; i++) {
+    movies.push({
+      title: `${p} Movie ${i}`,
+      year: 2026 - (i % 2),
+      rating: (7 + Math.random()).toFixed(1),
+      genres: ["drama", (i % 2 === 0 ? "comedy" : "sci-fi")],
+      director: `Director ${i}`,
+      cast: `Star ${i}, Star ${i+1}`,
+      synopsis: `A top new movie from ${p}, #${i}.`,
+      poster: "posters/placeholder-movie.jpg",
+      trailer: "https://www.youtube.com/",
+      imdb: "https://www.imdb.com/",
+      provider: p
+    });
   }
-
-  body {
-    font-family: 'Inter', -apple-system, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-  }
-
-  /* HERO */
-  .hero {
-    position: relative;
-    padding: 70px 40px 50px;
-    text-align: center;
-    background: linear-gradient(180deg, #0d0d18 0%, var(--bg) 100%);
-    overflow: hidden;
-  }
-  .hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse 600px 400px at 30% 20%, rgba(229,160,13,0.08), transparent),
-      radial-gradient(ellipse 500px 300px at 70% 60%, rgba(255,107,53,0.06), transparent);
-  }
-  .hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2.4rem, 5vw, 4rem);
-    font-weight: 900;
-    letter-spacing: -1px;
-    position: relative;
-  }
-  .hero h1 span {
-    background: linear-gradient(135deg, var(--accent), var(--accent2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .hero p {
-    color: var(--text-muted);
-    font-size: 1.05rem;
-    margin-top: 10px;
-    position: relative;
-  }
-  .hero .pill {
+}
     display: inline-block;
     margin-top: 16px;
     padding: 5px 16px;
@@ -603,15 +560,13 @@ const movies = [
     imdb: "https://www.imdb.com/title/tt33764258/"
   }
 ];
-// Repeat/distribute providers for all movies
-for (let i = 0; i < movies.length; i++) {
-  movies[i].provider = providers[i % providers.length];
-}
 
-// Mockup top 20 series per provider
+
+
+// Generate 20 series for each provider (100 total)
 const series = [];
 for (let p of providers) {
-  for (let i = 1; i <= 4; i++) { // 4 per provider, for 20 total
+  for (let i = 1; i <= 20; i++) {
     series.push({
       title: `${p} Series ${i}`,
       year: 2026 - (i % 2),
