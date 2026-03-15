@@ -1,9 +1,12 @@
 import requests
 import time
 import json
+import os
 
 # --- CONFIG ---
-TMDB_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNWQ2MDI0YjMxODkzYzEyNThkZmMyZGJhNzgzNWMwNCIsIm5iZiI6MTc3MzQ4NDIxNy43Miwic3ViIjoiNjliNTM4YjkzMDBkN2NhMDZjNjczMDIyIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.DwZwiDn2BRZJgYCYCjGkUBNNIhlzcgqm-F6WAzr3f_M"
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
+if not TMDB_API_KEY:
+    raise ValueError("TMDB_API_KEY environment variable is not set")
 BASE_URL = "https://api.themoviedb.org/3"
 
 # Provider mapping: {Display Name: TMDB Provider ID}
