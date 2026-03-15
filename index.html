@@ -98,7 +98,8 @@
     }
     .filters button:hover { border-color: var(--teal); color: var(--teal); }
     .filters button.active,
-    .filters button.active-provider {
+    .filters button.active-provider,
+    .filters button.active-category {
       background: var(--teal);
       border-color: var(--teal);
       color: #fff;
@@ -322,6 +323,10 @@
     <button class="active" onclick="setType('movie', this)">Movies</button>
     <button onclick="setType('series', this)">Series</button>
     <div class="divider"></div>
+    <button class="active-category" onclick="setCategory('all', this)">All</button>
+    <button onclick="setCategory('latest', this)">Latest</button>
+    <button onclick="setCategory('top', this)">Top Rated</button>
+    <div class="divider"></div>
     <!-- Desktop: pill buttons -->
     <div class="provider-buttons">
       <button class="active-provider" onclick="setProvider('all', this)">All Providers</button>
@@ -390,6 +395,7 @@ let allMovies = [];
 let allSeries = [];
 let currentType = 'movie';
 let currentProvider = 'all';
+let currentCategory = 'all';
 
 function renderMedia(list) {
   const grid = document.getElementById('mediaGrid');
@@ -429,11 +435,14 @@ function renderMedia(list) {
 function setType(type, btn) {
   document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  // restore active-provider highlight
-  document.querySelectorAll('.filters button').forEach(b => {
-    if (b.dataset.provider !== undefined && b.dataset.provider === currentProvider) b.classList.add('active-provider');
-  });
   currentType = type;
+  renderFiltered();
+}
+
+function setCategory(category, btn) {
+  document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active-category'));
+  btn.classList.add('active-category');
+  currentCategory = category;
   renderFiltered();
 }
 
@@ -451,6 +460,9 @@ function setProviderFromSelect(select) {
 
 function renderFiltered() {
   let data = currentType === 'movie' ? allMovies : allSeries;
+  if (currentCategory !== 'all') {
+    data = data.filter(m => m.category === currentCategory);
+  }
   if (currentProvider !== 'all') {
     data = data.filter(m => m.provider === currentProvider);
   } else {
@@ -471,31 +483,35 @@ async function loadData() {
     const res = await fetch('tmdb_data.json?v=2', {cache: 'no-cache'});
     const data = await res.json();
     for (const [provider, content] of Object.entries(data)) {
-      for (const m of content.movies) {
-        allMovies.push({
-          id: m.id,
-          title: m.title,
-          year: m.release_date ? m.release_date.slice(0, 4) : '?',
-          rating: m.vote_average,
-          genres: (m.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 2),
-          synopsis: m.overview,
-          poster: m.poster_path ? `https://image.tmdb.org/t/p/w500${m.poster_path}` : null,
-          tmdb: `https://www.themoviedb.org/movie/${m.id}`,
-          provider
-        });
+      const movieSets  = [['latest', content.movies_latest], ['top', content.movies_top]];
+      const seriesSets = [['latest', content.series_latest], ['top', content.series_top]];
+      for (const [category, items] of movieSets) {
+        for (const m of (items || [])) {
+          allMovies.push({
+            id: m.id, title: m.title,
+            year: m.release_date ? m.release_date.slice(0, 4) : '?',
+            rating: m.vote_average,
+            genres: (m.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 2),
+            synopsis: m.overview,
+            poster: m.poster_path ? `https://image.tmdb.org/t/p/w500${m.poster_path}` : null,
+            tmdb: `https://www.themoviedb.org/movie/${m.id}`,
+            provider, category
+          });
+        }
       }
-      for (const s of content.series) {
-        allSeries.push({
-          id: s.id,
-          title: s.name,
-          year: s.first_air_date ? s.first_air_date.slice(0, 4) : '?',
-          rating: s.vote_average,
-          genres: (s.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 2),
-          synopsis: s.overview,
-          poster: s.poster_path ? `https://image.tmdb.org/t/p/w500${s.poster_path}` : null,
-          tmdb: `https://www.themoviedb.org/tv/${s.id}`,
-          provider
-        });
+      for (const [category, items] of seriesSets) {
+        for (const s of (items || [])) {
+          allSeries.push({
+            id: s.id, title: s.name,
+            year: s.first_air_date ? s.first_air_date.slice(0, 4) : '?',
+            rating: s.vote_average,
+            genres: (s.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 2),
+            synopsis: s.overview,
+            poster: s.poster_path ? `https://image.tmdb.org/t/p/w500${s.poster_path}` : null,
+            tmdb: `https://www.themoviedb.org/tv/${s.id}`,
+            provider, category
+          });
+        }
       }
     }
     renderFiltered();
