@@ -19,6 +19,9 @@ PROVIDERS = {
 
 HEADERS = {"Authorization": f"Bearer {TMDB_API_KEY}"}
 
+# Genre IDs to exclude: Animation (16), Family (10751), Kids/TV Kids (10762)
+EXCLUDED_GENRES = "16,10751,10762"
+
 # Helper to fetch most recent items for a provider
 def fetch_recent(provider_id, media_type, count=20):
     results = []
@@ -32,6 +35,7 @@ def fetch_recent(provider_id, media_type, count=20):
             "page": page,
             "language": "en-US",
             "include_adult": False,
+            "without_genres": EXCLUDED_GENRES,
             "with_release_type": "3|2" if media_type == "movie" else None  # Streaming/VOD
         }
         # Remove None values
